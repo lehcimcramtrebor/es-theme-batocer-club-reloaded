@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<variables>
+
+<lang.transition>slide systems</lang.transition>
+<lang.control>gamelist animations</lang.control>
+<lang.no>no</lang.no>
+<lang.yes>yes</lang.yes>
+<lang.screenratio>screen ratio</lang.screenratio>
+<lang.169>16/9</lang.169>
+<lang.43>4/3 or 5/4 screen</lang.43>
+<lang.randomVideos>video origin</lang.randomVideos>
+<lang.BatoceraClubVideos>batocera club</lang.BatoceraClubVideos>
+<lang.snapsVideos>random video snaps</lang.snapsVideos>
+
+<lang.staticEffect>effect • choose</lang.staticEffect>
+<lang.scanlines>scanlines</lang.scanlines>
+<lang.scanlinesFine>scanlines fine</lang.scanlinesFine>
+<lang.scanlinesVertical>vertical scanlines</lang.scanlinesVertical>
+<lang.scanlinesVerticalFine>vertical scanlines fine</lang.scanlinesVerticalFine>
+<lang.crt>crt screen</lang.crt>
+<lang.phosphore>phosphore</lang.phosphore>
+<lang.phosphorePlus>phosphore strong</lang.phosphorePlus>
+
+<lang.help>help</lang.help>
+<lang.defaultIcons>default buttons</lang.defaultIcons>
+<lang.arcadeIcons>arcade panel</lang.arcadeIcons>
+<lang.psxIcons>playstation controller</lang.psxIcons>
+<lang.snesIcons>super nes controller</lang.snesIcons>
+<lang.snesAltIcons>alternate super nes controller</lang.snesAltIcons>
+<lang.helpIcons>buttons • icons style</lang.helpIcons>
+<lang.xboxIcons>xbox controller</lang.xboxIcons>
+<lang.xboxOneIcons>xbox one controller</lang.xboxOneIcons>
+
+<lang.systemTextBind>games infos</lang.systemTextBind>
+<lang.games>total games</lang.games>
+<lang.favorites>favorites</lang.favorites>
+<lang.gamesPlayed>games played</lang.gamesPlayed>
+<lang.mostPlayed>most played</lang.mostPlayed>
+<lang.lastPlayed>last played</lang.lastPlayed>
+<lang.systemText>infos</lang.systemText>
+<lang.systemTextFull>custom label, manufacturer and year</lang.systemTextFull>
+<lang.systemTextStandard>manufacturer and year</lang.systemTextStandard>
+<lang.systemTextFullCheevos>retroachievements, manufacturer and year</lang.systemTextFullCheevos>
+<lang.systemTextLabel>just custom label</lang.systemTextLabel>
+<lang.systemTextCheevos>just retroachievements pseudo (always)</lang.systemTextCheevos>
+<lang.cheevosFalse>not supported</lang.cheevosFalse>
+<lang.manufacturer>manufacturer</lang.manufacturer>
+<lang.releasedYear>released year</lang.releasedYear>
+<lang.justManufacturer>manufacturer only</lang.justManufacturer>
+<lang.justYear>year only (if useful)</lang.justYear>
+<lang.notDisplay>not display</lang.notDisplay>
+<lang.retroachievements>retroachievements</lang.retroachievements>
+
+<lang.staticEffectApply>applies effects</lang.staticEffectApply>
+<lang.artworksApply>to frame</lang.artworksApply>
+<lang.screenApply>to screen</lang.screenApply>
+
+<lang.themeBackground>backgrounds</lang.themeBackground>
+<lang.mixed>mixed</lang.mixed>
+<lang.originalWallpaper>original</lang.originalWallpaper>
+<lang.underground>underground</lang.underground>
+
+<lang.glass>display glasse</lang.glass>
+
+</variables>
+</theme>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<variables>
+
+<lang.transition>glissement des systèmes</lang.transition>
+<lang.control>animations dans les listes</lang.control>
+<lang.no>non</lang.no>
+<lang.yes>oui</lang.yes>
+<lang.screenratio>format de l'écran</lang.screenratio>
+<lang.169>16/9</lang.169>
+<lang.43>4/3 ou 5/4</lang.43>
+<lang.randomVideos>vidéos</lang.randomVideos>
+<lang.BatoceraClubVideos>batocera club</lang.BatoceraClubVideos>
+<lang.snapsVideos>snap vidéos aléatoires</lang.snapsVideos>
+
+<lang.staticEffect>effets statiques</lang.staticEffect>
+<lang.scanlines>balayage</lang.scanlines>
+<lang.scanlinesFine>balayage fin</lang.scanlinesFine>
+<lang.scanlinesVertical>balayage vertical</lang.scanlinesVertical>
+<lang.scanlinesVerticalFine>balayage vertical fin</lang.scanlinesVerticalFine>
+<lang.crt>effet crt</lang.crt>
+<lang.phosphore>effet phosphore</lang.phosphore>
+<lang.phosphorePlus>effet phosphore prononcé</lang.phosphorePlus>
+
+<lang.help>aide</lang.help>
+<lang.defaultIcons>boutons par défaut</lang.defaultIcons>
+<lang.arcadeIcons>panel d'arcade</lang.arcadeIcons>
+<lang.psxIcons>manette playstation</lang.psxIcons>
+<lang.snesIcons>manette super nes</lang.snesIcons>
+<lang.snesAltIcons>manette alternative super nes</lang.snesAltIcons>
+<lang.helpIcons>boutons</lang.helpIcons>
+<lang.xboxIcons>manette xbox</lang.xboxIcons>
+<lang.xboxOneIcons>manette xbox one</lang.xboxOneIcons>
+
+<lang.systemTextBind>games infos</lang.systemTextBind>
+<lang.systemTextBind>infos de jeux</lang.systemTextBind>
+<lang.games>nombre de jeux</lang.games>
+<lang.favorites>favoris</lang.favorites>
+<lang.gamesPlayed>jeux joués</lang.gamesPlayed>
+<lang.mostPlayed>le plus joué</lang.mostPlayed>
+<lang.lastPlayed>dernière partie</lang.lastPlayed>
+<lang.systemText>informations</lang.systemText>
+<lang.systemTextFull>label personnalisé, fabricant et année</lang.systemTextFull>
+<lang.systemTextStandard>fabricant et année</lang.systemTextStandard>
+<lang.systemTextFullCheevos>succès rétro, fabricant et année</lang.systemTextFullCheevos>
+<lang.systemTextLabel>juste le label personnalisé</lang.systemTextLabel>
+<lang.systemTextCheevos>juste le pseudo succès rétro (toujours)</lang.systemTextCheevos>
+<lang.cheevosFalse>non supportés</lang.cheevosFalse>
+<lang.manufacturer>fabricant</lang.manufacturer>
+<lang.releasedYear>année de sortie</lang.releasedYear>
+<lang.justManufacturer>juste le fabricant</lang.justManufacturer>
+<lang.justYear>juste l'année (si utile)</lang.justYear>
+<lang.notDisplay>ne rien afficher</lang.notDisplay>
+<lang.retroachievements>succès</lang.retroachievements>
+
+<lang.staticEffectApply>appliquer les effets</lang.staticEffectApply>
+<lang.artworksApply>au cadre</lang.artworksApply>
+<lang.screenApply>à l'écran</lang.screenApply>
+
+<lang.themeBackground>expérience du clubber</lang.themeBackground>
+<lang.mixed>alterner</lang.mixed>
+<lang.originalWallpaper>rester à létage</lang.originalWallpaper>
+<lang.underground>descendre au sous-sol</lang.underground>
+
+<lang.glass>afficher la vitre</lang.glass>
+
+</variables>
+</theme>

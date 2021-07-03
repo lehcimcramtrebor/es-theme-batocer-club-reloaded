@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!--------------------------------------------------->
+
+
+<!-- Enter in one line the label you want, for example: <label.custom>Mike's Machine</label.custom> and it will display in bottom right with manufacturers infos -->
+
+
+<label.custom>customize your label</label.custom>
+
+
+
+</variables></theme>

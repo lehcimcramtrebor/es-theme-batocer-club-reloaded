@@ -1,0 +1,1506 @@
+<!--
+BATOCERA CLUB
+Theme Mod By SNAKERVILL & The Mini Cake TV : https://www.youtube.com/channel/UCJdquk3Rr_nZVLEc9JryhAA
+
+Original
+Theme name: Retrobat-Roleta
+creator: Lorenzolamas
+Foked by Lorenzolamas of the original theme => see infos below.
+1.1
+
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="video">
+<formatVersion>7</formatVersion>
+
+<include>./LABEL_CUSTOM.xml</include>
+<include>./_inc/localisation/lang.xml</include>
+<include>./_inc/localisation/lang-${lang}.xml</include>
+
+<subset name="screenRatio" displayName="${lang.screenratio}">
+<include name="169" displayName="${lang.169}"/>
+<include name="43" displayName="${lang.43}"/>
+</subset>
+
+<subset name="transition" displayName="${lang.transition}">
+<include name="no" displayName="${lang.no}"/>
+<include name="yes" displayName="${lang.yes}"/>
+</subset>
+
+<subset name="staticEffect" displayName="${lang.staticEffect}">
+<include name="no" displayName="${lang.no}"/>
+<include name="scanlines" displayName="${lang.scanlines}"/>
+<include name="scanlinesFine" displayName="${lang.scanlinesFine}"/>
+<include name="scanlinesVertical" displayName="${lang.scanlinesVertical}"/>
+<include name="scanlinesVerticalFine" displayName="${lang.scanlinesVerticalFine}"/>
+<include name="crt" displayName="${lang.crt}"/>
+<include name="phosphore" displayName="${lang.phosphore}"/>
+<include name="phosphorePlus" displayName="${lang.phosphorePlus}"/>
+</subset>
+
+<subset name="glass" displayName="${lang.glass}">
+<include name="yes" displayName="${lang.yes}"/>
+<include name="no" displayName="${lang.no}"/>
+</subset>
+
+<subset name="staticEffectApply" displayName="${lang.staticEffectApply}" ifSubset="staticEffect:scanlines|scanlinesFine|scanlinesVertical|scanlinesVerticalFine|crt|phosphore|phosphorePlus">
+<include name="screenApply" displayName="${lang.screenApply}"/>
+<include name="artworksApply" displayName="${lang.artworksApply}"/>
+</subset>
+
+<subset name="themeBackground" displayName="${lang.themeBackground}">
+<include name="mixed" displayName="${lang.mixed}"/>
+<include name="originalWallpaper" displayName="${lang.originalWallpaper}"/>
+<include name="underground" displayName="${lang.underground}"/>
+</subset>	
+
+<subset name="control" displayName="${lang.control}">
+<include name="yes" displayName="${lang.yes}"/>
+<include name="no" displayName="${lang.no}"/>
+</subset>	
+
+<subset name="help" displayName="${lang.help}">
+<include name="yes" displayName="${lang.yes}"/>
+<include name="no" displayName="${lang.no}"/>
+</subset>
+
+<subset name="helpIcons" displayName="${lang.helpIcons}" ifSubset="help:yes">
+<include name="defaultIcons" displayName="${lang.defaultIcons}"/>
+<include name="arcadeIcons" displayName="${lang.arcadeIcons}"/>
+<include name="psxIcons" displayName="${lang.psxIcons}"/>
+<include name="snesIcons" displayName="${lang.snesIcons}"/>
+<include name="snesAltIcons" displayName="${lang.snesAltIcons}"/>
+<include name="xboxIcons" displayName="${lang.xboxIcons}"/>
+<include name="xboxOneIcons" displayName="${lang.xboxOneIcons}"/>
+</subset>
+
+<subset name="systemText" displayName="${lang.systemText}">
+<include name="systemTextBind" displayName="${lang.systemTextBind}"/>
+<include name="systemTextStandard" displayName="${lang.systemTextStandard}"/>
+<include name="systemTextFull" displayName="${lang.systemTextFull}"/>
+<include name="systemTextFullCheevos" displayName="${lang.systemTextFullCheevos}"/>
+<include name="systemTextLabel" displayName="${lang.systemTextLabel}"/>
+<include name="systemTextCheevos" displayName="${lang.systemTextCheevos}"/>
+<include name="justManufacturer" displayName="${lang.justManufacturer}"/>
+<include name="justYear" displayName="${lang.justYear}"/>
+<include name="notDisplay" displayName="${lang.notDisplay}"/>
+</subset>
+
+<subset name="RandomVideos" displayName="${lang.randomVideos}" appliesTo="basic,detaile,video,grid,gamecarousel">
+<include name="BatoceraClub" displayName="${lang.BatoceraClubVideos}"/>
+<include name="SnapsVideos" displayName="${lang.snapsVideos}"/>
+</subset>
+		
+<view name="menu">
+
+<menuText name="menutitle">
+<fontPath>./_inc/fonts/ubuntu_bold.ttf</fontPath>
+<fontSize>0.044</fontSize>
+<color>FAFAFA</color>
+</menuText>
+
+<menuText name="menufooter">
+<fontPath>./_inc/fonts/ubuntu_medium.ttf</fontPath>
+<fontSize>0.02</fontSize>
+<color>777777FF</color>
+</menuText>
+
+<menuText name="menutext">
+<fontPath>./_inc/fonts/ubuntu_medium.ttf</fontPath>
+<fontSize>0.03</fontSize>
+<color>fd18f0</color>
+<separatorColor>fd18f0</separatorColor>
+<selectorColor>18e5fd</selectorColor>
+<selectorColorEnd>fd18f0</selectorColorEnd>
+<selectedColor>0600ff</selectedColor>
+<selectorGradientType>vertical</selectorGradientType>
+</menuText>
+
+<menuTextSmall name="menutextsmall">
+<fontPath>./_inc/fonts/ubuntu_medium.ttf</fontPath>
+<fontSize>0.02</fontSize>
+<color>deec00</color>
+</menuTextSmall>
+
+<menuBackground name="menubg">
+<color>242424</color>
+<cornerSize>32 32</cornerSize>
+<path>./_inc/images/grid.jpg</path>
+</menuBackground>
+
+<menuIcons name="menuicons">
+<iconKodi>./_inc/icons/Kodi.png</iconKodi>
+<iconSystem>./_inc/icons/System.png</iconSystem>
+<iconUpdates>./_inc/icons/Updates.png</iconUpdates>
+<iconGames>./_inc/icons/Games.png</iconGames>
+<iconControllers>./_inc/icons/Controllers.png</iconControllers>
+<iconUI>./_inc/icons/UI.png</iconUI>
+<iconSound>./_inc/icons/Sound.png</iconSound>
+<iconNetwork>./_inc/icons/Network.png</iconNetwork>
+<iconScraper>./_inc/icons/Scraper.png</iconScraper>
+<iconAdvanced>./_inc/icons/Advanced.png</iconAdvanced>
+<iconQuit>./_inc/icons/Quit.png</iconQuit>
+<iconRestart>./_inc/icons/Restart.png</iconRestart>
+<iconShutdown>./_inc/icons/Shutdown.png</iconShutdown>
+<iconFastShutdown>./_inc/icons/Fastshutdown.png</iconFastShutdown>
+</menuIcons>
+
+</view>
+	
+<view name="screen">
+
+<controllerActivity name="controllerActivity">
+<pos>0.002 0</pos>
+<size>0.065 0.018</size>
+<itemSpacing>0.003</itemSpacing>
+<imagePath>./_inc/gamepad.svg</imagePath>
+<color>fffffffc</color>
+<activityColor>125012</activityColor>
+<hotkeyColor>501212</hotkeyColor>
+</controllerActivity>
+
+
+<batteryIndicator name="batteryIndicator">
+<pos>0.98 0</pos>
+<size>0.018 0.018</size>
+<incharge>./_inc/battery/incharge.svg</incharge>
+<full>./_inc/battery/full.svg</full>
+<at75>./_inc/battery/75.svg</at75>
+<at50>./_inc/battery/50.svg</at50>
+<at25>./_inc/battery/25.svg</at25>
+<empty>./_inc/battery/empty.svg</empty>
+<color>fffffffc</color>
+</batteryIndicator>
+
+<batteryIndicator name="batteryIndicator">
+<color>fffffffc</color>
+</batteryIndicator>
+<text name="clock">
+
+<fontSize>0.03</fontSize>
+<color>ffffff</color>
+<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+<pos>0.935 0.04</pos>
+<pos ifSubset="screenRatio:43">0.92 0.04</pos>
+<size>0.05 0.058</size>
+<size ifSubset="screenRatio:43">0.065 0.058</size>
+<verticalAlignment>right</verticalAlignment>
+</text>
+
+<image name="scanlines" extra="true">
+<size>1 1</size>
+<pos>0.5 0.5</pos>
+<origin>0.5 0.5</origin>
+<zIndex>6000</zIndex>
+<tile>true</tile>
+<visible ifSubset="staticEffectApply:artworksApply">false</visible>
+</image>
+
+</view>
+
+<view name="screen,system,basic,detailed,video,grid,gamecarousel">
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:scanlines">
+<path>./_inc/scanlines.png</path>
+</image>
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:scanlinesFine">
+<path>./_inc/scanlinesFine.png</path>
+</image>
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:scanlinesVertical">
+<path>./_inc/scanlinesVertical.png</path>
+</image>
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:scanlinesVerticalFine">
+<path>./_inc/scanlinesVerticalFine.png</path>
+</image>
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:crt">
+<path>./_inc/crt.png</path>
+<color>ffffff90</color>
+</image>
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:phosphore">
+<path>./_inc/phosphore.png</path>
+</image>
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:phosphorePlus">
+<path>./_inc/phosphorePlus.png</path>
+</image>
+
+<image name="scanlines" extra="true" ifSubset="staticEffect:no">
+<visible>false</visible>
+</image>
+
+</view>
+
+<view name="system, basic, detailed, video">
+
+<image name="logo">
+<linearSmooth>true</linearSmooth>
+<path>./${system.theme}/_inc/system.png</path>
+</image>
+
+</view>
+
+
+<view name="screen,menu,system,basic,detailed,video,grid,gamecarousel">
+
+<helpsystem name="help">
+<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+<fontSize>0.0215</fontSize>      
+<pos>0.002 0.975</pos>      
+<textColor>ffffff</textColor>
+<textColor ifSubset="help:no">00000000</textColor>
+<iconColor>ffffff</iconColor>
+<iconColor ifSubset="help:no">00000000</iconColor>
+</helpsystem>
+
+<helpsystem name="help" ifSubset="helpIcons:arcadeIcons">
+<iconUpDown>./_inc/icons/icon_arcade_updown.png</iconUpDown>
+<iconLeftRight>./_inc/icons/icon_arcade_leftright.png</iconLeftRight>
+<iconUpDownLeftRight>./_inc/icons/icon_arcade_all.png</iconUpDownLeftRight>
+<iconA>./_inc/icons/icon_arcade_a.png</iconA>
+<iconB>./_inc/icons/icon_arcade_b.png</iconB>
+<iconX>./_inc/icons/icon_arcade_x.png</iconX>
+<iconY>./_inc/icons/icon_arcade_y.png</iconY>
+<iconL>./_inc/icons/icon_arcade_l.png</iconL>
+<iconR>./_inc/icons/icon_arcade_r.png</iconR>
+<iconStart>./_inc/icons/icon_arcade_start.png</iconStart>
+<iconSelect>./_inc/icons/icon_arcade_select.png</iconSelect>
+</helpsystem>
+
+<helpsystem name="help" ifSubset="helpIcons:psxIcons">
+<iconUpDown>./_inc/icons/icon_psx_updown.png</iconUpDown>
+<iconLeftRight>./_inc/icons/icon_psx_leftright.png</iconLeftRight>
+<iconUpDownLeftRight>./_inc/icons/icon_psx_all.png</iconUpDownLeftRight>
+<iconA>./_inc/icons/icon_psx_a.png</iconA>
+<iconB>./_inc/icons/icon_psx_b.png</iconB>
+<iconX>./_inc/icons/icon_psx_x.png</iconX>
+<iconY>./_inc/icons/icon_psx_y.png</iconY>
+<iconL>./_inc/icons/icon_psx_l.png</iconL>
+<iconR>./_inc/icons/icon_psx_r.png</iconR>
+<iconStart>./_inc/icons/icon_psx_start.png</iconStart>
+<iconSelect>./_inc/icons/icon_psx_select.png</iconSelect>
+</helpsystem>
+
+<helpsystem name="help" ifSubset="helpIcons:snesIcons">
+<iconUpDown>./_inc/icons/icon_snes_updown.png</iconUpDown>
+<iconLeftRight>./_inc/icons/icon_snes_leftright.png</iconLeftRight>
+<iconUpDownLeftRight>./_inc/icons/icon_snes_all.png</iconUpDownLeftRight>
+<iconA>./_inc/icons/icon_snes_a.png</iconA>
+<iconB>./_inc/icons/icon_snes_b.png</iconB>
+<iconX>./_inc/icons/icon_snes_x.png</iconX>
+<iconY>./_inc/icons/icon_snes_y.png</iconY>
+<iconL>./_inc/icons/icon_snes_l.png</iconL>
+<iconR>./_inc/icons/icon_snes_r.png</iconR>
+<iconStart>./_inc/icons/icon_snes_start.png</iconStart>
+<iconSelect>./_inc/icons/icon_snes_select.png</iconSelect>
+</helpsystem>
+
+<helpsystem name="help" ifSubset="helpIcons:snesAltIcons">
+<iconUpDown>./_inc/icons/icon_snesalt_updown.png</iconUpDown>
+<iconLeftRight>./_inc/icons/icon_snesalt_leftright.png</iconLeftRight>
+<iconUpDownLeftRight>./_inc/icons/icon_snesalt_all.png</iconUpDownLeftRight>
+<iconA>./_inc/icons/icon_snesalt_a.png</iconA>
+<iconB>./_inc/icons/icon_snesalt_b.png</iconB>
+<iconX>./_inc/icons/icon_snesalt_x.png</iconX>
+<iconY>./_inc/icons/icon_snesalt_y.png</iconY>
+<iconL>./_inc/icons/icon_snesalt_l.png</iconL>
+<iconR>./_inc/icons/icon_snesalt_r.png</iconR>
+<iconStart>./_inc/icons/icon_snesalt_start.png</iconStart>
+<iconSelect>./_inc/icons/icon_snesalt_select.png</iconSelect>
+</helpsystem>
+
+<helpsystem name="help" ifSubset="helpIcons:xboxIcons">
+<iconUpDown>./_inc/icons/icon_xbox_updown.png</iconUpDown>
+<iconLeftRight>./_inc/icons/icon_xbox_leftright.png</iconLeftRight>
+<iconUpDownLeftRight>./_inc/icons/icon_xbox_all.png</iconUpDownLeftRight>
+<iconA>./_inc/icons/icon_xbox_a.png</iconA>
+<iconB>./_inc/icons/icon_xbox_b.png</iconB>
+<iconX>./_inc/icons/icon_xbox_x.png</iconX>
+<iconY>./_inc/icons/icon_xbox_y.png</iconY>
+<iconL>./_inc/icons/icon_xbox_l.png</iconL>
+<iconR>./_inc/icons/icon_xbox_r.png</iconR>
+<iconStart>./_inc/icons/icon_xbox_start.png</iconStart>
+<iconSelect>./_inc/icons/icon_xbox_select.png</iconSelect>
+</helpsystem>
+
+<helpsystem name="help" ifSubset="helpIcons:xboxOneIcons">
+<iconUpDown>./_inc/icons/icon_xboxone_updown.png</iconUpDown>
+<iconLeftRight>./_inc/icons/icon_xboxone_leftright.png</iconLeftRight>
+<iconUpDownLeftRight>./_inc/icons/icon_xboxone_all.png</iconUpDownLeftRight>
+<iconA>./_inc/icons/icon_xboxone_a.png</iconA>
+<iconB>./_inc/icons/icon_xboxone_b.png</iconB>
+<iconX>./_inc/icons/icon_xboxone_x.png</iconX>
+<iconY>./_inc/icons/icon_xboxone_y.png</iconY>
+<iconL>./_inc/icons/icon_xboxone_l.png</iconL>
+<iconR>./_inc/icons/icon_xboxone_r.png</iconR>
+<iconStart>./_inc/icons/icon_xboxone_start.png</iconStart>
+<iconSelect>./_inc/icons/icon_xboxone_select.png</iconSelect>
+</helpsystem>
+
+</view>  
+	
+<view name="system">
+
+<image name="wallpaper" extra="true">                
+<path>./_inc/images/club.jpg</path>
+<path ifSubset="themeBackground:underground">./_inc/images/underground.jpg</path>
+</image>                    
+
+<text name="systemText" extra="true">
+<origin>0 1</origin>
+<color>ffffff</color>
+<glowColor>12121250</glowColor>
+<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+<alignment>left</alignment>
+<zIndex>5</zIndex>
+<pos>0.35 0.89</pos>
+<pos ifSubset="screenRatio:43">0.35 0.775</pos>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:systemTextBind">
+<fontSize>0.018</fontSize>
+<text>${lang.games}: {binding:total}
+${lang.favorites}: {binding:favorites}
+${lang.gamesPlayed}: {binding:gamesPlayed}
+${lang.mostPlayed}: {binding:mostPlayed}
+${lang.lastPlayed}: {binding:lastPlayedDate}</text>
+<size>0.5 0.128</size>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:systemTextFull">
+<fontSize>0.02</fontSize>
+<text>${label.custom}
+${lang.manufacturer}: ${system.manufacturer}
+${lang.releasedYear}: ${system.releaseYear}</text>
+<size>0.5 0.085</size>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:systemTextStandard">
+<fontSize>0.02</fontSize>
+<text>
+${lang.manufacturer}: ${system.manufacturer}
+${lang.releasedYear}: ${system.releaseYear}</text>
+<size>0.5 0.085</size>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:systemTextFullCheevos">
+<fontSize>0.02</fontSize>
+<text>${lang.retroachievements}: ${cheevos.username}
+${lang.manufacturer}: ${system.manufacturer}
+${lang.releasedYear}: ${system.releaseYear}</text>
+<text ifCheevos="false">${lang.retroachievements} ${lang.cheevosFalse}
+${lang.manufacturer}: ${system.fullName}
+${lang.releasedYear}: ${system.releaseYear}</text>
+<size>0.5 0.085</size>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:systemTextLabel">
+<fontSize>0.02</fontSize>
+<text>${label.custom}</text>
+<size>0.5 0.03</size>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:systemTextCheevos">
+<fontSize>0.02</fontSize>
+<text>${cheevos.username}</text>
+<size>0.5 0.03</size>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:justManufacturer">
+<fontSize>0.02</fontSize>
+<text>${system.manufacturer}</text>
+<size>0.5 0.03</size>
+</text>
+
+<text name="systemText" extra="true" ifSubset="systemText:justYear">
+<fontSize>0.02</fontSize>
+<text>${system.releaseYearOrNull}</text>
+<size>0.5 0.03</size>
+</text>
+
+<sound name="bgsound" ifSubset="RandomVideos:BatoceraClub">
+<path>./{system.theme}/music.mp3</path>
+<path>./{system.theme}/music.ogg</path>
+</sound>
+
+<sound name="bgsound" ifSubset="RandomVideos:snapsVideos">
+<path>./_inc/silence.ogg</path>
+</sound>
+
+<carousel name="systemcarousel">
+<type>vertical_wheel</type>
+<pos>0 0</pos>
+<size>1 1</size>
+<origin>0 0</origin>
+<color>00000000</color>
+<logoScale>1.4</logoScale>
+<logoSize>0.200 0.160</logoSize>
+<logoRotation>6.5</logoRotation>
+<logoRotationOrigin>-4.1 0.5</logoRotationOrigin>
+<logoAlignment>left</logoAlignment>
+<maxLogoCount>5</maxLogoCount>
+<zIndex>75</zIndex>
+<defaultTransition>slide</defaultTransition>
+<defaultTransition ifSubset="transition:no">instant</defaultTransition>
+<scrollSound>./_inc/wheel.wav</scrollSound>
+</carousel>
+
+<text name="logoText">
+<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+<fontSize>0.05</fontSize>
+<text>${system.fullName}</text>
+<color>f4affc</color>
+<glowColor>ea40e0</glowColor>
+</text>		
+
+<image name="background3" extra="true">
+<linearSmooth>true</linearSmooth>
+<origin>1 0.5</origin>
+<pos>1 0.5</pos>
+<maxSize>1 99</maxSize>
+<path>./_inc/images/background.png</path>
+<zIndex>2</zIndex>          
+</image> 
+
+<video name="backgroundvideo" extra="true">
+<path ifSubset="RandomVideos:BatoceraClub">./${system.theme}/_inc/system.mp4</path>
+<path ifSubset="RandomVideos:SnapsVideos">{random}</path>
+<origin>0.5 0.5</origin>
+<size>0.6171875 0.712962962962963</size>
+<pos>0.64140625 0.5564814814814815</pos>
+<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<delay>0.1</delay>
+<effect>none</effect>
+<default>./_inc/comingsoon.mp4</default>		
+<zIndex>2</zIndex> 
+<audio>false</audio>
+<audio ifSubset="RandomVideos:SnapsVideos">true</audio>
+</video>
+		
+<text name="systemInfo">     
+<pos>0.160 0.904</pos>
+<pos ifSubset="screenRatio:43">0.160 0.775</pos>
+<backgroundColor>00000000</backgroundColor>
+<color>0b8bff</color>
+<fontPath>./_inc/fonts/NEON CLUB MUSIC_bold.otf</fontPath>
+<fontSize>0.028</fontSize>
+<fontSize ifSubset="screenRatio:43">0.022</fontSize>
+<glowColor>ffffff66</glowColor>
+<zIndex>10</zIndex>
+<opacity>0</opacity>
+<storyboard>
+<animation property="opacity" from="0" to="1" duration="20" mode="easeIn"/>
+<animation property="offsetX" from="0.3" duration="150" mode="easeOut"/>
+<animation property="scale" from="0.5" duration="150" mode="easeOut"/>
+<animation property="glowColor" from="11e6f3" duration="150" mode="easeOut"/>
+</storyboard>
+</text>
+</view>
+
+<view name="basic,detailed,video,grid,gamecarousel">
+
+<image name="wallpaper" extra="true">                
+<path>./_inc/images/underground.jpg</path>
+<path ifSubset="themeBackground:originalWallpaper">./_inc/images/club.jpg</path>
+</image>                    
+
+</view>
+
+<view name="basic,detailed,video">
+
+<image name="logo">
+<linearSmooth>true</linearSmooth>
+<reflexion>0.05 0</reflexion>
+<origin>0.0 0.0</origin>      
+<pos>0.01 0.005</pos>
+<pos ifSubset="screenRatio:43">0.01 0.01</pos>
+<maxSize>0.20 0.11</maxSize>
+<zIndex>10</zIndex>         
+</image>    
+
+<textlist name="gamelist">
+<zIndex>10</zIndex>	      
+<selectorColor>ffffff</selectorColor> 
+<selectedColor>FFFF00</selectedColor>     
+<pos>0.0 0.12</pos>
+<size>0.344 0.845</size>
+<size ifSubset="screenRatio:43">0.354 0.845</size>
+<horizontalMargin>0.03</horizontalMargin>
+<horizontalMargin ifSubset="screenRatio:43">0.04</horizontalMargin>
+<selectorImagePath>./_inc/images/selector.png</selectorImagePath>
+<selectorImagePath ifSubset="screenRatio:43">./_inc/images/selector43.png</selectorImagePath>
+<primaryColor>7FABFE</primaryColor>
+<secondaryColor>7FABFE</secondaryColor>
+<fontPath>./_inc/fonts/DJB Get Digital.ttf</fontPath>
+<fontSize>0.04</fontSize>
+<forceUppercase>0</forceUppercase>
+<scrollSound>./_inc/gamelist.wav</scrollSound>
+<alignment>left</alignment>
+<lines>18</lines>
+<lines ifSubset="screenRatio:43">18</lines>
+</textlist>
+
+</view> 
+
+<view name="basic">
+
+<video name="backgroundvideo" extra="true">
+<path>./${system.theme}/_inc/system.mp4</path>
+<origin>0.5 0.5</origin>
+<size>0.6171875 0.712962962962963</size>
+<pos>0.64140625 0.5564814814814815</pos>
+<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<delay>0</delay>
+<effect>none</effect>
+<default>./_inc/comingsoon.mp4</default>		
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<zIndex>3</zIndex>      
+</video>
+
+<image name="background3" extra="true">
+<linearSmooth>true</linearSmooth>
+<origin>1 0.5</origin>
+<pos>1 0.5</pos>
+<maxSize>1 99</maxSize>       
+<path>./_inc/images/background.png</path>
+<zIndex>2</zIndex>          
+</image>      
+
+</view> 
+
+<view name="detailed">
+
+<image name="md_marquee">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<pos>0.54 0.4</pos>
+<maxSize>0.32 0.36</maxSize>
+<zIndex>5</zIndex>         
+<reflexion>0.05 0</reflexion>
+</image>
+
+</view>
+
+<view name="detailed,video,gamecarousel">   
+
+<image name="mask" extra="true">
+<path>./_inc/images/mask.png</path>
+<zIndex>4</zIndex>
+<origin>0.5 0.5</origin>
+<size>0.6171875 0.712962962962963</size>
+<pos>0.64140625 0.5564814814814815</pos>
+<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<color>505050</color>
+</image>
+
+<image name="md_thumbnail">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<pos>0.82 0.4</pos>
+<pos ifSubset="screenRatio:43">0.82 0.435</pos>
+<maxSize>0.2 0.36</maxSize>
+<maxSize ifSubset="screenRatio:43">0.2 0.27</maxSize>
+<zIndex>5</zIndex>
+<reflexion>0.05 0</reflexion>
+</image>         
+
+<image name="md_image">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<size>0.6171875 0.712962962962963</size>
+<pos>0.64140625 0.5564814814814815</pos>
+<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<color>909090</color>
+<zIndex>2</zIndex>         
+<default>./_inc/images/grid.jpg</default>		
+</image>           
+
+<control name="mdFrame,md_thumbnail,md_marquee,mask,0manual,0savestate,0cheevos,0kidgame,0hidden,line,scanlines,backOverlay,overlay,white,background,md_image,md_lbl_players,md_players,md_video,md_lbl_releasedate,md_releasedate,md_lbl_genre,md_genre,md_lbl_playcount,md_playcount,md_rating,md_genre,md_description" ifSubset="control:yes">
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="offsetX" from="0.5" to="0" duration="400" mode="easeOutCubic" begin="250"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="offsetY" from="1" duration="250" mode="easeInOutCubic"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="offsetY" from="-1" duration="250" mode="easeInOutCubic"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="offsetY" to="-1" duration="250" mode="easeInOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="offsetY" to="1" duration="250" mode="easeInOutCubic"/>
+</storyboard>
+</control>
+
+
+<control name="md_manual,md_savestate,md_cheevos,md_kidgame,md_hidden" ifSubset="control:yes">
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="offsetX" from="0.5" to="0" duration="400" mode="easeOutCubic" begin="250"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="0" duration="350" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="350" duration="250" mode="linear"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="0" duration="350" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="350" duration="250" mode="linear"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="offsetY" to="-1" duration="250" mode="easeInOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="offsetY" to="1" duration="250" mode="easeInOutCubic"/>
+</storyboard>
+</control>
+
+<text name="md_lbl_manual, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+<pos>1 1</pos>
+</text>
+
+<text name="md_lbl_manual, md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+<color>7FABFE</color>
+<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+<fontSize>0.025</fontSize>
+<fontSize ifSubset="screenRatio:43">0.018</fontSize>
+<glowColor>12121250</glowColor>
+</text>
+  
+<image name="0manual,md_manual">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<zIndex>5</zIndex>       
+<pos>0.3545 0.36</pos>
+<maxSize>0.03 1</maxSize>
+<path>./_inc/images/book.png</path>
+</image>
+
+
+<image name="0manual" extra="true">
+<color>ffffff50</color>
+</image>
+  
+<image name="0savestate,md_savestate">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<zIndex>5</zIndex>       
+<pos>0.3545 0.46</pos>
+<maxSize>0.03 1</maxSize>
+<path>./_inc/images/SaveState.png</path>
+</image>
+
+
+<image name="0savestate" extra="true">
+<color>ffffff50</color>
+</image>
+  
+<image name="0cheevos,md_cheevos">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<zIndex>5</zIndex>       
+<pos>0.3545 0.56</pos>
+<maxSize>0.03 1</maxSize>
+<path>./_inc/images/Contest.png</path>
+</image>
+
+
+<image name="0cheevos" extra="true">
+<color>ffffff50</color>
+</image>
+  
+<image name="0kidgame,md_kidgame">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<zIndex>5</zIndex>       
+<pos>0.3545 0.66</pos>
+<maxSize>0.03 1</maxSize>
+<path>./_inc/images/kid.png</path>
+</image>
+
+
+<image name="0kidgame" extra="true">
+<color>ffffff50</color>
+</image>
+  
+<image name="0hidden,md_hidden">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<zIndex>5</zIndex>       
+<pos>0.3545 0.76</pos>
+<maxSize>0.03 1</maxSize>
+<path>./_inc/images/hidden.png</path>
+</image>
+
+
+<image name="0hidden" extra="true">
+<color>ffffff50</color>
+</image>
+	
+<text name="md_lbl_rating">
+<pos>1.3 0.88</pos>
+<size>0.2 0.035</size>
+<color>7FABFE</color>
+<zIndex>5</zIndex>                 
+</text>
+
+<rating name="md_rating">
+<zIndex>5</zIndex>       
+<pos>0.73 0.62</pos>
+<size>0 0.07</size>
+<filledPath>./_inc/images/star_filled.png</filledPath>
+<unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+<unfilledColor>ffffff50</unfilledColor>
+</rating>
+
+<rating name="md_rating" ifSubset="screenRatio:43">
+<pos>0.75 0.635</pos>
+<size>0 0.043</size>
+</rating>
+
+<text name="md_lbl_players">
+<pos>0.38 0.59</pos>
+<size>0.1 0.035</size>
+<zIndex>5</zIndex>         
+</text>
+
+<text name="md_players">
+<pos>0.45 0.59</pos>
+<size>0.0375 0.035</size>
+<zIndex>5</zIndex>
+<color>ffffff</color>                  
+</text>
+
+<text name="md_lbl_releasedate">
+<pos>0.38 0.63</pos>
+<size>0.12 0.035</size>
+<zIndex>5</zIndex>         
+</text>
+
+<datetime name="md_releasedate">
+<pos>0.485 0.63</pos>
+<size>0.0750 0.035</size>
+<zIndex>5</zIndex>
+<color>ffffff</color>                  
+
+</datetime>
+<text name="md_lbl_genre">
+<pos>0.54 0.59</pos>
+<size>0.12 0.035</size>
+<zIndex>5</zIndex>                   
+</text>
+
+<text name="md_genre">
+<pos>0.6 0.59</pos>
+<size>0.2 0.035</size>
+<color>ffffff</color>         
+<zIndex>5</zIndex>         
+</text>         
+
+<text name="md_lbl_playcount">
+<pos>0.570 0.63</pos>
+<size>0.2 0.035</size>
+<zIndex>5</zIndex>                   
+</text>
+
+<text name="md_playcount">
+<pos>0.702 0.63</pos>
+<size>0.0375 0.035</size>
+<color>ffffff</color>         
+<zIndex>5</zIndex>         
+</text>
+
+<text name="md_lbl_publisher">
+<pos>1.3 0.56</pos>
+<size>0.1 0.035</size>
+<color>ffffff</color>
+<zIndex>5</zIndex>                   
+</text>
+
+<text name="md_publisher">
+<pos>1.39 0.56</pos>
+<size>0.12 0.035</size>
+<color>F3E804</color>         
+<zIndex>5</zIndex>         
+</text>
+
+<text name="md_lbl_developer">
+<pos>1.3 0.61</pos>
+<size>0.1 0.035</size>
+<color>ffffff</color>
+<zIndex>5</zIndex>                   
+</text>
+
+<text name="md_developer">
+<pos>1.39 0.61</pos>
+<size>0.12 0.035</size>
+<color>F3E804</color>         
+<zIndex>5</zIndex>         
+</text>
+
+<text name="md_lbl_lastplayed">
+<pos>1.3 0.66</pos>
+<size>0.12 0.035</size>
+<zIndex>5</zIndex>         
+</text>
+
+<datetime name="md_lastplayed">
+<pos>1.39 0.66</pos>
+<size>0.12 0.035</size>
+<zIndex>5</zIndex>
+<color>F3E804</color>                  
+</datetime>                            
+
+<image name="line" extra="true">
+<path>./_inc/white.png</path>
+<origin>0 1</origin>
+<color>ffffff</color>
+<colorEnd>ffffff00</colorEnd>
+<gradientType>vertical</gradientType>
+<pos>0.38 0.69</pos>
+<size>0.55 0.0035</size>
+<zIndex>5</zIndex>
+</image>
+
+<text name="md_description">
+<pos>0.38 0.69</pos>
+<size>0.55 0.22</size>
+<size ifSubset="screenRatio:43">0.55 0.105</size>
+<lineSpacing ifSubset="screenRatio:43">1.1</lineSpacing>
+<color>ffffff</color>
+<alignment>left</alignment>   
+<zIndex>5</zIndex>
+</text>
+
+</view>
+
+<view name="video,gamecarousel">
+
+<video name="md_video">
+<default>./_inc/comingsoon.mp4</default>	
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<delay>0</delay>
+<effect>fade</effect>
+<zIndex>3</zIndex>
+<origin>0.5 0.5</origin>
+<size>0.275 0.305</size>
+<pos>0.54 0.4</pos>
+<size ifSubset="screenRatio:43">0.275 0.2175</size>
+<pos ifSubset="screenRatio:43">0.54 0.4325</pos>
+<color>ffffffe6</color>
+<colorEnd>00000000</colorEnd>
+<gradientType>vertical</gradientType>
+<zIndex>3</zIndex>
+</video> 
+
+<image name="mdFrame" extra="true">
+<path>./_inc/images/mdframe.png</path>
+<zIndex>4</zIndex>
+<origin>0 0</origin>
+<size>0.32 0.36</size>
+<size ifSubset="screenRatio:43">0.32 0.27</size>
+<pos>0.38 0.22</pos>
+<pos ifSubset="screenRatio:43">0.38 0.3</pos>
+</image>
+
+<image name="md_marquee">
+<linearSmooth>true</linearSmooth>
+<origin>0 1</origin>
+<pos>0.415 0.535</pos>
+<maxSize>0.12 0.05</maxSize>
+<zIndex>5</zIndex>
+<color>ffffffe6</color>         
+</image>
+
+</view>
+   
+<view name="gamecarousel"> 
+
+<gamecarousel name="gamecarousel">
+<type>vertical_wheel</type>
+<pos>0 0</pos>
+<size>0.9 1</size>
+<origin>0 0</origin>
+<color>00000000</color>
+<logoScale>1.4</logoScale>
+<logoSize>0.200 0.160</logoSize>
+<logoRotation>6.5</logoRotation>
+<logoRotationOrigin>-4.1 0.5</logoRotationOrigin>
+<logoAlignment>left</logoAlignment>
+<maxLogoCount>5</maxLogoCount>
+<zIndex>75</zIndex>
+<imageSource>marquee</imageSource>
+<scrollSound>./_inc/wheel.wav</scrollSound>
+</gamecarousel>    
+
+<image name="logo1" extra="true">
+<linearSmooth>true</linearSmooth>
+<path>./${system.theme}/_inc/system.png</path>
+<reflexion>0.05 0</reflexion>
+<origin>0 0</origin>      
+<origin ifSubset="screenRatio:43">0.5 0</origin>      
+<pos>0.2 0.02</pos>
+<pos ifSubset="screenRatio:43">0.635 0.84</pos>
+<maxSize>0.20 0.11</maxSize>
+<zIndex>10</zIndex>         
+</image>
+
+<text name="gamecarouselLogoText">
+<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+<fontSize>0.04</fontSize>
+<color>f4affc</color>
+<glowColor>ea40e0</glowColor>
+</text>		
+
+</view>
+   
+ 
+<view name="grid">
+
+<text name="md_lbl_manual, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+<pos>1 1</pos>
+</text>
+
+<text name="md_lbl_manual, md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+<color>7FABFE</color>
+<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+<fontSize>0.025</fontSize>
+<fontSize ifSubset="screenRatio:43">0.018</fontSize>
+<glowColor>12121250</glowColor>
+</text>
+  
+<image name="0manual,md_manual">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<zIndex>5</zIndex>       
+<pos>0.05 0.58</pos>
+<maxSize>0.03 1</maxSize>
+<path>./_inc/images/book.png</path>
+</image>
+
+
+<image name="0manual" extra="true">
+<color>ffffff50</color>
+</image>
+  
+<image name="0savestate,md_savestate">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<zIndex>5</zIndex>       
+<pos>0.10 0.58</pos>
+<maxSize>0.03 1</maxSize>
+<path>./_inc/images/SaveState.png</path>
+</image>
+
+
+<image name="0savestate" extra="true">
+<color>ffffff50</color>
+</image>
+  
+<image name="0cheevos,md_cheevos">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<zIndex>5</zIndex>       
+<pos>0.15 0.58</pos>
+<maxSize>0.03 1</maxSize>
+<path>./_inc/images/Contest.png</path>
+</image>
+
+
+<image name="0cheevos" extra="true">
+<color>ffffff50</color>
+</image>
+  
+<image name="0kidgame,md_kidgame">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<zIndex>5</zIndex>       
+<pos>0.20 0.58</pos>
+<maxSize>0.03 1</maxSize>
+<path>./_inc/images/kid.png</path>
+</image>
+
+
+<image name="0kidgame" extra="true">
+<color>ffffff50</color>
+</image>
+  
+<image name="0hidden,md_hidden">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<zIndex>5</zIndex>       
+<pos>0.25 0.58</pos>
+<maxSize>0.03 1</maxSize>
+<path>./_inc/images/hidden.png</path>
+</image>
+
+
+<image name="0hidden" extra="true">
+<color>ffffff50</color>
+</image>
+	
+<text name="md_lbl_rating">
+<pos>1.3 0.61</pos>
+<size>0.2 0.035</size>
+<color>7FABFE</color>
+<zIndex>5</zIndex>                 
+</text>
+
+<rating name="md_rating">
+<origin>0.5 0.5</origin>
+<zIndex>5</zIndex>       
+<pos>0.157 0.9</pos>
+<size>0 0.07</size>
+<size ifSubset="screenRatio:43">0 0.05</size>
+<filledPath>./_inc/images/star_filled.png</filledPath>
+<unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+<unfilledColor>ffffff50</unfilledColor>
+</rating>
+
+<text name="md_lbl_players">
+<pos>0.01 0.74</pos>
+<size>0.1 0.035</size>
+<zIndex>5</zIndex>         
+</text>
+
+<text name="md_players">
+<pos>0.07 0.74</pos>
+<size>0.0375 0.035</size>
+<zIndex>5</zIndex>
+<color>ffffff</color>                  
+</text>
+
+<text name="md_lbl_releasedate">
+<pos>0.01 0.62</pos>
+<size>0.12 0.035</size>
+<zIndex>5</zIndex>         
+</text>
+
+<datetime name="md_releasedate">
+<pos>0.105 0.62</pos>
+<size>0.0750 0.035</size>
+<zIndex>5</zIndex>
+<color>ffffff</color>                  
+</datetime>
+
+<text name="md_lbl_genre">
+<pos>0.01 0.68</pos>
+<size>0.12 0.035</size>
+<zIndex>5</zIndex>                   
+</text>
+
+<text name="md_genre">
+<pos>0.06 0.68</pos>
+<size>0.245 0.035</size>
+<color>ffffff</color>         
+<zIndex>5</zIndex>         
+</text>         
+
+<text name="md_lbl_playcount">
+<pos>0.01 0.8</pos>
+<size>0.2 0.035</size>
+<zIndex>5</zIndex>                   
+</text>
+
+<text name="md_playcount">
+<pos>0.132 0.8</pos>
+<size>0.0375 0.035</size>
+<color>ffffff</color>         
+<zIndex>5</zIndex>         
+</text>
+
+<text name="md_lbl_publisher">
+<pos>1.3 0.56</pos>
+<size>0.1 0.035</size>
+<color>ffffff</color>
+<zIndex>5</zIndex>                   
+</text>
+
+<text name="md_publisher">
+<pos>1.39 0.56</pos>
+<size>0.12 0.035</size>
+<color>F3E804</color>         
+<zIndex>5</zIndex>         
+</text>
+
+<text name="md_lbl_developer">
+<pos>1.3 0.61</pos>
+<size>0.1 0.035</size>
+<color>ffffff</color>
+<zIndex>5</zIndex>                   
+</text>
+
+<text name="md_developer">
+<pos>1.39 0.61</pos>
+<size>0.12 0.035</size>
+<color>F3E804</color>         
+<zIndex>5</zIndex>         
+</text>
+
+<text name="md_lbl_lastplayed">
+<pos>1.3 0.66</pos>
+<size>0.12 0.035</size>
+<zIndex>5</zIndex>         
+</text>
+
+<datetime name="md_lastplayed">
+<pos>1.39 0.66</pos>
+<size>0.12 0.035</size>
+<zIndex>5</zIndex>
+<color>F3E804</color>                  
+</datetime>                            
+
+<image name="line" extra="true">
+<path>./_inc/white.png</path>
+<origin>0.5 1</origin>
+<color>ffffff</color>
+<colorEnd>ffffff00</colorEnd>
+<gradientType>vertical</gradientType>
+<pos>0.157 0.2</pos>
+<size>0.295 0.0035</size>
+<zIndex>5</zIndex>
+</image>
+
+<image name="line2" extra="true">
+<path>./_inc/white.png</path>
+<origin>0.5 0</origin>
+<color>ffffff</color>
+<colorEnd>ffffff00</colorEnd>
+<gradientType>vertical</gradientType>
+<pos>0.157 0.54</pos>
+<size>0.295 0.0035</size>
+<zIndex>5</zIndex>
+</image>
+
+<text name="md_description">
+<origin>0.5 0</origin>
+<pos>0.157 0.2</pos>
+<size>0.295 0.34</size>
+<color>ffffff</color>
+<alignment>left</alignment>   
+<zIndex>50</zIndex>
+<lineSpacing>1.4</lineSpacing>
+<lineSpacing ifSubset="screenRatio:43">1.58</lineSpacing>
+</text>
+
+<image name="md_marquee">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<pos>0.157 0.07</pos>
+<maxSize>0.20 0.11</maxSize>
+<zIndex>50</zIndex>
+<reflexion>0.20 0</reflexion>
+</image>
+
+
+<text name="md_name">
+<fontPath>./_inc/fonts/NEON CLUB MUSIC_bold.otf</fontPath>
+<fontSize>0.024</fontSize>
+<origin>0.5 0.5</origin>
+<pos>0.157 0.158</pos>
+<size>0.295 0.02</size>
+<alignment>center</alignment>
+<color>ffa200</color>
+<zIndex>50</zIndex>
+</text>
+	
+<image name="mask" extra="true">
+<path>./_inc/images/mask.png</path>
+<zIndex>4</zIndex>
+<origin>0.5 0.5</origin>
+<size>0.6171875 0.712962962962963</size>
+<pos>0.64140625 0.5564814814814815</pos>
+<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<color>505050</color>
+</image>
+
+<image name="md_image">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<size>0.6171875 0.712962962962963</size>
+<pos>0.64140625 0.5564814814814815</pos>
+<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<color>909090</color>
+<zIndex>2</zIndex>         
+<default>./_inc/images/grid.jpg</default>		
+<storyboard event="open">
+<animation property="opacity" from="0" to="1" duration="250" mode="easeIn"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="250" mode="easeIn" begin="250"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="250" mode="easeIn" begin="250"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="250" mode="easeIn"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="250" mode="easeIn"/>
+</storyboard>
+</image> 
+	
+<gridtile name="default">
+<size>0.22875 0.33</size>
+<backgroundColor>00000000</backgroundColor>
+</gridtile>
+	  
+<imagegrid name="gamegrid">
+<color>000000</color>
+<size>0.6177083333333333 0.7138888888888889</size>
+<pos>0.3322916666666667 0.1990740740740741</pos>
+<size ifSubset="screenRatio:43">0.618125 0.50234375</size>
+<pos ifSubset="screenRatio:43">0.331875 0.28828125</pos>
+<autoLayout>3 2</autoLayout>
+<margin>0.01 0.02</margin>
+<padding>0.01 0.02 0.01 0.02</padding>
+<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+<animateSelection>false</animateSelection>
+<zIndex>5</zIndex>
+<scrollSound>./_inc/grid.wav</scrollSound>
+</imagegrid>
+<!--
+<image name="test" extra="true">
+<path>./_inc/white.png</path>
+<color>ff0000</color>
+<size>0.6177083333333333 0.7138888888888889</size>
+<pos>0.3322916666666667 0.1990740740740741</pos>
+<zIndex>500</zIndex>
+</image>
+-->
+<gridtile name="default">
+<backgroundColor>FFFFFF00</backgroundColor>
+<backgroundCornerSize>9 9</backgroundCornerSize>
+<selectionMode>video</selectionMode>
+<padding>5 5</padding>
+<imageColor>ffffff</imageColor>
+<reflexion>0 0</reflexion>	  
+</gridtile>
+	
+<gridtile name="selected">
+<backgroundCenterColor>46dcdc66</backgroundCenterColor>
+<backgroundEdgeColor>feed00</backgroundEdgeColor>	
+<imageColor>FFFFFFFF</imageColor>
+</gridtile>
+
+<ninepatch name="gridtile.background:selected">
+<animateColor>00000000</animateColor>
+<animateColorTime>350</animateColorTime>
+</ninepatch>
+
+<control name="md_marquee,0manual,0savestate,0cheevos,0kidgame,0hidden,line,line2,md_name,md_lbl_players,md_players,md_video,md_lbl_releasedate,md_releasedate,md_lbl_genre,md_genre,md_lbl_playcount,md_playcount,md_rating,md_genre,md_description" ifSubset="control:yes">
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="offsetX" from="-0.5" to="0" duration="400" mode="easeOutCubic" begin="250"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="offsetY" from="0.1" duration="250" mode="easeOutCubic"/>
+<animation property="opacity" from="0" duration="250" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" duration="250" mode="easeOutCubic"/>
+<animation property="offsetY" from="-0.1" duration="250" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" to="0" duration="50" mode="easeIn"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" to="0" duration="50" mode="easeIn"/>
+</storyboard>
+</control>
+
+
+<control name="md_manual,md_savestate,md_cheevos,md_kidgame,md_hidden" ifSubset="control:yes">
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="offsetX" from="-0.5" to="0" duration="400" mode="easeOutCubic" begin="250"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="0" duration="350" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="350" duration="250" mode="linear"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="0" duration="350" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="350" duration="250" mode="linear"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" to="0" duration="50" mode="easeIn"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" to="0" duration="50" mode="easeIn"/>
+</storyboard>
+</control>
+
+</view>
+
+<view name="system,basic,detailed,video,grid,gamecarousel">
+
+<image name="scanlines" extra="true">
+<origin>0.5 0.5</origin>
+<size>0.6171875 0.712962962962963</size>
+<pos>0.64140625 0.5564814814814815</pos>
+<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<zIndex>6</zIndex>
+<tile>true</tile>
+<visible ifSubset="staticEffectApply:screenApply">false</visible>
+</image>
+
+<image name="wallpaper" extra="true">
+<linearSmooth>true</linearSmooth>
+<origin>0 0</origin>
+<pos>0 0</pos>
+<maxSize>99 1</maxSize>
+<zIndex>0</zIndex>                 
+<color>ffffff</color>
+<colorEnd>ffffff</colorEnd>
+<gradientType>vertical</gradientType>
+<storyboard>
+<animation property="color" to="00ffff" duration="2500" begin="350" autoreverse="true" repeat="forever" mode="easeIn"/>
+<animation property="colorEnd" to="ffff50" duration="5000" begin="350" autoreverse="true" repeat="forever" mode="easeIn"/>
+</storyboard>
+</image>                    
+
+<image name="backOverlay" extra="true">
+<linearSmooth>true</linearSmooth>
+<origin>1 0.5</origin>
+<pos>1 0.5</pos>
+<maxSize>1 99</maxSize>
+<zIndex>1</zIndex>                 
+<path>./_inc/images/backOverlay.png</path>
+<color>121212</color>
+<colorEnd>121212</colorEnd>
+<gradientType>vertical</gradientType>
+</image>                    
+
+<image name="overlay" extra="true">
+<linearSmooth>true</linearSmooth>
+<origin>1 0.5</origin>
+<pos>1 0.5</pos>
+<maxSize>1 99</maxSize>
+<zIndex>7</zIndex>                 
+<path>./_inc/images/overlay.png</path>
+<path ifSubset="glass:no">./_inc/images/overlay2.png</path>
+</image>                    
+
+<image name="white" extra="true">
+<linearSmooth>true</linearSmooth>
+<origin>1 0.5</origin>
+<pos>1 0.5</pos>
+<maxSize>1 99</maxSize>
+<zIndex>8</zIndex>                 
+<path>./_inc/images/white.png</path>
+<color>ffffff</color>
+<colorEnd>ffffff</colorEnd>
+<gradientType>vertical</gradientType>
+<storyboard>
+<animation property="opacity" to="0.8" duration="15" autoreverse="true" repeat="forever" mode="bump"/>
+</storyboard>
+</image>                    
+
+<image name="invader,snakervill,batocera,lightbatocera,club,lightclub" extra="true" ifSubset="screenRatio:169">
+<linearSmooth>true</linearSmooth>
+<size>1 1</size>
+<pos>0 0</pos>
+</image>
+
+<image name="batocera,lightbatocera,club,lightclub" extra="true" ifSubset="screenRatio:43">
+<linearSmooth>true</linearSmooth>
+<size>1.3 1</size>
+<pos>1.1 0</pos>
+<origin>1 0</origin>
+</image>
+
+<image name="snakervill" extra="true" ifSubset="screenRatio:43">
+<linearSmooth>true</linearSmooth>
+<size>1.3 1</size>
+<pos>1.08 0.1</pos>
+<origin>1 0</origin>
+</image>
+
+<image name="invader" extra="true" ifSubset="screenRatio:43">
+<linearSmooth>true</linearSmooth>
+<size>1.3 1</size>
+<pos>1 -0.1</pos>
+<origin>1 0</origin>
+</image>
+
+<image name="invader" extra="true">
+<path>./_inc/images/invader.png</path>
+<zIndex>100</zIndex>
+<color>ffffff</color>
+<storyboard>
+<animation property="opacity" from="1" to="1" duration="350" mode="Linear"/>
+<animation property="opacity" to="0" duration="1000" begin="350" autoreverse="true" repeat="forever" mode="easeIn"/>
+</storyboard>
+</image>
+
+<image name="snakervill" extra="true">
+<path>./_inc/images/snakervill.png</path>
+<zIndex>150</zIndex>
+<storyboard>
+<animation property="offsetX" from="1" to="1" duration="250" mode="easeOut"/>
+<animation property="offsetX" from="1" to="0" duration="250" begin="500" mode="easeOut"/>
+<animation property="offsetY" to="0.01" duration="250" autoreverse="true" repeat="forever" mode="easeIn"/>
+</storyboard>
+
+</image>
+<image name="batocera" extra="true">
+<path>./_inc/images/batocera.png</path>
+<zIndex>140</zIndex>
+</image>
+
+<image name="lightbatocera" extra="true">
+<path>./_inc/images/lightbatocera.png</path>
+<zIndex>120</zIndex>
+<color>ffffff</color>
+<colorEnd>ffffff</colorEnd>
+<storyboard>
+<animation property="opacity" to="0.9" duration="60" autoreverse="true" repeat="forever" mode="easeIn"/>
+<animation property="color" to="ffffffe6" duration="30" autoreverse="true" repeat="forever" mode="easeIn"/>
+<animation property="colorEnd" to="ff0000e6" duration="15" autoreverse="true" repeat="forever" mode="easeIn"/>
+</storyboard>
+
+</image>
+<image name="club" extra="true">
+<path>./_inc/images/club.png</path>
+<zIndex>130</zIndex>
+</image>
+
+<image name="lightclub" extra="true">
+<path>./_inc/images/lightclub.png</path>
+<zIndex>110</zIndex>
+<color>ffffff</color>
+<colorEnd>ffffff</colorEnd>
+<storyboard>
+<animation property="opacity" to="0.9" duration="60" autoreverse="true" repeat="forever" mode="easeIn"/>
+<animation property="color" to="ffffffe6" duration="30" autoreverse="true" repeat="forever" mode="easeIn"/>
+<animation property="colorEnd" to="ff0000e6" duration="15" autoreverse="true" repeat="forever" mode="easeIn"/>
+</storyboard>
+</image>
+
+</view>
+
+<include>./_inc/specifics/${system.theme}.xml</include>
+
+</theme>

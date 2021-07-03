@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="basic">
+<formatVersion>7</formatVersion>
+
+<view name="basic,detailed,video,grid,gamecarousel">
+
+<image name="0manual,0cheevos,0kidgame,0savestate,0hidden,mdFrame,line,line2" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="md_marquee,md_manual,md_cheevos,md_kidgame,md_savestate,md_hidden,md_image">
+<visible>false</visible>
+</image>
+
+<image name="md_thumbnail">
+<scale>0.7</scale>
+</image>
+
+<text name="md_name,md_lbl_players,md_players,md_lbl_manual, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+<visible>false</visible>
+</text>
+
+<datetime name="md_releasedate">
+<visible>false</visible>
+</datetime>
+
+
+<video name="md_video">
+<default>./_inc/grid.mp4</default>	
+<size>0.6171875 0.712962962962963</size>
+<pos>0.64140625 0.5564814814814815</pos>
+<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<delay>0</delay>
+<zIndex>2</zIndex>
+</video> 
+
+</view>
+
+<view name="grid">
+
+<image name="md_thumbnail">
+<visible>false</visible>
+</image>
+
+</view>
+
+</theme>
