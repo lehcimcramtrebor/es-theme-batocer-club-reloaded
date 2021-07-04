@@ -57,6 +57,11 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="underground" displayName="${lang.underground}"/>
 </subset>	
 
+<subset name="logos" displayName="${lang.logos}">
+<include name="default" displayName="${lang.default}"/>
+<include name="classic" displayName="${lang.classic}"/>
+</subset>	
+
 <subset name="control" displayName="${lang.control}">
 <include name="yes" displayName="${lang.yes}"/>
 <include name="no" displayName="${lang.no}"/>
@@ -245,8 +250,23 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <image name="logo">
 <linearSmooth>true</linearSmooth>
 <path>./${system.theme}/_inc/system.png</path>
+<path ifSubset="logos:classic">./_inc/logos/${system.theme}.png</path>
+<path ifSubset="logos:classic">./_inc/logos/${system.theme}.svg</path>
+<path ifSubset="logos:classic">./_inc/logos/${system.theme}-${lang}.png</path>
+<path ifSubset="logos:classic">./_inc/logos/${system.theme}-${lang}.svg</path>
 </image>
 
+<image name="logo" region="eur" ifSubset="logos:classic"></image>
+
+<image name="logo" region="us" ifSubset="logos:classic">
+<path>./_inc/logos/us/${system.theme}.png</path>
+<path>./_inc/logos/us/${system.theme}.svg</path>
+</image>
+
+<image name="logo" region="jp" ifSubset="logos:classic">
+<path>./_inc/logos/jp/${system.theme}.png</path>
+<path>./_inc/logos/jp/${system.theme}.svg</path>
+</image>
 </view>
 
 
@@ -999,6 +1019,10 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <image name="logo1" extra="true">
 <linearSmooth>true</linearSmooth>
 <path>./${system.theme}/_inc/system.png</path>
+<path ifSubset="logos:classic">./_inc/logos/${system.theme}.png</path>
+<path ifSubset="logos:classic">./_inc/logos/${system.theme}.svg</path>
+<path ifSubset="logos:classic">./_inc/logos/${system.theme}-${lang}.png</path>
+<path ifSubset="logos:classic">./_inc/logos/${system.theme}-${lang}.svg</path>
 <reflexion>0.05 0</reflexion>
 <origin>0 0</origin>      
 <origin ifSubset="screenRatio:54">0.5 0</origin>      
@@ -1007,7 +1031,18 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos ifSubset="screenRatio:54">0.635 0.84</pos>
 <pos ifSubset="screenRatio:43">0.635 0.85</pos>
 <maxSize>0.20 0.11</maxSize>
+<maxSize ifSubset="logos:classic">0.15 0.11</maxSize>
 <zIndex>10</zIndex>         
+</image>
+
+<image name="logo1" region="us" ifSubset="logos:classic">
+<path>./_inc/logos/us/${system.theme}.png</path>
+<path>./_inc/logos/us/${system.theme}.svg</path>
+</image>
+
+<image name="logo1" region="jp" ifSubset="logos:classic">
+<path>./_inc/logos/jp/${system.theme}.png</path>
+<path>./_inc/logos/jp/${system.theme}.svg</path>
 </image>
 
 <text name="gamecarouselLogoText">
