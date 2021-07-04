@@ -20,3 +20,7 @@ Batocera v31+ / Retrobat 4.0+ (You can use classic logos (regions include) and v
 ![0](https://github.com/lehcimcramtrebor/es-theme-batocer-club-reloaded/blob/master/_inc/screenshots/screenshot04.png)
 ![0](https://github.com/lehcimcramtrebor/es-theme-batocer-club-reloaded/blob/master/_inc/screenshots/screenshot05.png)
 ![0](https://github.com/lehcimcramtrebor/es-theme-batocer-club-reloaded/blob/master/_inc/screenshots/screenshot06.png)
+![0](https://github.com/lehcimcramtrebor/es-theme-batocer-club-reloaded/blob/master/_inc/screenshots/screenshot07.png)
+![0](https://github.com/lehcimcramtrebor/es-theme-batocer-club-reloaded/blob/master/_inc/screenshots/screenshot08.png)
+![0](https://github.com/lehcimcramtrebor/es-theme-batocer-club-reloaded/blob/master/_inc/screenshots/screenshot09.png)
+![0](https://github.com/lehcimcramtrebor/es-theme-batocer-club-reloaded/blob/master/_inc/screenshots/screenshot10.png)
