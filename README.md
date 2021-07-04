@@ -8,7 +8,7 @@ Reloaded by Hel Mic (Lehcim Cram Trebor) and Fred GOLFIETTI. Compatible with 16/
 
 Compatibility:
 
-Batocera v31+ / Retrobat 4.0+
+Batocera v31+ / Retrobat 4.0+ (You can use classic logos (regions include) and video snaps to have entirely functionnal theme under Retrobat)
 
 "master" branch of this repository contain functionnal theme with all videos compressed.
 
