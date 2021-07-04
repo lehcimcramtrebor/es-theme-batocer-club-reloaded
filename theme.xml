@@ -20,7 +20,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 
 <subset name="screenRatio" displayName="${lang.screenratio}">
 <include name="169" displayName="${lang.169}"/>
-<include name="43" displayName="${lang.43}"/>
+<include name="54" displayName="${lang.54}"/>
 </subset>
 
 <subset name="transition" displayName="${lang.transition}">
@@ -182,9 +182,9 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <color>ffffff</color>
 <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
 <pos>0.935 0.04</pos>
-<pos ifSubset="screenRatio:43">0.92 0.04</pos>
+<pos ifSubset="screenRatio:54">0.92 0.04</pos>
 <size>0.05 0.058</size>
-<size ifSubset="screenRatio:43">0.065 0.058</size>
+<size ifSubset="screenRatio:54">0.065 0.058</size>
 <verticalAlignment>right</verticalAlignment>
 </text>
 
@@ -359,7 +359,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <alignment>left</alignment>
 <zIndex>5</zIndex>
 <pos>0.35 0.89</pos>
-<pos ifSubset="screenRatio:43">0.35 0.775</pos>
+<pos ifSubset="screenRatio:54">0.35 0.775</pos>
 </text>
 
 <text name="systemText" extra="true" ifSubset="systemText:systemTextBind">
@@ -473,8 +473,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <origin>0.5 0.5</origin>
 <size>0.6171875 0.712962962962963</size>
 <pos>0.64140625 0.5564814814814815</pos>
-<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
-<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<size ifSubset="screenRatio:54">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:54">0.641015625 0.5400390625</pos>
 <delay>0.1</delay>
 <effect>none</effect>
 <default>./_inc/comingsoon.mp4</default>		
@@ -485,12 +485,12 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 		
 <text name="systemInfo">     
 <pos>0.160 0.904</pos>
-<pos ifSubset="screenRatio:43">0.160 0.775</pos>
+<pos ifSubset="screenRatio:54">0.160 0.775</pos>
 <backgroundColor>00000000</backgroundColor>
 <color>0b8bff</color>
 <fontPath>./_inc/fonts/NEON CLUB MUSIC_bold.otf</fontPath>
 <fontSize>0.028</fontSize>
-<fontSize ifSubset="screenRatio:43">0.022</fontSize>
+<fontSize ifSubset="screenRatio:54">0.022</fontSize>
 <glowColor>ffffff66</glowColor>
 <zIndex>10</zIndex>
 <opacity>0</opacity>
@@ -519,7 +519,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <reflexion>0.05 0</reflexion>
 <origin>0.0 0.0</origin>      
 <pos>0.01 0.005</pos>
-<pos ifSubset="screenRatio:43">0.01 0.01</pos>
+<pos ifSubset="screenRatio:54">0.01 0.01</pos>
 <maxSize>0.20 0.11</maxSize>
 <zIndex>10</zIndex>         
 </image>    
@@ -530,11 +530,11 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <selectedColor>FFFF00</selectedColor>     
 <pos>0.0 0.12</pos>
 <size>0.344 0.845</size>
-<size ifSubset="screenRatio:43">0.354 0.845</size>
+<size ifSubset="screenRatio:54">0.354 0.845</size>
 <horizontalMargin>0.03</horizontalMargin>
-<horizontalMargin ifSubset="screenRatio:43">0.04</horizontalMargin>
+<horizontalMargin ifSubset="screenRatio:54">0.04</horizontalMargin>
 <selectorImagePath>./_inc/images/selector.png</selectorImagePath>
-<selectorImagePath ifSubset="screenRatio:43">./_inc/images/selector43.png</selectorImagePath>
+<selectorImagePath ifSubset="screenRatio:54">./_inc/images/selector43.png</selectorImagePath>
 <primaryColor>7FABFE</primaryColor>
 <secondaryColor>7FABFE</secondaryColor>
 <fontPath>./_inc/fonts/DJB Get Digital.ttf</fontPath>
@@ -543,7 +543,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <scrollSound>./_inc/gamelist.wav</scrollSound>
 <alignment>left</alignment>
 <lines>18</lines>
-<lines ifSubset="screenRatio:43">18</lines>
+<lines ifSubset="screenRatio:54">18</lines>
 </textlist>
 
 </view> 
@@ -555,8 +555,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <origin>0.5 0.5</origin>
 <size>0.6171875 0.712962962962963</size>
 <pos>0.64140625 0.5564814814814815</pos>
-<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
-<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<size ifSubset="screenRatio:54">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:54">0.641015625 0.5400390625</pos>
 <delay>0</delay>
 <effect>none</effect>
 <default>./_inc/comingsoon.mp4</default>		
@@ -597,8 +597,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <origin>0.5 0.5</origin>
 <size>0.6171875 0.712962962962963</size>
 <pos>0.64140625 0.5564814814814815</pos>
-<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
-<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<size ifSubset="screenRatio:54">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:54">0.641015625 0.5400390625</pos>
 <color>505050</color>
 </image>
 
@@ -606,9 +606,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <linearSmooth>true</linearSmooth>
 <origin>0.5 0.5</origin>
 <pos>0.82 0.4</pos>
-<pos ifSubset="screenRatio:43">0.82 0.435</pos>
+<pos ifSubset="screenRatio:54">0.82 0.435</pos>
 <maxSize>0.2 0.36</maxSize>
-<maxSize ifSubset="screenRatio:43">0.2 0.27</maxSize>
+<maxSize ifSubset="screenRatio:54">0.2 0.27</maxSize>
 <zIndex>5</zIndex>
 <reflexion>0.05 0</reflexion>
 </image>         
@@ -618,8 +618,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <origin>0.5 0.5</origin>
 <size>0.6171875 0.712962962962963</size>
 <pos>0.64140625 0.5564814814814815</pos>
-<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
-<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<size ifSubset="screenRatio:54">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:54">0.641015625 0.5400390625</pos>
 <color>909090</color>
 <zIndex>2</zIndex>         
 <default>./_inc/images/grid.jpg</default>		
@@ -676,7 +676,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <color>7FABFE</color>
 <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
 <fontSize>0.025</fontSize>
-<fontSize ifSubset="screenRatio:43">0.018</fontSize>
+<fontSize ifSubset="screenRatio:54">0.018</fontSize>
 <glowColor>12121250</glowColor>
 </text>
   
@@ -766,7 +766,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <unfilledColor>ffffff50</unfilledColor>
 </rating>
 
-<rating name="md_rating" ifSubset="screenRatio:43">
+<rating name="md_rating" ifSubset="screenRatio:54">
 <pos>0.75 0.635</pos>
 <size>0 0.043</size>
 </rating>
@@ -878,8 +878,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <text name="md_description">
 <pos>0.38 0.69</pos>
 <size>0.55 0.22</size>
-<size ifSubset="screenRatio:43">0.55 0.105</size>
-<lineSpacing ifSubset="screenRatio:43">1.1</lineSpacing>
+<size ifSubset="screenRatio:54">0.55 0.105</size>
+<lineSpacing ifSubset="screenRatio:54">1.1</lineSpacing>
 <color>ffffff</color>
 <alignment>left</alignment>   
 <zIndex>5</zIndex>
@@ -899,8 +899,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <origin>0.5 0.5</origin>
 <size>0.275 0.305</size>
 <pos>0.54 0.4</pos>
-<size ifSubset="screenRatio:43">0.275 0.2175</size>
-<pos ifSubset="screenRatio:43">0.54 0.4325</pos>
+<size ifSubset="screenRatio:54">0.275 0.2175</size>
+<pos ifSubset="screenRatio:54">0.54 0.4325</pos>
 <color>ffffffe6</color>
 <colorEnd>00000000</colorEnd>
 <gradientType>vertical</gradientType>
@@ -912,9 +912,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>4</zIndex>
 <origin>0 0</origin>
 <size>0.32 0.36</size>
-<size ifSubset="screenRatio:43">0.32 0.27</size>
+<size ifSubset="screenRatio:54">0.32 0.27</size>
 <pos>0.38 0.22</pos>
-<pos ifSubset="screenRatio:43">0.38 0.3</pos>
+<pos ifSubset="screenRatio:54">0.38 0.3</pos>
 </image>
 
 <image name="md_marquee">
@@ -952,9 +952,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <path>./${system.theme}/_inc/system.png</path>
 <reflexion>0.05 0</reflexion>
 <origin>0 0</origin>      
-<origin ifSubset="screenRatio:43">0.5 0</origin>      
+<origin ifSubset="screenRatio:54">0.5 0</origin>      
 <pos>0.2 0.02</pos>
-<pos ifSubset="screenRatio:43">0.635 0.84</pos>
+<pos ifSubset="screenRatio:54">0.635 0.84</pos>
 <maxSize>0.20 0.11</maxSize>
 <zIndex>10</zIndex>         
 </image>
@@ -979,7 +979,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <color>7FABFE</color>
 <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
 <fontSize>0.025</fontSize>
-<fontSize ifSubset="screenRatio:43">0.018</fontSize>
+<fontSize ifSubset="screenRatio:54">0.018</fontSize>
 <glowColor>12121250</glowColor>
 </text>
   
@@ -1065,7 +1065,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>       
 <pos>0.157 0.9</pos>
 <size>0 0.07</size>
-<size ifSubset="screenRatio:43">0 0.05</size>
+<size ifSubset="screenRatio:54">0 0.05</size>
 <filledPath>./_inc/images/star_filled.png</filledPath>
 <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
 <unfilledColor>ffffff50</unfilledColor>
@@ -1194,7 +1194,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <alignment>left</alignment>   
 <zIndex>50</zIndex>
 <lineSpacing>1.4</lineSpacing>
-<lineSpacing ifSubset="screenRatio:43">1.58</lineSpacing>
+<lineSpacing ifSubset="screenRatio:54">1.58</lineSpacing>
 </text>
 
 <image name="md_marquee">
@@ -1224,8 +1224,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <origin>0.5 0.5</origin>
 <size>0.6171875 0.712962962962963</size>
 <pos>0.64140625 0.5564814814814815</pos>
-<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
-<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<size ifSubset="screenRatio:54">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:54">0.641015625 0.5400390625</pos>
 <color>505050</color>
 </image>
 
@@ -1234,8 +1234,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <origin>0.5 0.5</origin>
 <size>0.6171875 0.712962962962963</size>
 <pos>0.64140625 0.5564814814814815</pos>
-<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
-<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<size ifSubset="screenRatio:54">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:54">0.641015625 0.5400390625</pos>
 <color>909090</color>
 <zIndex>2</zIndex>         
 <default>./_inc/images/grid.jpg</default>		
@@ -1267,8 +1267,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <color>000000</color>
 <size>0.6177083333333333 0.7138888888888889</size>
 <pos>0.3322916666666667 0.1990740740740741</pos>
-<size ifSubset="screenRatio:43">0.618125 0.50234375</size>
-<pos ifSubset="screenRatio:43">0.331875 0.28828125</pos>
+<size ifSubset="screenRatio:54">0.618125 0.50234375</size>
+<pos ifSubset="screenRatio:54">0.331875 0.28828125</pos>
 <autoLayout>3 2</autoLayout>
 <margin>0.01 0.02</margin>
 <padding>0.01 0.02 0.01 0.02</padding>
@@ -1359,8 +1359,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <origin>0.5 0.5</origin>
 <size>0.6171875 0.712962962962963</size>
 <pos>0.64140625 0.5564814814814815</pos>
-<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
-<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<size ifSubset="screenRatio:54">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:54">0.641015625 0.5400390625</pos>
 <zIndex>6</zIndex>
 <tile>true</tile>
 <visible ifSubset="staticEffectApply:screenApply">false</visible>
@@ -1424,21 +1424,21 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos>0 0</pos>
 </image>
 
-<image name="batocera,lightbatocera,club,lightclub" extra="true" ifSubset="screenRatio:43">
+<image name="batocera,lightbatocera,club,lightclub" extra="true" ifSubset="screenRatio:54">
 <linearSmooth>true</linearSmooth>
 <size>1.3 1</size>
 <pos>1.1 0</pos>
 <origin>1 0</origin>
 </image>
 
-<image name="snakervill" extra="true" ifSubset="screenRatio:43">
+<image name="snakervill" extra="true" ifSubset="screenRatio:54">
 <linearSmooth>true</linearSmooth>
 <size>1.3 1</size>
 <pos>1.08 0.1</pos>
 <origin>1 0</origin>
 </image>
 
-<image name="invader" extra="true" ifSubset="screenRatio:43">
+<image name="invader" extra="true" ifSubset="screenRatio:54">
 <linearSmooth>true</linearSmooth>
 <size>1.3 1</size>
 <pos>1 -0.1</pos>

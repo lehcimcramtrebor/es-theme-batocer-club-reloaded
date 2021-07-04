@@ -29,8 +29,8 @@
 <default>./_inc/grid.mp4</default>	
 <size>0.6171875 0.712962962962963</size>
 <pos>0.64140625 0.5564814814814815</pos>
-<size ifSubset="screenRatio:43">0.61953125 0.50390625</size>
-<pos ifSubset="screenRatio:43">0.641015625 0.5400390625</pos>
+<size ifSubset="screenRatio:54">0.61953125 0.50390625</size>
+<pos ifSubset="screenRatio:54">0.641015625 0.5400390625</pos>
 <delay>0</delay>
 <zIndex>2</zIndex>
 </video> 

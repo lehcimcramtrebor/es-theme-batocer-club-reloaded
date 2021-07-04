@@ -4,7 +4,7 @@ BATOCERA CLUB RELOADED (V2.0)
 
 Theme Mod By SNAKERVILL & The Mini Cake TV : https://www.youtube.com/channel/UCJdquk3Rr_nZVLEc9JryhAA
 
-Reloaded by Hel Mic (Lehcim Cram Trebor) and Fred GOLFIETTI. Compatible with 4/3 or 5/4 screens.
+Reloaded by Hel Mic (Lehcim Cram Trebor) and Fred GOLFIETTI. Compatible with 5/4 screens.
 
 Compatibility:
 
