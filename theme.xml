@@ -1093,7 +1093,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <color>ffffff</color>
 <colorEnd>ffffff</colorEnd>
 <gradientType>vertical</gradientType>
-<zIndex>6</zIndex>
+<zIndex>5</zIndex>
 </video> 
 
 <text name="logoText">
