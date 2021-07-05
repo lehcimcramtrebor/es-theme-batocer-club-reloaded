@@ -14,7 +14,8 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <theme defaultView="video">
 <formatVersion>7</formatVersion>
 
-<include>./LABEL_CUSTOM.xml</include>
+<include>./CUSTOM_VIDEOS_PATH.xml</include>
+<include>./CUSTOMIZE_YOUR_LABEL.xml</include>
 <include>./_inc/localisation/lang.xml</include>
 <include>./_inc/localisation/lang-${lang}.xml</include>
 
@@ -97,6 +98,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <subset name="RandomVideos" displayName="${lang.randomVideos}" appliesTo="basic,detaile,video,grid,gamecarousel">
 <include name="BatoceraClub" displayName="${lang.BatoceraClubVideos}"/>
 <include name="SnapsVideos" displayName="${lang.snapsVideos}"/>
+<include name="customVideos" displayName="${lang.customVideos}"/>
 </subset>
 		
 <view name="menu">
@@ -454,7 +456,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <path>./{system.theme}/music.ogg</path>
 </sound>
 
-<sound name="bgsound" ifSubset="RandomVideos:snapsVideos">
+<sound name="bgsound" ifSubset="RandomVideos:snapsVideos|customVideos">
 <path>./_inc/silence.ogg</path>
 </sound>
 
@@ -494,8 +496,11 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </image> 
 
 <video name="backgroundvideo" extra="true">
+<path ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon.mp4</path>
 <path ifSubset="RandomVideos:BatoceraClub">./${system.theme}/_inc/system.mp4</path>
 <path ifSubset="RandomVideos:SnapsVideos">{random}</path>
+<path ifSubset="RandomVideos:customVideos">./${system.theme}/_inc/system.mp4</path>
+<path ifSubset="RandomVideos:customVideos">${customVideos.path}/${system.theme}.mp4</path>
 <origin>0.5 0.5</origin>
 <size>0.6171875 0.712962962962963</size>
 <pos>0.64140625 0.5564814814814815</pos>
@@ -507,10 +512,11 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos ifSubset="screenRatio:161">0.64140625 0.5504166666666667</pos>
 <delay>0.1</delay>
 <effect>none</effect>
-<default>./_inc/comingsoon.mp4</default>		
+<default ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon.mp4</default>		
+<default ifSubset="RandomVideos:SnapsVideos">./_inc/comingsoon.mp4</default>		
 <zIndex>2</zIndex> 
 <audio>false</audio>
-<audio ifSubset="RandomVideos:SnapsVideos">true</audio>
+<audio ifSubset="RandomVideos:SnapsVideos|customVideos">true</audio>
 </video>
 		
 <text name="systemInfo">     
@@ -590,6 +596,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 
 <video name="backgroundvideo" extra="true">
 <path>./${system.theme}/_inc/system.mp4</path>
+<path ifSubset="RandomVideos:customVideos">{random}</path>
+<path ifSubset="RandomVideos:customVideos">${customVideos.path}/${system.theme}.mp4</path>
 <origin>0.5 0.5</origin>
 <size>0.6171875 0.712962962962963</size>
 <pos>0.64140625 0.5564814814814815</pos>
@@ -601,10 +609,12 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos ifSubset="screenRatio:161">0.64140625 0.5504166666666667</pos>
 <delay>0</delay>
 <effect>none</effect>
-<default>./_inc/comingsoon.mp4</default>		
+<default ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon.mp4</default>		
+<default ifSubset="RandomVideos:customVideos">./${system.theme}/_inc/system.mp4</default>		
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
-<zIndex>3</zIndex>      
+<zIndex>3</zIndex>
+<audio ifSubset="RandomVideos:customVideos">false</audio>    
 </video>
 
 <image name="background3" extra="true">

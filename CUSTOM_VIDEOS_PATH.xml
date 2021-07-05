@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!--------------------------------------------------->
+
+
+<!-- Enter custom video path without "/" at end. -->
+
+
+
+<customVideos.path>./_customVideos</customVideos.path>
+
+
+
+</variables></theme>
