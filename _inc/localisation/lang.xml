@@ -17,6 +17,9 @@
 <lang.BatoceraClubVideos>batocera club</lang.BatoceraClubVideos>
 <lang.snapsVideos>random video snaps</lang.snapsVideos>
 <lang.customVideos>custom videos</lang.customVideos>
+<lang.defaultCustom>default videos (if no customized)</lang.defaultCustom>
+<lang.random>snaps</lang.random>
+<lang.club>club videos</lang.club>
 
 <lang.staticEffect>effect • choose</lang.staticEffect>
 <lang.scanlines>scanlines</lang.scanlines>
