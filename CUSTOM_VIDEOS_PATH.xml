@@ -2,15 +2,34 @@
 
 
 
-<!--------------------------------------------------->
+<!--
+
+		HERE YOU CAN MODIFY CUSTOM VIDEOS PATH TO USE EXTERNAL CUSTOM VIDEOS FOLDER:
+		FOR EXAMPLE, IF YOU WANT TO USE A FOLDER AT ROOT OF RETROBAT, YOU CAN USE:
+		
+		<customVideos.path>./../../../../_customVideos</customVideos.path>
+		
+		
+		IF YOUR FOLDER IS NAMED "my_videos" YOU CAN USE/
+		
+		<customVideos.path>./../../../../my_videos</customVideos.path>
+		
+		
+		IF YOU WANT TO USE A FOLDER AT ROOT OF SHARE PARTITION ON BATOCERA, YOU CAN USE:
+
+		<customVideos.path>./../../_customVideos</customVideos.path>
+
+								OR
+								
+		<customVideos.path>./../../my_videos</customVideos.path>
+
+-->
 
 
 <!-- Enter custom video path without "/" at end. -->
 
 
-
 <customVideos.path>./_customVideos</customVideos.path>
-
 
 
 </variables></theme>
