@@ -100,6 +100,12 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="SnapsVideos" displayName="${lang.snapsVideos}"/>
 <include name="customVideos" displayName="${lang.customVideos}"/>
 </subset>
+
+
+<subset name="defaultCustom" displayName="${lang.defaultCustom}" ifSubset="RandomVideos:customVideos" appliesTo="basic,detaile,video,grid,gamecarousel">
+<include name="random" displayName="${lang.random}"/>
+<include name="club" displayName="${lang.club}"/>
+</subset>
 		
 <view name="menu">
 
@@ -500,6 +506,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <path ifSubset="RandomVideos:BatoceraClub">./${system.theme}/_inc/system.mp4</path>
 <path ifSubset="RandomVideos:SnapsVideos">{random}</path>
 <path ifSubset="RandomVideos:customVideos">./${system.theme}/_inc/system.mp4</path>
+<path ifSubset="RandomVideos:customVideos,defaultCustom:random">{random}</path>
 <path ifSubset="RandomVideos:customVideos">${customVideos.path}/${system.theme}.mp4</path>
 <origin>0.5 0.5</origin>
 <size>0.6171875 0.712962962962963</size>
@@ -514,6 +521,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <effect>none</effect>
 <default ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon.mp4</default>		
 <default ifSubset="RandomVideos:SnapsVideos">./_inc/comingsoon.mp4</default>		
+<default ifSubset="RandomVideos:customVideos">./_inc/comingsoon.mp4</default>		
 <zIndex>2</zIndex> 
 <audio>false</audio>
 <audio ifSubset="RandomVideos:SnapsVideos|customVideos">true</audio>
