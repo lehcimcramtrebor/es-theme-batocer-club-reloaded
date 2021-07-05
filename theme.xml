@@ -1075,6 +1075,27 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
  
 <view name="grid">
 
+<video name="md_video">
+<default>./_inc/comingsoon.mp4</default>	
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<delay>1</delay>
+<effect>none</effect>
+<origin>0.5 0.5</origin>
+<size>0.6171875 0.712962962962963</size>
+<pos>0.64140625 0.5564814814814815</pos>
+<size ifSubset="screenRatio:54">0.61953125 0.50390625</size>
+<size ifSubset="screenRatio:43">0.61953125 0.5358333333333333</size>
+<size ifSubset="screenRatio:161">0.6171875 0.6425</size>
+<pos ifSubset="screenRatio:54">0.641015625 0.5400390625</pos>
+<pos ifSubset="screenRatio:43">0.641015625 0.5420833333333333</pos>
+<pos ifSubset="screenRatio:161">0.64140625 0.5504166666666667</pos>
+<color>ffffff</color>
+<colorEnd>ffffff</colorEnd>
+<gradientType>vertical</gradientType>
+<zIndex>6</zIndex>
+</video> 
+
 <text name="logoText">
 <visible>false</visible>
 </text>	
