@@ -131,6 +131,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <menuText name="menutext">
 <fontPath>./_inc/fonts/ubuntu_medium.ttf</fontPath>
 <fontSize>0.03</fontSize>
+<fontSize tinyScreen="true">0.043</fontSize>
 <color>fd18f0</color>
 <separatorColor>fd18f0</separatorColor>
 <selectorColor>18e5fd</selectorColor>
@@ -402,6 +403,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <pos ifSubset="screenRatio:43">0.35 0.79</pos>
 <pos ifSubset="screenRatio:161">0.35 0.85</pos>
 <pos ifSubset="screenRatio:32">0.35 0.82</pos>
+<visible tinyScreen="true">false</visible>
 </text>
 
 <text name="systemText" extra="true" ifSubset="systemText:systemTextBind">
@@ -539,13 +541,15 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos>0.160 0.904</pos>
 <pos ifSubset="screenRatio:54">0.160 0.775</pos>
 <pos ifSubset="screenRatio:43">0.160 0.795</pos>
-<pos ifSubset="screenRatio:161|32">0.160 0.861</pos>
+<pos ifSubset="screenRatio:161">0.160 0.861</pos>
+<pos ifSubset="screenRatio:32">0.160 0.83</pos>
 <backgroundColor>00000000</backgroundColor>
 <color>0b8bff</color>
 <fontPath>./_inc/fonts/NEON CLUB MUSIC_bold.otf</fontPath>
 <fontSize>0.028</fontSize>
 <fontSize ifSubset="screenRatio:54">0.022</fontSize>
 <fontSize ifSubset="screenRatio:43">0.022</fontSize>
+<fontSize tinyScreen="true">0.05</fontSize>
 <glowColor>ffffff66</glowColor>
 <zIndex>10</zIndex>
 <opacity>0</opacity>
@@ -598,12 +602,14 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <secondaryColor>7FABFE</secondaryColor>
 <fontPath>./_inc/fonts/DJB Get Digital.ttf</fontPath>
 <fontSize>0.04</fontSize>
+<fontSize tinyScreen="true">0.055</fontSize>
 <forceUppercase>0</forceUppercase>
 <scrollSound>./_inc/gamelist.wav</scrollSound>
 <alignment>left</alignment>
 <lines>18</lines>
 <lines ifSubset="screenRatio:54">18</lines>
 <lines ifSubset="screenRatio:43">18</lines>
+<lines tinyScreen="true">10</lines>
 </textlist>
 
 </view> 
@@ -758,6 +764,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <fontSize>0.025</fontSize>
 <fontSize ifSubset="screenRatio:54">0.018</fontSize>
 <fontSize ifSubset="screenRatio:43">0.018</fontSize>
+<fontSize ifSubset="screenRatio:32">0.022</fontSize>
+<fontSize tinyScreen="true">0.04</fontSize>
 <glowColor>12121250</glowColor>
 </text>
   
@@ -844,10 +852,13 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos ifSubset="screenRatio:54">0.75 0.635</pos>
 <pos ifSubset="screenRatio:43">0.75 0.615</pos>
 <pos ifSubset="screenRatio:161|32">0.73 0.605</pos>
+<x tinyScreen="true">0.5</x>
+<y tinyScreen="true">0.595</y>
 <size>0 0.07</size>
 <size ifSubset="screenRatio:54">0 0.043</size>
 <size ifSubset="screenRatio:43">0 0.043</size>
 <size ifSubset="screenRatio:161|32">0 0.065</size>
+<size tinyScreen="true">0 0.08</size>
 <filledPath>./_inc/images${resolution}/star_filled.png</filledPath>
 <unfilledPath>./_inc/images${resolution}/star_empty.png</unfilledPath>
 <unfilledColor>ffffff50</unfilledColor>
@@ -857,6 +868,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos>0.38 0.59</pos>
 <size>0.1 0.035</size>
 <zIndex>5</zIndex>         
+<visible tinyScreen="true">false</visible>
 </text>
 
 <text name="md_players">
@@ -864,18 +876,21 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.0375 0.035</size>
 <zIndex>5</zIndex>
 <color>ffffff</color>                  
+<visible tinyScreen="true">false</visible>
 </text>
 
 <text name="md_lbl_releasedate">
 <pos>0.38 0.63</pos>
 <size>0.12 0.035</size>
 <zIndex>5</zIndex>         
+<visible tinyScreen="true">false</visible>
 </text>
 
 <datetime name="md_releasedate">
 <pos>0.485 0.63</pos>
 <size>0.0750 0.035</size>
 <zIndex>5</zIndex>
+<visible tinyScreen="true">false</visible>
 <color>ffffff</color>                  
 
 </datetime>
@@ -883,6 +898,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos>0.54 0.59</pos>
 <size>0.12 0.035</size>
 <zIndex>5</zIndex>                   
+<visible tinyScreen="true">false</visible>
 </text>
 
 <text name="md_genre">
@@ -890,12 +906,14 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.2 0.035</size>
 <color>ffffff</color>         
 <zIndex>5</zIndex>         
+<visible tinyScreen="true">false</visible>
 </text>         
 
 <text name="md_lbl_playcount">
 <pos>0.570 0.63</pos>
 <size>0.2 0.035</size>
 <zIndex>5</zIndex>                   
+<visible tinyScreen="true">false</visible>
 </text>
 
 <text name="md_playcount">
@@ -903,6 +921,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.0375 0.035</size>
 <color>ffffff</color>         
 <zIndex>5</zIndex>         
+<visible tinyScreen="true">false</visible>
 </text>
 
 <text name="md_lbl_publisher">
@@ -1132,6 +1151,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <fontSize>0.025</fontSize>
 <fontSize ifSubset="screenRatio:54">0.018</fontSize>
 <fontSize ifSubset="screenRatio:43">0.018</fontSize>
+<fontSize tinyScreen="true">0.045</fontSize>
 <glowColor>12121250</glowColor>
 </text>
   
@@ -1228,55 +1248,68 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos>0.01 0.74</pos>
 <size>0.1 0.035</size>
 <zIndex>5</zIndex>         
+<visible tinyScreen="true">false</visible>
 </text>
 
 <text name="md_players">
 <pos>0.07 0.74</pos>
-<pos ifSubset="screenRatio:161|32">0.0775 0.74</pos>
+<pos ifSubset="screenRatio:161">0.0775 0.74</pos>
+<pos ifSubset="screenRatio:32">0.081 0.74</pos>
 <size>0.0375 0.035</size>
 <zIndex>5</zIndex>
 <color>ffffff</color>                  
+<visible tinyScreen="true">false</visible>
 </text>
 
 <text name="md_lbl_releasedate">
 <pos>0.01 0.62</pos>
 <size>0.12 0.035</size>
 <zIndex>5</zIndex>         
+<visible tinyScreen="true">false</visible>
 </text>
 
 <datetime name="md_releasedate">
 <pos>0.11 0.62</pos>
-<pos ifSubset="screenRatio:161|32">0.12 0.62</pos>
+<pos ifSubset="screenRatio:161">0.12 0.62</pos>
+<pos ifSubset="screenRatio:32">0.13 0.62</pos>
 <size>0.0750 0.035</size>
+<size ifSubset="screenRatio:32">0.085 0.035</size>
 <zIndex>5</zIndex>
 <color>ffffff</color>                  
+<visible tinyScreen="true">false</visible>
 </datetime>
 
 <text name="md_lbl_genre">
 <pos>0.01 0.68</pos>
 <size>0.12 0.035</size>
 <zIndex>5</zIndex>                   
+<visible tinyScreen="true">false</visible>
 </text>
 
 <text name="md_genre">
 <pos>0.06 0.68</pos>
+<pos ifSubset="screenRatio:32">0.0635 0.68</pos>
 <size>0.245 0.035</size>
 <color>ffffff</color>         
 <zIndex>5</zIndex>         
+<visible tinyScreen="true">false</visible>
 </text>         
 
 <text name="md_lbl_playcount">
 <pos>0.01 0.8</pos>
 <size>0.2 0.035</size>
 <zIndex>5</zIndex>                   
+<visible tinyScreen="true">false</visible>
 </text>
 
 <text name="md_playcount">
 <pos>0.132 0.8</pos>
-<pos ifSubset="screenRatio:161|32">0.147 0.8</pos>
+<pos ifSubset="screenRatio:161">0.147 0.8</pos>
+<pos ifSubset="screenRatio:32">0.16 0.8</pos>
 <size>0.0375 0.035</size>
 <color>ffffff</color>         
 <zIndex>5</zIndex>         
+<visible tinyScreen="true">false</visible>
 </text>
 
 <text name="md_lbl_publisher">
@@ -1339,6 +1372,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <gradientType>vertical</gradientType>
 <pos>0.157 0.5415</pos>
 <pos ifSubset="screenRatio:43">0.157 0.541</pos>
+<pos tinyScreen="true">0.157 0.75</pos>
 <size>0.295 0.0035</size>
 <zIndex>5</zIndex>
 </image>
@@ -1347,6 +1381,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <origin>0.5 0</origin>
 <pos>0.157 0.2</pos>
 <size>0.295 0.34</size>
+<size tinyScreen="true">0.295 0.549</size>
 <color>ffffff</color>
 <alignment>left</alignment>   
 <zIndex>50</zIndex>
@@ -1441,8 +1476,10 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size ifSubset="screenRatio:161|32">0.6177083333333333 0.6425</size>
 <pos ifSubset="screenRatio:161|32">0.3322916666666667 0.2291666666666667</pos>
 <autoLayout>3 2</autoLayout>
+<autoLayout tinyScreen="true">1 1</autoLayout>
 <margin>0.01 0.02</margin>
 <padding>0.01 0.02 0.01 0.02</padding>
+<padding ifsubset="screenRatio:32">0.01 0.04 0.01 0.04</padding>
 <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
 <animateSelection>false</animateSelection>
 <zIndex>5</zIndex>
@@ -1469,6 +1506,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <gridtile name="selected">
 <backgroundCenterColor>46dcdc66</backgroundCenterColor>
 <backgroundEdgeColor>feed00</backgroundEdgeColor>	
+<backgroundCenterColor tinyScreen="true">00000000</backgroundCenterColor>
+<backgroundEdgeColor tinyScreen="true">00000000</backgroundEdgeColor>	
 <imageColor>FFFFFFFF</imageColor>
 </gridtile>
 
@@ -1521,6 +1560,14 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <animation property="opacity" to="0" duration="50" mode="easeIn"/>
 </storyboard>
 </control>
+
+<image name="0manual,0savestate,0hidden,0kidgame,0cheevos" tinyScreen="true" extra="true">
+<y>0.8</y>
+</image>
+
+<image name="md_manual,md_savestate,md_hidden,md_kidgame,md_cheevos" tinyScreen="true">
+<y>0.8</y>
+</image>
 
 </view>
 
@@ -1625,8 +1672,12 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <origin>1 0</origin>
 </image>
 
-<image name="invader" extra="true" ifSubset="screenRatio:161|32">
+<image name="invader" extra="true" ifSubset="screenRatio:161">
 <pos>0 0.075</pos>
+</image>
+
+<image name="invader" extra="true" ifSubset="screenRatio:32">
+<pos>0 -0.05</pos>
 </image>
 
 <image name="invader" extra="true">
