@@ -19,6 +19,13 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include>./_inc/localisation/lang.xml</include>
 <include>./_inc/localisation/lang-${lang}.xml</include>
 
+<!--
+<subset name="jukebox" displayName="${lang.jukebox}">
+<include name="no" displayName="${lang.no}"/>
+<include name="yes" displayName="${lang.yes}"/>
+</subset>
+-->
+
 <subset name="screenRatio" displayName="${lang.screenratio}">
 <include name="169" displayName="${lang.169}"/>
 <include name="161" displayName="${lang.161}"/>
@@ -40,7 +47,6 @@ Foked by Lorenzolamas of the original theme => see infos below.
 </subset>
 
 <subset name="staticEffect" displayName="${lang.staticEffect}">
-<include name="no" displayName="${lang.no}"/>
 <include name="scanlines" displayName="${lang.scanlines}"/>
 <include name="scanlinesFine" displayName="${lang.scanlinesFine}"/>
 <include name="scanlinesVertical" displayName="${lang.scanlinesVertical}"/>
@@ -48,11 +54,12 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="crt" displayName="${lang.crt}"/>
 <include name="phosphore" displayName="${lang.phosphore}"/>
 <include name="phosphorePlus" displayName="${lang.phosphorePlus}"/>
+<include name="no" displayName="${lang.no}"/>
 </subset>
 
 <subset name="staticEffectApply" displayName="${lang.staticEffectApply}" ifSubset="staticEffect:scanlines|scanlinesFine|scanlinesVertical|scanlinesVerticalFine|crt|phosphore|phosphorePlus">
-<include name="screenApply" displayName="${lang.screenApply}"/>
 <include name="artworksApply" displayName="${lang.artworksApply}"/>
+<include name="screenApply" displayName="${lang.screenApply}"/>
 </subset>
 
 <subset name="glass" displayName="${lang.glass}">
@@ -468,6 +475,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.5 0.03</size>
 </text>
 
+<!--------------------Club's Jukebox desactived--------------------------------->
+
 <sound name="bgsound" ifSubset="RandomVideos:BatoceraClub">
 <path>./{system.theme}/music.mp3</path>
 <path>./{system.theme}/music.ogg</path>
@@ -476,6 +485,23 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <sound name="bgsound" ifSubset="RandomVideos:snapsVideos|customVideos">
 <path>./_inc/silence.ogg</path>
 </sound>
+
+<!--------------------Club's Jukebox actived--------------------------------->
+<!--
+<sound name="bgsound" ifSubset="jukebox:no,RandomVideos:BatoceraClub">
+<path>./{system.theme}/music.mp3</path>
+<path>./{system.theme}/music.ogg</path>
+</sound>
+
+<sound name="bgsound" ifSubset="jukebox:no,RandomVideos:snapsVideos|customVideos">
+<path>./_inc/silence.ogg</path>
+</sound>
+
+<sound name="directory" ifSubset="jukebox:yes">
+<path>./_inc/clubMusic/</path>
+</sound>
+-->
+<!------------------------------------------------------------------------------>
 
 <carousel name="systemcarousel">
 <type>vertical_wheel</type>
@@ -514,9 +540,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 
 <video name="backgroundvideo" extra="true">
 <path ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon.mp4</path>
-<path ifSubset="RandomVideos:BatoceraClub">./${system.theme}/_inc/system.mp4</path>
+<path ifSubset="RandomVideos:BatoceraClub">./${system.theme}/_inc/system${video.resolution}.mp4</path>
 <path ifSubset="RandomVideos:SnapsVideos">{random}</path>
-<path ifSubset="RandomVideos:customVideos">./${system.theme}/_inc/system.mp4</path>
+<path ifSubset="RandomVideos:customVideos">./${system.theme}/_inc/system${video.resolution}.mp4</path>
 <path ifSubset="RandomVideos:customVideos,defaultCustom:random">{random}</path>
 <path ifSubset="RandomVideos:customVideos">${customVideos.path}/${system.theme}.mp4</path>
 <origin>0.5 0.5</origin>
@@ -618,7 +644,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <view name="basic">
 
 <video name="backgroundvideo" extra="true">
-<path>./${system.theme}/_inc/system.mp4</path>
+<path>./${system.theme}/_inc/system${video.resolution}.mp4</path>
 <path ifSubset="RandomVideos:customVideos">{random}</path>
 <path ifSubset="RandomVideos:customVideos">${customVideos.path}/${system.theme}.mp4</path>
 <origin>0.5 0.5</origin>
@@ -633,7 +659,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <delay>0</delay>
 <effect>none</effect>
 <default ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon.mp4</default>		
-<default ifSubset="RandomVideos:customVideos">./${system.theme}/_inc/system.mp4</default>		
+<default ifSubset="RandomVideos:customVideos">./${system.theme}/_inc/system${video.resolution}.mp4</default>		
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
 <zIndex>3</zIndex>

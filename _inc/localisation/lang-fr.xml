@@ -81,5 +81,7 @@
 <lang.1080p>1080p / pc ou pi 4 et plus</lang.1080p>
 <lang.720p>720p / pi 4 ou moins</lang.720p>
 
+<lang.jukebox>juke-box du club (redémarrage requis)</lang.jukebox>
+
 </variables>
 </theme>
