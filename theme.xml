@@ -47,7 +47,6 @@ Foked by Lorenzolamas of the original theme => see infos below.
 </subset>
 
 <subset name="staticEffect" displayName="${lang.staticEffect}">
-<include name="scanlines" displayName="${lang.scanlines}"/>
 <include name="scanlinesFine" displayName="${lang.scanlinesFine}"/>
 <include name="scanlinesVertical" displayName="${lang.scanlinesVertical}"/>
 <include name="scanlinesVerticalFine" displayName="${lang.scanlinesVerticalFine}"/>
@@ -55,6 +54,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="phosphore" displayName="${lang.phosphore}"/>
 <include name="phosphorePlus" displayName="${lang.phosphorePlus}"/>
 <include name="no" displayName="${lang.no}"/>
+<include name="scanlines" displayName="${lang.scanlines}"/>
 </subset>
 
 <subset name="staticEffectApply" displayName="${lang.staticEffectApply}" ifSubset="staticEffect:scanlines|scanlinesFine|scanlinesVertical|scanlinesVerticalFine|crt|phosphore|phosphorePlus">
