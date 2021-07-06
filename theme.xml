@@ -27,11 +27,12 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="32" displayName="${lang.32}"/>
 </subset>
 
-<subset name="quality" displayName="${lang.quality}">
+<subset name="quality" displayName="${lang.quality}" tinyScreen="false">
 <include name="1080p" displayName="${lang.1080p}"/>
 <include name="720p" displayName="${lang.720p}">./_inc/quality/720p.xml</include>
-<include name="480p" displayName="${lang.480p}">./_inc/quality/480p.xml</include>
 </subset>
+
+<include tinyScreen="true">./_inc/quality/480p.xml</include>
 
 <subset name="transition" displayName="${lang.transition}">
 <include name="no" displayName="${lang.no}"/>

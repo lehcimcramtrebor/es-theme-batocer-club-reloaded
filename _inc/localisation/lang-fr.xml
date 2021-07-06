@@ -78,9 +78,8 @@
 <lang.classic>classiques</lang.classic>
 
 <lang.quality>qualité / performance</lang.quality>
-<lang.1080p>PC / PI4+ (1080p)</lang.1080p>
-<lang.720p>PI4 / PI3 & - (720p)</lang.720p>
-<lang.480p>CONSOLES PORTABLES (480p)</lang.480p>
+<lang.1080p>1080p / pc ou pi 4 et plus</lang.1080p>
+<lang.720p>720p / pi 4 ou moins</lang.720p>
 
 </variables>
 </theme>
