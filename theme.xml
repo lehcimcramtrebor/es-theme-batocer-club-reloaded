@@ -517,7 +517,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos ifSubset="screenRatio:54">0.641015625 0.5400390625</pos>
 <pos ifSubset="screenRatio:43">0.641015625 0.5420833333333333</pos>
 <pos ifSubset="screenRatio:161">0.64140625 0.5504166666666667</pos>
-<delay>0.1</delay>
+<delay>0.4</delay>
 <effect>none</effect>
 <default ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon.mp4</default>		
 <default ifSubset="RandomVideos:SnapsVideos">./_inc/comingsoon.mp4</default>		
@@ -966,12 +966,26 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 
 <view name="video,gamecarousel">
 
+<image name="backMdVideo" extra="true">
+<path>./_inc/white.png</path>
+<origin>0.5 0.5</origin>
+<size>0.275 0.305</size>
+<pos>0.54 0.4</pos>
+<size ifSubset="screenRatio:54">0.275 0.2175</size>
+<size ifSubset="screenRatio:43">0.275 0.2175</size>
+<pos ifSubset="screenRatio:54">0.54 0.4325</pos>
+<pos ifSubset="screenRatio:43">0.54 0.4325</pos>
+<pos ifSubset="screenRatio:161">0.54 0.415</pos>
+<zIndex>3</zIndex>
+<color>121212</color>
+</image>
+
 <video name="md_video">
 <default>./_inc/comingsoon.mp4</default>	
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
-<delay>0</delay>
-<effect>fade</effect>
+<delay>0.7</delay>
+<effect>none</effect>
 <zIndex>3</zIndex>
 <origin>0.5 0.5</origin>
 <size>0.275 0.305</size>
@@ -1455,7 +1469,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <animateColorTime>350</animateColorTime>
 </ninepatch>
 
-<control name="md_marquee,0manual,0savestate,0cheevos,0kidgame,0hidden,line,line2,md_name,md_lbl_players,md_players,md_video,md_lbl_releasedate,md_releasedate,md_lbl_genre,md_genre,md_lbl_playcount,md_playcount,md_rating,md_genre,md_description" ifSubset="control:yes">
+<control name="backMdVideo,md_marquee,0manual,0savestate,0cheevos,0kidgame,0hidden,line,line2,md_name,md_lbl_players,md_players,md_video,md_lbl_releasedate,md_releasedate,md_lbl_genre,md_genre,md_lbl_playcount,md_playcount,md_rating,md_genre,md_description" ifSubset="control:yes">
 <storyboard event="open">
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
