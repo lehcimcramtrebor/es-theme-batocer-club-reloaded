@@ -26,6 +26,12 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="54" displayName="${lang.54}"/>
 </subset>
 
+<subset name="quality" displayName="${lang.quality}">
+<include name="1080p" displayName="${lang.1080p}"/>
+<include name="720p" displayName="${lang.720p}">./_inc/quality/720p.xml</include>
+<include name="480p" displayName="${lang.480p}">./_inc/quality/480p.xml</include>
+</subset>
+
 <subset name="transition" displayName="${lang.transition}">
 <include name="no" displayName="${lang.no}"/>
 <include name="yes" displayName="${lang.yes}"/>
@@ -141,7 +147,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <menuBackground name="menubg">
 <color>242424</color>
 <cornerSize>32 32</cornerSize>
-<path>./_inc/images/grid.jpg</path>
+<path>./_inc/images${resolution}/grid.jpg</path>
 </menuBackground>
 
 <menuIcons name="menuicons">
@@ -379,8 +385,8 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <view name="system">
 
 <image name="wallpaper" extra="true">                
-<path>./_inc/images/club.jpg</path>
-<path ifSubset="themeBackground:underground">./_inc/images/underground.jpg</path>
+<path>./_inc/images${resolution}/club.jpg</path>
+<path ifSubset="themeBackground:underground">./_inc/images${resolution}/underground.jpg</path>
 </image>                    
 
 <text name="systemText" extra="true">
@@ -497,7 +503,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <origin>1 0.5</origin>
 <pos>1 0.5</pos>
 <maxSize>1 99</maxSize>
-<path>./_inc/images/background.png</path>
+<path>./_inc/images${resolution}/background.png</path>
 <zIndex>2</zIndex>          
 </image> 
 
@@ -553,8 +559,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <view name="basic,detailed,video,grid,gamecarousel">
 
 <image name="wallpaper" extra="true">                
-<path>./_inc/images/underground.jpg</path>
-<path ifSubset="themeBackground:originalWallpaper">./_inc/images/club.jpg</path>
+<path>./_inc/images${resolution}/underground.jpg</path>
+<path ifSubset="themeBackground:originalWallpaper">./_inc/images${resolution}/club.jpg</path>
 </image>                    
 
 </view>
@@ -583,9 +589,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <horizontalMargin>0.03</horizontalMargin>
 <horizontalMargin ifSubset="screenRatio:54">0.04</horizontalMargin>
 <horizontalMargin ifSubset="screenRatio:43">0.04</horizontalMargin>
-<selectorImagePath>./_inc/images/selector.png</selectorImagePath>
-<selectorImagePath ifSubset="screenRatio:54">./_inc/images/selector43.png</selectorImagePath>
-<selectorImagePath ifSubset="screenRatio:43">./_inc/images/selector43.png</selectorImagePath>
+<selectorImagePath>./_inc/images${resolution}/selector.png</selectorImagePath>
+<selectorImagePath ifSubset="screenRatio:54">./_inc/images${resolution}/selector43.png</selectorImagePath>
+<selectorImagePath ifSubset="screenRatio:43">./_inc/images${resolution}/selector43.png</selectorImagePath>
 <primaryColor>7FABFE</primaryColor>
 <secondaryColor>7FABFE</secondaryColor>
 <fontPath>./_inc/fonts/DJB Get Digital.ttf</fontPath>
@@ -630,7 +636,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <origin>1 0.5</origin>
 <pos>1 0.5</pos>
 <maxSize>1 99</maxSize>       
-<path>./_inc/images/background.png</path>
+<path>./_inc/images${resolution}/background.png</path>
 <zIndex>2</zIndex>          
 </image>      
 
@@ -652,7 +658,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <view name="detailed,video,gamecarousel">   
 
 <image name="mask" extra="true">
-<path>./_inc/images/mask.png</path>
+<path>./_inc/images${resolution}/mask.png</path>
 <zIndex>4</zIndex>
 <origin>0.5 0.5</origin>
 <size>0.6171875 0.712962962962963</size>
@@ -694,10 +700,10 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos ifSubset="screenRatio:161">0.64140625 0.5504166666666667</pos>
 <color>909090</color>
 <zIndex>2</zIndex>         
-<default>./_inc/images/grid.jpg</default>		
+<default>./_inc/images${resolution}/grid.jpg</default>		
 </image>           
 
-<control name="mdFrame,md_thumbnail,md_marquee,mask,0manual,0savestate,0cheevos,0kidgame,0hidden,line,scanlines,backOverlay,overlay,white,background,md_image,md_lbl_players,md_players,md_video,md_lbl_releasedate,md_releasedate,md_lbl_genre,md_genre,md_lbl_playcount,md_playcount,md_rating,md_genre,md_description" ifSubset="control:yes">
+<control name="backMdVideo,mdFrame,md_thumbnail,md_marquee,mask,0manual,0savestate,0cheevos,0kidgame,0hidden,line,scanlines,backOverlay,overlay,white,background,md_image,md_lbl_players,md_players,md_video,md_lbl_releasedate,md_releasedate,md_lbl_genre,md_genre,md_lbl_playcount,md_playcount,md_rating,md_genre,md_description" ifSubset="control:yes">
 <storyboard event="open">
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
@@ -759,7 +765,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>       
 <pos>0.3545 0.36</pos>
 <maxSize>0.03 1</maxSize>
-<path>./_inc/images/book.png</path>
+<path>./_inc/images${resolution}/book.png</path>
 </image>
 
 
@@ -773,7 +779,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>       
 <pos>0.3545 0.46</pos>
 <maxSize>0.03 1</maxSize>
-<path>./_inc/images/SaveState.png</path>
+<path>./_inc/images${resolution}/SaveState.png</path>
 </image>
 
 
@@ -787,7 +793,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>       
 <pos>0.3545 0.56</pos>
 <maxSize>0.03 1</maxSize>
-<path>./_inc/images/Contest.png</path>
+<path>./_inc/images${resolution}/Contest.png</path>
 </image>
 
 
@@ -801,7 +807,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>       
 <pos>0.3545 0.66</pos>
 <maxSize>0.03 1</maxSize>
-<path>./_inc/images/kid.png</path>
+<path>./_inc/images${resolution}/kid.png</path>
 </image>
 
 
@@ -815,7 +821,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>       
 <pos>0.3545 0.76</pos>
 <maxSize>0.03 1</maxSize>
-<path>./_inc/images/hidden.png</path>
+<path>./_inc/images${resolution}/hidden.png</path>
 </image>
 
 
@@ -840,8 +846,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size ifSubset="screenRatio:54">0 0.043</size>
 <size ifSubset="screenRatio:43">0 0.043</size>
 <size ifSubset="screenRatio:161">0 0.065</size>
-<filledPath>./_inc/images/star_filled.png</filledPath>
-<unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+<filledPath>./_inc/images${resolution}/star_filled.png</filledPath>
+<unfilledPath>./_inc/images${resolution}/star_empty.png</unfilledPath>
 <unfilledColor>ffffff50</unfilledColor>
 </rating>
 
@@ -976,7 +982,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos ifSubset="screenRatio:54">0.54 0.4325</pos>
 <pos ifSubset="screenRatio:43">0.54 0.4325</pos>
 <pos ifSubset="screenRatio:161">0.54 0.415</pos>
-<zIndex>3</zIndex>
+<zIndex>2</zIndex>
 <color>121212</color>
 </image>
 
@@ -1002,7 +1008,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </video> 
 
 <image name="mdFrame" extra="true">
-<path>./_inc/images/mdframe.png</path>
+<path>./_inc/images${resolution}/mdframe.png</path>
 <zIndex>4</zIndex>
 <origin>0 0</origin>
 <size>0.32 0.36</size>
@@ -1133,7 +1139,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>       
 <pos>0.05 0.58</pos>
 <maxSize>0.03 1</maxSize>
-<path>./_inc/images/book.png</path>
+<path>./_inc/images${resolution}/book.png</path>
 </image>
 
 
@@ -1147,7 +1153,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>       
 <pos>0.10 0.58</pos>
 <maxSize>0.03 1</maxSize>
-<path>./_inc/images/SaveState.png</path>
+<path>./_inc/images${resolution}/SaveState.png</path>
 </image>
 
 
@@ -1161,7 +1167,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>       
 <pos>0.15 0.58</pos>
 <maxSize>0.03 1</maxSize>
-<path>./_inc/images/Contest.png</path>
+<path>./_inc/images${resolution}/Contest.png</path>
 </image>
 
 
@@ -1175,7 +1181,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>       
 <pos>0.20 0.58</pos>
 <maxSize>0.03 1</maxSize>
-<path>./_inc/images/kid.png</path>
+<path>./_inc/images${resolution}/kid.png</path>
 </image>
 
 
@@ -1189,7 +1195,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>       
 <pos>0.25 0.58</pos>
 <maxSize>0.03 1</maxSize>
-<path>./_inc/images/hidden.png</path>
+<path>./_inc/images${resolution}/hidden.png</path>
 </image>
 
 
@@ -1211,8 +1217,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0 0.07</size>
 <size ifSubset="screenRatio:54">0 0.05</size>
 <size ifSubset="screenRatio:43">0 0.05</size>
-<filledPath>./_inc/images/star_filled.png</filledPath>
-<unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+<filledPath>./_inc/images${resolution}/star_filled.png</filledPath>
+<unfilledPath>./_inc/images${resolution}/star_empty.png</unfilledPath>
 <unfilledColor>ffffff50</unfilledColor>
 </rating>
 
@@ -1370,7 +1376,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </text>
 	
 <image name="mask" extra="true">
-<path>./_inc/images/mask.png</path>
+<path>./_inc/images${resolution}/mask.png</path>
 <zIndex>4</zIndex>
 <origin>0.5 0.5</origin>
 <size>0.6171875 0.712962962962963</size>
@@ -1397,7 +1403,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos ifSubset="screenRatio:161">0.64140625 0.5504166666666667</pos>
 <color>909090</color>
 <zIndex>2</zIndex>         
-<default>./_inc/images/grid.jpg</default>		
+<default>./_inc/images${resolution}/grid.jpg</default>		
 <storyboard event="open">
 <animation property="opacity" from="0" to="1" duration="250" mode="easeIn"/>
 </storyboard>
@@ -1554,7 +1560,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos>1 0.5</pos>
 <maxSize>1 99</maxSize>
 <zIndex>1</zIndex>                 
-<path>./_inc/images/backOverlay.png</path>
+<path>./_inc/images${resolution}/backOverlay.png</path>
 <color>121212</color>
 <colorEnd>121212</colorEnd>
 <gradientType>vertical</gradientType>
@@ -1566,8 +1572,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos>1 0.5</pos>
 <maxSize>1 99</maxSize>
 <zIndex>7</zIndex>                 
-<path>./_inc/images/overlay.png</path>
-<path ifSubset="glass:no">./_inc/images/overlay2.png</path>
+<path>./_inc/images${resolution}/overlay.png</path>
+<path ifSubset="glass:no">./_inc/images${resolution}/overlay2.png</path>
 </image>                    
 
 <image name="white" extra="true">
@@ -1576,7 +1582,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos>1 0.5</pos>
 <maxSize>1 99</maxSize>
 <zIndex>8</zIndex>                 
-<path>./_inc/images/white.png</path>
+<path>./_inc/images${resolution}/white.png</path>
 <color>ffffff</color>
 <colorEnd>ffffff</colorEnd>
 <gradientType>vertical</gradientType>
@@ -1622,7 +1628,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </image>
 
 <image name="invader" extra="true">
-<path>./_inc/images/invader.png</path>
+<path>./_inc/images${resolution}/invader.png</path>
 <zIndex>100</zIndex>
 <color>ffffff</color>
 <storyboard>
@@ -1632,7 +1638,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </image>
 
 <image name="snakervill" extra="true">
-<path>./_inc/images/snakervill.png</path>
+<path>./_inc/images${resolution}/snakervill.png</path>
 <zIndex>150</zIndex>
 <storyboard>
 <animation property="offsetX" from="1" to="1" duration="250" mode="easeOut"/>
@@ -1642,12 +1648,12 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 
 </image>
 <image name="batocera" extra="true">
-<path>./_inc/images/batocera.png</path>
+<path>./_inc/images${resolution}/batocera.png</path>
 <zIndex>140</zIndex>
 </image>
 
 <image name="lightbatocera" extra="true">
-<path>./_inc/images/lightbatocera.png</path>
+<path>./_inc/images${resolution}/lightbatocera.png</path>
 <zIndex>120</zIndex>
 <color>ffffff</color>
 <colorEnd>ffffff</colorEnd>
@@ -1659,12 +1665,12 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 
 </image>
 <image name="club" extra="true">
-<path>./_inc/images/club.png</path>
+<path>./_inc/images${resolution}/club.png</path>
 <zIndex>130</zIndex>
 </image>
 
 <image name="lightclub" extra="true">
-<path>./_inc/images/lightclub.png</path>
+<path>./_inc/images${resolution}/lightclub.png</path>
 <zIndex>110</zIndex>
 <color>ffffff</color>
 <colorEnd>ffffff</colorEnd>
