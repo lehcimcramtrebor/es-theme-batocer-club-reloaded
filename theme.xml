@@ -514,9 +514,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 
 <video name="backgroundvideo" extra="true">
 <path ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon.mp4</path>
-<path ifSubset="RandomVideos:BatoceraClub">./${system.theme}/_inc/system${video.resolution}.mp4</path>
+<path ifSubset="RandomVideos:BatoceraClub">./${system.theme}/_inc/system.mp4</path>
 <path ifSubset="RandomVideos:SnapsVideos">{random}</path>
-<path ifSubset="RandomVideos:customVideos">./${system.theme}/_inc/system${video.resolution}.mp4</path>
+<path ifSubset="RandomVideos:customVideos">./${system.theme}/_inc/system.mp4</path>
 <path ifSubset="RandomVideos:customVideos,defaultCustom:random">{random}</path>
 <path ifSubset="RandomVideos:customVideos">${customVideos.path}/${system.theme}.mp4</path>
 <origin>0.5 0.5</origin>
@@ -618,7 +618,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <view name="basic">
 
 <video name="backgroundvideo" extra="true">
-<path>./${system.theme}/_inc/system${video.resolution}.mp4</path>
+<path>./${system.theme}/_inc/system.mp4</path>
 <path ifSubset="RandomVideos:customVideos">{random}</path>
 <path ifSubset="RandomVideos:customVideos">${customVideos.path}/${system.theme}.mp4</path>
 <origin>0.5 0.5</origin>
@@ -633,7 +633,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <delay>0</delay>
 <effect>none</effect>
 <default ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon.mp4</default>		
-<default ifSubset="RandomVideos:customVideos">./${system.theme}/_inc/system${video.resolution}.mp4</default>		
+<default ifSubset="RandomVideos:customVideos">./${system.theme}/_inc/system.mp4</default>		
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
 <zIndex>3</zIndex>
