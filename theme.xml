@@ -539,7 +539,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </image> 
 
 <video name="backgroundvideo" extra="true">
-<path ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon.mp4</path>
+<path ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon${video.resolution}.mp4</path>
 <path ifSubset="RandomVideos:BatoceraClub">./${system.theme}/_inc/system${video.resolution}.mp4</path>
 <path ifSubset="RandomVideos:SnapsVideos">{random}</path>
 <path ifSubset="RandomVideos:customVideos">./${system.theme}/_inc/system${video.resolution}.mp4</path>
@@ -556,9 +556,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos ifSubset="screenRatio:161|32">0.64140625 0.5504166666666667</pos>
 <delay>0.4</delay>
 <effect>none</effect>
-<default ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon.mp4</default>		
-<default ifSubset="RandomVideos:SnapsVideos">./_inc/comingsoon.mp4</default>		
-<default ifSubset="RandomVideos:customVideos">./_inc/comingsoon.mp4</default>		
+<default ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon${video.resolution}.mp4</default>		
+<default ifSubset="RandomVideos:SnapsVideos">./_inc/comingsoon${video.resolution}.mp4</default>		
+<default ifSubset="RandomVideos:customVideos">./_inc/comingsoon${video.resolution}.mp4</default>		
 <zIndex>2</zIndex> 
 <audio>false</audio>
 <audio ifSubset="RandomVideos:SnapsVideos|customVideos">true</audio>
@@ -658,7 +658,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos ifSubset="screenRatio:161|32">0.64140625 0.5504166666666667</pos>
 <delay>0</delay>
 <effect>none</effect>
-<default ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon.mp4</default>		
+<default ifSubset="RandomVideos:BatoceraClub">./_inc/comingsoon${video.resolution}.mp4</default>		
 <default ifSubset="RandomVideos:customVideos">./${system.theme}/_inc/system${video.resolution}.mp4</default>		
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
@@ -1035,7 +1035,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </image>
 
 <video name="md_video">
-<default>./_inc/comingsoon.mp4</default>	
+<default>./_inc/comingsoon${video.resolution}.mp4</default>	
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
 <delay>0.7</delay>
@@ -1144,7 +1144,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <view name="grid">
 
 <video name="md_video">
-<default>./_inc/comingsoon.mp4</default>	
+<default>./_inc/comingsoon${video.resolution}.mp4</default>	
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
 <delay>1</delay>
