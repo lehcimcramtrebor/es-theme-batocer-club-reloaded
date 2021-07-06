@@ -1591,7 +1591,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </storyboard>
 </image>                    
 
-<image name="invader,snakervill,batocera,lightbatocera,club,lightclub" extra="true" ifSubset="screenRatio:169">
+<image name="invader,snakervill,batocera,lightbatocera,club,lightclub" extra="true" ifSubset="screenRatio:169|161">
 <linearSmooth>true</linearSmooth>
 <size>1 1</size>
 <pos>0 0</pos>
