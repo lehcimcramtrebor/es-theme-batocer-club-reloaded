@@ -62,6 +62,11 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="screenApply" displayName="${lang.screenApply}"/>
 </subset>
 
+<subset name="cathodeFX" displayName="${lang.cathodeFX}" tinyScreen="false">
+<include name="yes" displayName="${lang.yes}"/>
+<include name="no" displayName="${lang.no}"/>
+</subset>
+
 <subset name="scratch" displayName="${lang.scratch}" tinyScreen="false">
 <include name="scratch.no" displayName="${lang.scratch.no}"/>
 <include name="scratch.light" displayName="${lang.scratch.light}"/>
@@ -1679,11 +1684,11 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <path ifSubset="colorset:yellow,glass:no">./_inc/images${resolution}/overlay2yellow.png</path>
 </image>                    
 
-<video name="crtVideo" extra="true" tinyScreen="false">
+<video name="crtVideo" extra="true" ifSubset="cathodeFX:yes" tinyScreen="false">
 <origin>0 0.5</origin>
 <pos>0 0.5</pos>
 <maxSize>1 99</maxSize>
-<zIndex>1</zIndex>                 
+<zIndex>1000</zIndex>                 
 <path>./_inc/crt.mp4</path>
 <opacity>0.004</opacity>
 </video>
