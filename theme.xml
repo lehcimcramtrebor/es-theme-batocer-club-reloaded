@@ -215,6 +215,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <itemSpacing>0.003</itemSpacing>
 <imagePath>./_inc/gamepad.svg</imagePath>
 <color>fffffffc</color>
+<color tinyScreen="true">00000000</color>
 <activityColor>125012</activityColor>
 <hotkeyColor>501212</hotkeyColor>
 </controllerActivity>
@@ -222,7 +223,9 @@ Foked by Lorenzolamas of the original theme => see infos below.
 
 <batteryIndicator name="batteryIndicator">
 <pos>0.98 0</pos>
+<pos tinyScreen="true">0.82 0</pos>
 <size>0.018 0.018</size>
+<size tinyScreen="true">0.07 0.07</size>
 <incharge>./_inc/battery/incharge.svg</incharge>
 <full>./_inc/battery/full.svg</full>
 <at75>./_inc/battery/75.svg</at75>
@@ -243,9 +246,12 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <pos>0.935 0.04</pos>
 <pos ifSubset="screenRatio:54">0.92 0.04</pos>
 <pos ifSubset="screenRatio:43">0.92 0.04</pos>
+<pos ifSubset="screenRatio:32">0.9 0.04</pos>
 <size>0.05 0.058</size>
 <size ifSubset="screenRatio:54">0.065 0.058</size>
 <size ifSubset="screenRatio:43">0.075 0.058</size>
+<size ifSubset="screenRatio:32">0.085 0.058</size>
+<y tinyScreen="true">0.06</y>
 <verticalAlignment>right</verticalAlignment>
 </text>
 
