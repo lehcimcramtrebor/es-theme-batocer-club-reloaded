@@ -1652,6 +1652,15 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <path ifSubset="glass:no">./_inc/images${resolution}/overlay2.png</path>
 </image>                    
 
+<video name="crtVideo" extra="true" tinyScreen="false">
+<origin>0 0.5</origin>
+<pos>0 0.5</pos>
+<maxSize>1 99</maxSize>
+<zIndex>1</zIndex>                 
+<path>./_inc/crt.mp4</path>
+<opacity>0.004</opacity>
+</video>
+
 <image name="white" extra="true">
 <linearSmooth>true</linearSmooth>
 <origin>1 0.5</origin>
