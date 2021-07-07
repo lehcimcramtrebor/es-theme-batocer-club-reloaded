@@ -223,7 +223,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 
 <batteryIndicator name="batteryIndicator">
 <pos>0.98 0</pos>
-<pos tinyScreen="true">0.82 0</pos>
+<pos tinyScreen="true">0.915 0.013</pos>
 <size>0.018 0.018</size>
 <size tinyScreen="true">0.07 0.07</size>
 <incharge>./_inc/battery/incharge.svg</incharge>
