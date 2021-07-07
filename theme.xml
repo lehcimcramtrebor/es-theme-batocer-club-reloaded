@@ -62,6 +62,13 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="screenApply" displayName="${lang.screenApply}"/>
 </subset>
 
+<subset name="scratch" displayName="${lang.scratch}" tinyScreen="false">
+<include name="scratch.no" displayName="${lang.scratch.no}"/>
+<include name="scratch.light" displayName="${lang.scratch.light}"/>
+<include name="scratch.medium" displayName="${lang.scratch.medium}"/>
+<include name="scratch.strong" displayName="${lang.scratch.strong}"/>
+</subset>
+
 <subset name="glass" displayName="${lang.glass}">
 <include name="yes" displayName="${lang.yes}"/>
 <include name="no" displayName="${lang.no}"/>
@@ -72,6 +79,12 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="originalWallpaper" displayName="${lang.originalWallpaper}"/>
 <include name="underground" displayName="${lang.underground}"/>
 </subset>	
+
+<subset name="colorset" displayName="${lang.colorset}">
+<include name="default" displayName="${lang.colorset.default}"/>
+<include name="blue" displayName="${lang.colorset.blue}"/>
+<include name="yellow" displayName="${lang.colorset.yellow}"/>
+</subset>
 
 <subset name="logos" displayName="${lang.logos}">
 <include name="default" displayName="${lang.default}"/>
@@ -180,6 +193,16 @@ Foked by Lorenzolamas of the original theme => see infos below.
 </view>
 	
 <view name="screen">
+
+<image name="scratch" extra="true" tinyScreen="false">
+<origin>0.5 0.5</origin>
+<pos>0.5 0.5</pos>
+<maxSize>99 1</maxSize>
+<zIndex>10000</zIndex>
+<path ifSubset="scratch:scratch.light">./_inc/images${resolution}/glass_light.png</path>
+<path ifSubset="scratch:scratch.medium">./_inc/images${resolution}/glass_medium.png</path>
+<path ifSubset="scratch:scratch.strong">./_inc/images${resolution}/glass_strong.png</path>
+</image>
 
 <controllerActivity name="controllerActivity">
 <pos>0.002 0</pos>
@@ -1650,6 +1673,10 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>7</zIndex>                 
 <path>./_inc/images${resolution}/overlay.png</path>
 <path ifSubset="glass:no">./_inc/images${resolution}/overlay2.png</path>
+<path ifSubset="colorset:blue">./_inc/images${resolution}/overlayblue.png</path>
+<path ifSubset="colorset:blue,glass:no">./_inc/images${resolution}/overlay2blue.png</path>
+<path ifSubset="colorset:yellow">./_inc/images${resolution}/overlayyellow.png</path>
+<path ifSubset="colorset:yellow,glass:no">./_inc/images${resolution}/overlay2yellow.png</path>
 </image>                    
 
 <video name="crtVideo" extra="true" tinyScreen="false">

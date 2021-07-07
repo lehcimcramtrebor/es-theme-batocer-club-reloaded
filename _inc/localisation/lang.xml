@@ -82,5 +82,16 @@
 
 <lang.jukebox>club's jukebox (need restart)</lang.jukebox>
 
+<lang.colorset>colorset</lang.colorset>
+<lang.colorset.default>default</lang.colorset.default>
+<lang.colorset.blue>blue</lang.colorset.blue>
+<lang.colorset.yellow>yellow</lang.colorset.yellow>
+
+<lang.scratch>scratch screen</lang.scratch>
+<lang.scratch.no>no</lang.scratch.no>
+<lang.scratch.light>light</lang.scratch.light>
+<lang.scratch.medium>medium</lang.scratch.medium>
+<lang.scratch.strong>strong</lang.scratch.strong>
+
 </variables>
 </theme>

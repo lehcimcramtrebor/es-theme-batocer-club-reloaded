@@ -83,5 +83,16 @@
 
 <lang.jukebox>juke-box du club (redémarrage requis)</lang.jukebox>
 
+<lang.colorset>boisson du clubber</lang.colorset>
+<lang.colorset.default>rosé bien frais</lang.colorset.default>
+<lang.colorset.blue>curaçao gin</lang.colorset.blue>
+<lang.colorset.yellow>limoncello glacé</lang.colorset.yellow>
+
+<lang.scratch>état de la borne</lang.scratch>
+<lang.scratch.no>neuve</lang.scratch.no>
+<lang.scratch.light>occasion</lang.scratch.light>
+<lang.scratch.medium>usée</lang.scratch.medium>
+<lang.scratch.strong>en fin de vie</lang.scratch.strong>
+
 </variables>
 </theme>
