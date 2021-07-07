@@ -1730,34 +1730,41 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <image name="batocera" extra="true">
 <path>./_inc/images${resolution}/batocera.png</path>
 <zIndex>140</zIndex>
+<color>ffffff</color>
+<colorEnd>ffffff</colorEnd>
+<gradientType>vertical</gradientType>
 </image>
 
 <image name="lightbatocera" extra="true">
 <path>./_inc/images${resolution}/lightbatocera.png</path>
 <zIndex>120</zIndex>
-<color>ffffff</color>
-<colorEnd>ffffff</colorEnd>
+<color>ffff00</color>
+<colorEnd>ffff00</colorEnd>
+<gradientType>vertical</gradientType>
 <storyboard>
 <animation property="opacity" to="0.9" duration="60" autoreverse="true" repeat="forever" mode="easeIn"/>
-<animation property="color" to="ffffffe6" duration="30" autoreverse="true" repeat="forever" mode="easeIn"/>
-<animation property="colorEnd" to="ff0000e6" duration="15" autoreverse="true" repeat="forever" mode="easeIn"/>
+<animation property="color" to="ffff00e6" duration="30" autoreverse="true" repeat="forever" mode="easeIn"/>
+<animation property="colorEnd" to="ffff00e6" duration="15" autoreverse="true" repeat="forever" mode="easeIn"/>
 </storyboard>
 
 </image>
 <image name="club" extra="true">
 <path>./_inc/images${resolution}/club.png</path>
 <zIndex>130</zIndex>
+<color>ffffff</color>
+<colorEnd>ffffff</colorEnd>
+<gradientType>vertical</gradientType>
 </image>
 
 <image name="lightclub" extra="true">
 <path>./_inc/images${resolution}/lightclub.png</path>
 <zIndex>110</zIndex>
-<color>ffffff</color>
-<colorEnd>ffffff</colorEnd>
+<color>46dddd</color>
+<colorEnd>46dddd</colorEnd>
 <storyboard>
 <animation property="opacity" to="0.9" duration="60" autoreverse="true" repeat="forever" mode="easeIn"/>
-<animation property="color" to="ffffffe6" duration="30" autoreverse="true" repeat="forever" mode="easeIn"/>
-<animation property="colorEnd" to="ff0000e6" duration="15" autoreverse="true" repeat="forever" mode="easeIn"/>
+<animation property="color" to="46dddde6" duration="30" autoreverse="true" repeat="forever" mode="easeIn"/>
+<animation property="colorEnd" to="46dddd0e6" duration="15" autoreverse="true" repeat="forever" mode="easeIn"/>
 </storyboard>
 </image>
 
