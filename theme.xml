@@ -1116,9 +1116,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 
 <video name="md_video">
 <default>./_inc/comingsoon${video.resolution}.mp4</default>	
-<showSnapshotNoVideo>false</showSnapshotNoVideo>
-<showSnapshotDelay>false</showSnapshotDelay>
-<delay>0.7</delay>
+<showSnapshotNoVideo>true</showSnapshotNoVideo>
+<showSnapshotDelay>true</showSnapshotDelay>
+<delay>1</delay>
 <effect>none</effect>
 <zIndex>3</zIndex>
 <origin>0.5 0.5</origin>
@@ -1129,8 +1129,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos ifSubset="screenRatio:54">0.54 0.4325</pos>
 <pos ifSubset="screenRatio:43">0.54 0.4325</pos>
 <pos ifSubset="screenRatio:161|32">0.54 0.415</pos>
-<color>ffffffe6</color>
-<colorEnd>00000000</colorEnd>
+<color>ffffff</color>
+<colorEnd>ffffff</colorEnd>
 <gradientType>vertical</gradientType>
 <zIndex>3</zIndex>
 </video> 
