@@ -1,0 +1,90 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+LOGOS:
+
+Gestion de la région des logos (région par défaut europe):
+
+_inc/system.png			logo standard		utilisé par exemple pour megadrive
+
+_inc/us_system.png		logo region us		utilisé par exemple pour genesis
+
+_inc/jp_system.png		logo region us		utilisé par exemple pour megadrive japan
+
+
+
+Gestion de la langue des logos:
+
+_inc/system.png			logo standard		utilisé peu importe la langue, utilisé par exemple pour afficher "favorites"
+
+_inc/system-fr.png		logo france			utilisé par exemple pour afficher "favoris"
+
+_inc/system-es.png		logo espagne		utilisé par exemple pour afficher "favoritos"
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+VIDEOS:
+
+Gestion de la région des vidéos (région par défaut europe):
+
+_inc/system.mp4			vidéo standard		utilisée par exemple pour megadrive
+
+_inc/us_system.mp4		vidéo région us		utilisée par exemple pour genesis
+
+_inc/jp_system.mp4		vidéo standard		utilisée par exemple pour megadrive japan
+
+
+
+Logos ou vidéos, rien n'oblige à ajouter les régions, sont utilisés si présent, sinon affiche le logo ou la vidéo standard.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+GESTION DE LA RESOLUTION DES VIDEOS POUR LE THEME TELECHARGEABLE DEPUIS EMULATIONSTATION:
+
+Chaque video doit être présente sous 2 compressions et résolutions:
+
+	- une classique en 720p nommée system.mp4 ou us_system.mp4 ou encore jp_system.mp4, elle doit être compressée à l'aide du preset Handbrake "Batocera-Club-Reloaded.json"
+	
+	- une compressée en 320p nommée system320p.mp4 ou us_system.mp4 ou encore jp_system.mp4, elle doit être compressée à l'aide du preset Handbrake "Batocera-Club-Reloaded 320p.json"
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MISE EN SITUATION DE DEUX THEMES DIFFERENTS:
+
+
+
+Thème "megadrive" avec vidéos et logos gérant les régions, les fichiers requis seront:
+
+
+	-un logo megadrive nommé "system.png" pour la région EUROPE.
+	
+	-un logo genesis nommé "us_system.png" pour la région USA.
+	
+	-un logo megadrive japan nommé "jp_system.png" pour la région JAPON.
+	
+	-une vidéo megadrive nommée "system.mp4", accompagnée de sa version nommée "system320p.mp4" pour la région EUROPE.
+
+	-une vidéo genesis nommée "us_system.mp4", accompagnée de sa version nommée "us_system320p.mp4" pour la région USA.
+
+	-une vidéo megadrive japan nommée "jp_system.mp4", accompagnée de sa version nommée "jp_system320p.mp4" pour la région JAPON.
+
+
+
+Thème "auto-favorites" avec logos gérant les langues, les fichiers requis pour gérer l'anglais, le francais et l'espagnol seront:
+
+
+	-un logo favorites nommé "system.png" pour toutes la langue par défaut.
+
+	-un logo favoris nommé "system-fr.png" pour toutes la langue Française.
+
+	-un logo favoritos nommé "system-es.png" pour toutes la langue Française.
+	
+	-Il n'ya pas de gestion des langues concernant les vidéos.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
