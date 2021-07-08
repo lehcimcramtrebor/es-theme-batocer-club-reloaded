@@ -79,16 +79,29 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="no" displayName="${lang.no}"/>
 </subset>
 
-<subset name="themeBackground" displayName="${lang.themeBackground}">
+<subset name="themeBackground" displayName="${lang.themeBackground}" appliesTo="basic,detailed,video,grid,gamecarousel">
 <include name="mixed" displayName="${lang.mixed}"/>
 <include name="originalWallpaper" displayName="${lang.originalWallpaper}"/>
 <include name="underground" displayName="${lang.underground}"/>
 </subset>	
 
-<subset name="colorset" displayName="${lang.colorset}">
+<subset name="colorset" displayName="${lang.colorset}" appliesTo="basic,detailed,video,grid,gamecarousel">
 <include name="default" displayName="${lang.colorset.default}"/>
 <include name="blue" displayName="${lang.colorset.blue}"/>
 <include name="yellow" displayName="${lang.colorset.yellow}"/>
+<include name="green" displayName="${lang.colorset.green}"/>
+<include name="defaultBlue" displayName="${lang.colorset.defaultBlue}"/>
+<include name="defaultYellow" displayName="${lang.colorset.defaultYellow}"/>
+<include name="defaultGreen" displayName="${lang.colorset.defaultGreen}"/>
+<include name="blueDefault" displayName="${lang.colorset.blueDefault}"/>
+<include name="blueYellow" displayName="${lang.colorset.blueYellow}"/>
+<include name="blueGreen" displayName="${lang.colorset.blueGreen}"/>
+<include name="yellowDefault" displayName="${lang.colorset.yellowDefault}"/>
+<include name="yellowBlue" displayName="${lang.colorset.yellowBlue}"/>
+<include name="yellowGreen" displayName="${lang.colorset.yellowGreen}"/>
+<include name="greenDefault" displayName="${lang.colorset.greenDefault}"/>
+<include name="greenBlue" displayName="${lang.colorset.greenBlue}"/>
+<include name="greenYellow" displayName="${lang.colorset.greenYellow}"/>
 </subset>
 
 <subset name="logos" displayName="${lang.logos}">
@@ -431,6 +444,17 @@ Foked by Lorenzolamas of the original theme => see infos below.
 	
 <view name="system">
 
+<image name="overlay" extra="true">                
+<path ifSubset="colorset:default|defaultBlue|defaultYellow|defaultGreen">./_inc/images${resolution}/overlay.png</path>
+<path ifSubset="colorset:default|defaultBlue|defaultYellow|defaultGreen,glass:no">./_inc/images${resolution}/overlay2.png</path>
+<path ifSubset="colorset:blue|blueDefault|blueYellow|blueGreen">./_inc/images${resolution}/overlayblue.png</path>
+<path ifSubset="colorset:blue|blueDefault|blueYellow|blueGreen,glass:no">./_inc/images${resolution}/overlay2blue.png</path>
+<path ifSubset="colorset:yellow|yellowDefault|yellowBlue|yellowGreen">./_inc/images${resolution}/overlayyellow.png</path>
+<path ifSubset="colorset:yellow|yellowDefault|yellowBlue|yellowGreen,glass:no">./_inc/images${resolution}/overlay2yellow.png</path>
+<path ifSubset="colorset:green|greenDefault|greenBlue|greenYellow">./_inc/images${resolution}/overlaygreen.png</path>
+<path ifSubset="colorset:green|greenDefault|greenBlue|greenYellow,glass:no">./_inc/images${resolution}/overlay2green.png</path>
+</image>                    
+
 <image name="wallpaper" extra="true">                
 <path>./_inc/images${resolution}/club.jpg</path>
 <path ifSubset="themeBackground:underground">./_inc/images${resolution}/underground.jpg</path>
@@ -631,6 +655,17 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </view>
 
 <view name="basic,detailed,video,grid,gamecarousel">
+
+<image name="overlay" extra="true">                
+<path ifSubset="colorset:default|blueDefault|yellowDefault|greenDefault">./_inc/images${resolution}/overlay.png</path>
+<path ifSubset="colorset:default|blueDefault|yellowDefault|greenDefault,glass:no">./_inc/images${resolution}/overlay2.png</path>
+<path ifSubset="colorset:blue|defaultBlue|yellowBlue|greenBlue">./_inc/images${resolution}/overlayblue.png</path>
+<path ifSubset="colorset:blue|defaultBlue|yellowBlue|greenBlue,glass:no">./_inc/images${resolution}/overlay2blue.png</path>
+<path ifSubset="colorset:yellow|defaultYellow|blueYellow|greenYellow">./_inc/images${resolution}/overlayyellow.png</path>
+<path ifSubset="colorset:yellow|defaultYellow|blueYellow|greenYellow,glass:no">./_inc/images${resolution}/overlay2yellow.png</path>
+<path ifSubset="colorset:green|defaultGreen|blueGreen|yellowGreen">./_inc/images${resolution}/overlaygreen.png</path>
+<path ifSubset="colorset:green|defaultGreen|blueGreen|yellowGreen,glass:no">./_inc/images${resolution}/overlay2green.png</path>
+</image>                    
 
 <image name="wallpaper" extra="true">                
 <path>./_inc/images${resolution}/underground.jpg</path>
@@ -1693,12 +1728,6 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos>1 0.5</pos>
 <maxSize>1 99</maxSize>
 <zIndex>7</zIndex>                 
-<path>./_inc/images${resolution}/overlay.png</path>
-<path ifSubset="glass:no">./_inc/images${resolution}/overlay2.png</path>
-<path ifSubset="colorset:blue">./_inc/images${resolution}/overlayblue.png</path>
-<path ifSubset="colorset:blue,glass:no">./_inc/images${resolution}/overlay2blue.png</path>
-<path ifSubset="colorset:yellow">./_inc/images${resolution}/overlayyellow.png</path>
-<path ifSubset="colorset:yellow,glass:no">./_inc/images${resolution}/overlay2yellow.png</path>
 </image>                    
 
 <video name="crtVideo" extra="true" ifSubset="cathodeFX:yes" tinyScreen="false">

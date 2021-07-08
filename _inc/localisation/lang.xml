@@ -86,6 +86,19 @@
 <lang.colorset.default>default</lang.colorset.default>
 <lang.colorset.blue>blue</lang.colorset.blue>
 <lang.colorset.yellow>yellow</lang.colorset.yellow>
+<lang.colorset.green>green</lang.colorset.green>
+<lang.colorset.defaultBlue>pink/blue</lang.colorset.defaultBlue>
+<lang.colorset.defaultYellow>pink/yellow</lang.colorset.defaultYellow>
+<lang.colorset.defaultGreen>pink/green</lang.colorset.defaultGreen>
+<lang.colorset.blueDefault>blue/pink</lang.colorset.blueDefault>
+<lang.colorset.blueYellow>blue/yellow</lang.colorset.blueYellow>
+<lang.colorset.blueGreen>blue/green</lang.colorset.blueGreen>
+<lang.colorset.yellowDefault>yellow/pink</lang.colorset.yellowDefault>
+<lang.colorset.yellowBlue>yellow/blue</lang.colorset.yellowBlue>
+<lang.colorset.yellowGreen>yellow/green</lang.colorset.yellowGreen>
+<lang.colorset.greenDefault>green/pink</lang.colorset.greenDefault>
+<lang.colorset.greenBlue>green/blue</lang.colorset.greenBlue>
+<lang.colorset.greenYellow>green/yellow</lang.colorset.greenYellow>
 
 <lang.scratch>scratch screen</lang.scratch>
 <lang.scratch.no>no</lang.scratch.no>

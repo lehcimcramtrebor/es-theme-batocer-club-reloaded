@@ -86,7 +86,20 @@
 <lang.colorset>boisson du clubber</lang.colorset>
 <lang.colorset.default>rosé bien frais</lang.colorset.default>
 <lang.colorset.blue>curaçao gin</lang.colorset.blue>
-<lang.colorset.yellow>limoncello glacé</lang.colorset.yellow>
+<lang.colorset.yellow>limoncello bien glacé</lang.colorset.yellow>
+<lang.colorset.green>get 27</lang.colorset.green>
+<lang.colorset.defaultBlue>mélange: rosé/curaçao</lang.colorset.defaultBlue>
+<lang.colorset.defaultYellow>mélange: rosé/limoncello</lang.colorset.defaultYellow>
+<lang.colorset.defaultGreen>mélange: rosé/get 27</lang.colorset.defaultGreen>
+<lang.colorset.blueDefault>mélange: curaçao/rosé</lang.colorset.blueDefault>
+<lang.colorset.blueYellow>mélange: curaçao/limoncello</lang.colorset.blueYellow>
+<lang.colorset.blueGreen>mélange: curaçao/get 27</lang.colorset.blueGreen>
+<lang.colorset.yellowDefault>mélange: limoncello/rosé</lang.colorset.yellowDefault>
+<lang.colorset.yellowBlue>mélange: limoncello/curaçao</lang.colorset.yellowBlue>
+<lang.colorset.yellowGreen>mélange: limoncello/get 27</lang.colorset.yellowGreen>
+<lang.colorset.greenDefault>mélange: get 27/rosé</lang.colorset.greenDefault>
+<lang.colorset.greenBlue>mélange: get 27/curaçao</lang.colorset.greenBlue>
+<lang.colorset.greenYellow>mélange: get 27/limoncello</lang.colorset.greenYellow>
 
 <lang.scratch>état de la borne</lang.scratch>
 <lang.scratch.no>neuve</lang.scratch.no>
