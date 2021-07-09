@@ -611,6 +611,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <path ifSubset="RandomVideos:BatoceraClub" region="us">./${system.theme}/_inc/us_system${video.resolution}.mp4</path>
 <path ifSubset="RandomVideos:BatoceraClub" region="jp">./${system.theme}/_inc/jp_system${video.resolution}.mp4</path>
 <path ifSubset="RandomVideos:SnapsVideos">{random}</path>
+<path ifSubset="RandomVideos:customVideos">{random}</path>
+<path ifSubset="RandomVideos:customVideos">./_inc/comingsoon${video.resolution}.mp4</path>
 <path ifSubset="RandomVideos:customVideos">./${system.theme}/_inc/system${video.resolution}.mp4</path>
 <path ifSubset="RandomVideos:customVideos" region="us">./${system.theme}/_inc/us_system${video.resolution}.mp4</path>
 <path ifSubset="RandomVideos:customVideos" region="jp">./${system.theme}/_inc/jp_system${video.resolution}.mp4</path>
