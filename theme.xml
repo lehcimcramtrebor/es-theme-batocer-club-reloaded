@@ -148,7 +148,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 </subset>
 
 
-<subset name="defaultCustom" displayName="${lang.defaultCustom}" ifSubset="RandomVideos:customVideos" appliesTo="basic,detaile,video,grid,gamecarousel">
+<subset name="defaultCustom" displayName="${lang.defaultCustom}" ifSubset="RandomVideos:customVideos" appliesTo="basic,detailed,video,grid,gamecarousel">
 <include name="random" displayName="${lang.random}"/>
 <include name="club" displayName="${lang.club}"/>
 </subset>
