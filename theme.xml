@@ -1144,7 +1144,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </video> 
 
 <image name="mdFrame" extra="true">
-<path>./_inc/images${resolution}/mdframe.png</path>
+<path>./_inc/images${resolution}/mdFrame.png</path>
 <zIndex>4</zIndex>
 <origin>0 0</origin>
 <size>0.32 0.36</size>
