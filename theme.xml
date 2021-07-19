@@ -593,11 +593,11 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </carousel>
 
 <text name="logoText">
-<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
-<fontSize>0.05</fontSize>
+<fontPath>./_inc/fonts/snes.ttf</fontPath>
+<fontSize>0.09</fontSize>
 <text>${system.fullName}</text>
-<color>f4affc</color>
-<glowColor>ea40e0</glowColor>
+<color>dddddd</color>
+<glowColor>12121233</glowColor>
 </text>		
 
 <image name="background3" extra="true">
