@@ -112,5 +112,9 @@
 
 <lang.cathodeFX>effet cathodique</lang.cathodeFX>
 
+<lang.mdRatio>ratio vidéo des aperçus (sauf grille)</lang.mdRatio>
+<lang.stretch>étiré</lang.stretch>
+<lang.original>original</lang.original>
+
 </variables>
 </theme>

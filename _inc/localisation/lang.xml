@@ -110,5 +110,9 @@
 
 <lang.cathodeFX>cathodic fx</lang.cathodeFX>
 
+<lang.mdRatio>snaps ratio (except grid)</lang.mdRatio>
+<lang.stretch>strech</lang.stretch>
+<lang.original>original</lang.original>
+
 </variables>
 </theme>

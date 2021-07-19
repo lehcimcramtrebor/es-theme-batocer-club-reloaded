@@ -157,7 +157,12 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="comingSoon" displayName="${lang.comingSoon}"/>
 <include name="random" displayName="${lang.random}"/>
 </subset>
-		
+
+<subset name="mdRatio" displayName="${lang.mdRatio}" appliesTo="basic,detailed,video,grid,gamecarousel">
+<include name="stretch" displayName="${lang.stretch}"/>
+<include name="original" displayName="${lang.original}"/>
+</subset>
+	
 <view name="menu">
 
 <menuText name="menutitle">
@@ -1119,33 +1124,37 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos ifSubset="screenRatio:43">0.54 0.4325</pos>
 <pos ifSubset="screenRatio:161|32">0.54 0.415</pos>
 <zIndex>2</zIndex>
-<color>121212</color>
+<color>000000</color>
 </image>
 
 <video name="md_video">
 <default>./_inc/comingsoon${video.resolution}.mp4</default>	
 <showSnapshotNoVideo>true</showSnapshotNoVideo>
 <showSnapshotDelay>true</showSnapshotDelay>
+<showSnapshotDelay ifSubset="mdRatio:original">false</showSnapshotDelay>
 <delay>1</delay>
 <effect>none</effect>
 <zIndex>3</zIndex>
 <origin>0.5 0.5</origin>
-<size>0.275 0.305</size>
-<pos>0.54 0.4</pos>
-<size ifSubset="screenRatio:54">0.275 0.2175</size>
-<size ifSubset="screenRatio:43">0.275 0.2175</size>
-<pos ifSubset="screenRatio:54">0.54 0.4325</pos>
-<pos ifSubset="screenRatio:43">0.54 0.4325</pos>
-<pos ifSubset="screenRatio:161|32">0.54 0.415</pos>
+<size ifSubset="mdRatio:stretch">0.275 0.305</size>
+<maxSize ifSubset="mdRatio:original">0.275 0.305</maxSize>
+<pos>0.54 0.396</pos>
+<size ifSubset="mdRatio:stretch,screenRatio:54">0.275 0.2175</size>
+<maxSize ifSubset="mdRatio:original,screenRatio:54">0.275 0.2175</maxSize>
+<size ifSubset="mdRatio:stretch,screenRatio:43">0.275 0.2175</size>
+<maxSize ifSubset="mdRatio:original,screenRatio:43">0.275 0.2175</maxSize>
+<pos ifSubset="screenRatio:54">0.54 0.432</pos>
+<pos ifSubset="screenRatio:43">0.54 0.432</pos>
+<pos ifSubset="screenRatio:161|32">0.54 0.41</pos>
 <color>ffffff</color>
 <colorEnd>ffffff</colorEnd>
 <gradientType>vertical</gradientType>
-<zIndex>3</zIndex>
+<zIndex>5</zIndex>
 </video> 
 
 <image name="mdFrame" extra="true">
 <path>./_inc/images${resolution}/mdFrame.png</path>
-<zIndex>4</zIndex>
+<zIndex>6</zIndex>
 <origin>0 0</origin>
 <size>0.32 0.36</size>
 <size ifSubset="screenRatio:54">0.32 0.27</size>
