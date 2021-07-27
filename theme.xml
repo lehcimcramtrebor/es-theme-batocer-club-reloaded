@@ -549,8 +549,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <!--------------------Club's Jukebox desactived--------------------------------->
 
 <sound name="bgsound" ifSubset="RandomVideos:BatoceraClub">
-<path>./{system.theme}/music.mp3</path>
-<path>./{system.theme}/music.ogg</path>
+<path>./${system.theme}/music.mp3</path>
+<path>./${system.theme}/music.ogg</path>
 </sound>
 
 <sound name="bgsound" ifSubset="RandomVideos:snapsVideos|customVideos">
@@ -560,8 +560,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <!--------------------Club's Jukebox actived--------------------------------->
 <!--
 <sound name="bgsound" ifSubset="jukebox:no,RandomVideos:BatoceraClub">
-<path>./{system.theme}/music.mp3</path>
-<path>./{system.theme}/music.ogg</path>
+<path>./${system.theme}/music.mp3</path>
+<path>./${system.theme}/music.ogg</path>
 </sound>
 
 <sound name="bgsound" ifSubset="jukebox:no,RandomVideos:snapsVideos|customVideos">
