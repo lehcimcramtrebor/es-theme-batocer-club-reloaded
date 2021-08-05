@@ -26,6 +26,12 @@ Foked by Lorenzolamas of the original theme => see infos below.
 </subset>
 -->
 
+	
+<subset name="distribution" displayName="${lang.distribution}">
+<include name="batocera" displayName="${lang.batocera}"/>
+<include name="retrobat" displayName="${lang.retrobat}"/>
+</subset>
+
 <subset name="screenRatio" displayName="${lang.screenratio}">
 <include name="169" displayName="${lang.169}"/>
 <include name="161" displayName="${lang.161}"/>
@@ -198,7 +204,8 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <menuBackground name="menubg">
 <color>242424</color>
 <cornerSize>32 32</cornerSize>
-<path>./_inc/images${resolution}/grid.jpg</path>
+<path ifSubset="distribution:batocera">./_inc/images${resolution}/grid.jpg</path>
+<path ifSubset="distribution:retrobat">./_inc/images${resolution}/gridretrobat.jpg</path>
 </menuBackground>
 
 <menuIcons name="menuicons">
@@ -606,6 +613,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos>1 0.5</pos>
 <maxSize>1 99</maxSize>
 <path>./_inc/images${resolution}/background.png</path>
+<path ifSubset="distribution:retrobat">./_inc/images${resolution}/backgroundretrobat.png</path>
 <zIndex>2</zIndex>          
 </image> 
 
@@ -765,6 +773,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos>1 0.5</pos>
 <maxSize>1 99</maxSize>       
 <path>./_inc/images${resolution}/background.png</path>
+<path ifSubset="distribution:retrobat">./_inc/images${resolution}/backgroundretrobat.png</path>
 <zIndex>2</zIndex>          
 </image>      
 
@@ -828,7 +837,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos ifSubset="screenRatio:161|32">0.64140625 0.5504166666666667</pos>
 <color>909090</color>
 <zIndex>2</zIndex>         
-<default>./_inc/images${resolution}/grid.jpg</default>		
+<default ifSubset="distribution:batocera">./_inc/images${resolution}/grid.jpg</default>		
+<default ifSubset="distribution:retrobat">./_inc/images${resolution}/gridretrobat.jpg</default>		
 </image>           
 
 <control name="backMdVideo,mdFrame,md_thumbnail,md_marquee,mask,0manual,0savestate,0cheevos,0kidgame,0hidden,line,scanlines,backOverlay,overlay,white,background,md_image,md_lbl_players,md_players,md_video,md_lbl_releasedate,md_releasedate,md_lbl_genre,md_genre,md_lbl_playcount,md_playcount,md_rating,md_genre,md_description" ifSubset="control:yes">
@@ -1564,7 +1574,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos ifSubset="screenRatio:161|32">0.64140625 0.5504166666666667</pos>
 <color>909090</color>
 <zIndex>2</zIndex>         
-<default>./_inc/images${resolution}/grid.jpg</default>		
+<default ifSubset="distribution:batocera">./_inc/images${resolution}/grid.jpg</default>		
+<default ifSubset="distribution:retrobat">./_inc/images${resolution}/gridretrobat.jpg</default>		
 <storyboard event="open">
 <animation property="opacity" from="0" to="1" duration="250" mode="easeIn"/>
 </storyboard>
@@ -1833,6 +1844,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </image>
 <image name="batocera" extra="true">
 <path>./_inc/images${resolution}/batocera.png</path>
+<path ifSubset="distribution:retrobat">./_inc/images${resolution}/retrobat.png</path>
 <zIndex>140</zIndex>
 <color>ffffff</color>
 <colorEnd>ffffff</colorEnd>
@@ -1841,6 +1853,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 
 <image name="lightbatocera" extra="true">
 <path>./_inc/images${resolution}/lightbatocera.png</path>
+<path ifSubset="distribution:retrobat">./_inc/images${resolution}/lightretrobat.png</path>
 <zIndex>120</zIndex>
 <color>ffff00</color>
 <colorEnd>ffff00</colorEnd>
