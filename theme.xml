@@ -120,6 +120,11 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="no" displayName="${lang.no}"/>
 </subset>	
 
+<subset name="wallpaperVideo" displayName="${lang.wallpaperVideo}">
+<include name="no" displayName="${lang.no}"/>
+<include name="yes" displayName="${lang.yes}"/>
+</subset>	
+
 <subset name="help" displayName="${lang.help}">
 <include name="yes" displayName="${lang.yes}"/>
 <include name="no" displayName="${lang.no}"/>
@@ -477,6 +482,11 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <path ifSubset="themeBackground:underground">./_inc/images${resolution}/underground.jpg</path>
 </image>                    
 
+<video name="wallpaperVideo" ifSubset="wallpaperVideo:yes" extra="true">
+<path>./_inc/images${resolution}/club.mp4</path>
+<path ifSubset="themeBackground:underground">./_inc/images${resolution}/underground.mp4</path>
+</video>
+
 <text name="systemText" extra="true">
 <origin>0 1</origin>
 <color>ffffff</color>
@@ -692,6 +702,11 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <path>./_inc/images${resolution}/underground.jpg</path>
 <path ifSubset="themeBackground:originalWallpaper">./_inc/images${resolution}/club.jpg</path>
 </image>                    
+
+<video name="wallpaperVideo" ifSubset="wallpaperVideo:yes" extra="true">
+<path>./_inc/images${resolution}/underground.mp4</path>
+<path ifSubset="themeBackground:originalWallpaper">./_inc/images${resolution}/club.mp4</path>
+</video>
 
 </view>
 
@@ -1732,11 +1747,23 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <color>ffffff</color>
 <colorEnd>ffffff</colorEnd>
 <gradientType>vertical</gradientType>
-<storyboard>
+<storyboard ifSubset="wallpaperVideo:no">
 <animation property="color" to="00ffff" duration="2500" begin="350" autoreverse="true" repeat="forever" mode="easeIn"/>
 <animation property="colorEnd" to="ffff50" duration="5000" begin="350" autoreverse="true" repeat="forever" mode="easeIn"/>
 </storyboard>
-</image>                    
+<storyboard ifSubset="wallpaperVideo:yes">
+<animation property="opacity" to="0" duration="150" begin="1500" mode="easeIn"/>
+</storyboard></image>                    
+
+<video name="wallpaperVideo" ifSubset="wallpaperVideo:yes" extra="true">
+<origin>0 0</origin>
+<pos>0 0</pos>
+<maxSize>99 1</maxSize>
+<zIndex>0</zIndex>
+<delay>0.5</delay>
+<effect>none</effect>
+<audio>false</audio>
+</video>
 
 <image name="backOverlay" extra="true">
 <linearSmooth>true</linearSmooth>
