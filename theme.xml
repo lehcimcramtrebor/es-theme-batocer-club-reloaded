@@ -346,6 +346,8 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <path>./${system.theme}/_inc/system-${lang}.png</path>
 <path ifSubset="logos:classic">./_inc/logos/${system.theme}.png</path>
 <path ifSubset="logos:classic">./_inc/logos/${system.theme}.svg</path>
+<path ifSubset="logos:classic">./_inc/logos/${system.theme}-clear.png</path>
+<path ifSubset="logos:classic">./_inc/logos/${system.theme}-clear.svg</path>
 <path ifSubset="logos:classic">./_inc/logos/${system.theme}-${lang}.png</path>
 <path ifSubset="logos:classic">./_inc/logos/${system.theme}-${lang}.svg</path>
 </image>
@@ -356,12 +358,16 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <path>./${system.theme}/_inc/us_system.png</path>
 <path ifSubset="logos:classic">./_inc/logos/us/${system.theme}.png</path>
 <path ifSubset="logos:classic">./_inc/logos/us/${system.theme}.svg</path>
+<path ifSubset="logos:classic">./_inc/logos/us/${system.theme}-clear.png</path>
+<path ifSubset="logos:classic">./_inc/logos/us/${system.theme}-clear.svg</path>
 </image>
 
 <image name="logo" region="jp">
 <path>./${system.theme}/_inc/jp_system.png</path>
 <path ifSubset="logos:classic">./_inc/logos/jp/${system.theme}.png</path>
 <path ifSubset="logos:classic">./_inc/logos/jp/${system.theme}.svg</path>
+<path ifSubset="logos:classic">./_inc/logos/jp/${system.theme}-clear.png</path>
+<path ifSubset="logos:classic">./_inc/logos/jp/${system.theme}-clear.svg</path>
 </image>
 </view>
 
@@ -600,6 +606,24 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <logoScale>1.4</logoScale>
 <logoSize>0.200 0.160</logoSize>
 <logoRotation>6.5</logoRotation>
+<logoRotationOrigin>-4.1 0.5</logoRotationOrigin>
+<logoAlignment>left</logoAlignment>
+<maxLogoCount>5</maxLogoCount>
+<zIndex>75</zIndex>
+<defaultTransition>slide</defaultTransition>
+<defaultTransition ifSubset="transition:no">instant</defaultTransition>
+<scrollSound>./_inc/wheel.wav</scrollSound>
+</carousel>
+
+<carousel ifSubset="logos:classic" name="systemcarousel">
+<type>vertical_wheel</type>
+<pos>0 0</pos>
+<size>1 1</size>
+<origin>0 0</origin>
+<color>00000000</color>
+<logoScale>1.4</logoScale>
+<logoSize>0.200 0.140</logoSize>
+<logoRotation>7</logoRotation>
 <logoRotationOrigin>-4.1 0.5</logoRotationOrigin>
 <logoAlignment>left</logoAlignment>
 <maxLogoCount>5</maxLogoCount>
