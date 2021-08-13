@@ -159,6 +159,12 @@ Foked by Lorenzolamas of the original theme => see infos below.
 </subset>
 
 
+<subset name="gamelistFont" displayName="${lang.gamelistFont}">
+<include name="digital" displayName="${lang.digital}"/>
+<include name="simple" displayName="${lang.simple}"/>
+<include name="matrice" displayName="${lang.simple}"/>
+</subset>
+
 <subset name="defaultCustom" displayName="${lang.defaultCustom}" ifSubset="RandomVideos:customVideos" appliesTo="basic,detailed,video,grid,gamecarousel">
 <include name="random" displayName="${lang.random}"/>
 <include name="club" displayName="${lang.club}"/>
@@ -764,6 +770,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <primaryColor>7FABFE</primaryColor>
 <secondaryColor>7FABFE</secondaryColor>
 <fontPath>./_inc/fonts/DJB Get Digital.ttf</fontPath>
+<fontPath ifSubset="gamelistFont:simple">./_inc/fonts/BebasKai-Regular.otf</fontPath>
+<fontPath ifSubset="gamelistFont:matrice">./_inc/fonts/gomarice_no_continue.ttf</fontPath>
 <fontSize>0.04</fontSize>
 <fontSize tinyScreen="true">0.055</fontSize>
 <forceUppercase>0</forceUppercase>
