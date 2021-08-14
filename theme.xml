@@ -53,6 +53,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 </subset>
 
 <subset name="staticEffect" displayName="${lang.staticEffect}">
+<include name="scanlines" displayName="${lang.scanlines}"/>
 <include name="scanlinesFine" displayName="${lang.scanlinesFine}"/>
 <include name="scanlinesVertical" displayName="${lang.scanlinesVertical}"/>
 <include name="scanlinesVerticalFine" displayName="${lang.scanlinesVerticalFine}"/>
@@ -60,7 +61,6 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="phosphore" displayName="${lang.phosphore}"/>
 <include name="phosphorePlus" displayName="${lang.phosphorePlus}"/>
 <include name="no" displayName="${lang.no}"/>
-<include name="scanlines" displayName="${lang.scanlines}"/>
 </subset>
 
 <subset name="staticEffectApply" displayName="${lang.staticEffectApply}" ifSubset="staticEffect:scanlines|scanlinesFine|scanlinesVertical|scanlinesVerticalFine|crt|phosphore|phosphorePlus">
@@ -74,10 +74,10 @@ Foked by Lorenzolamas of the original theme => see infos below.
 </subset>
 
 <subset name="scratch" displayName="${lang.scratch}" tinyScreen="false">
-<include name="scratch.no" displayName="${lang.scratch.no}"/>
-<include name="scratch.light" displayName="${lang.scratch.light}"/>
 <include name="scratch.medium" displayName="${lang.scratch.medium}"/>
 <include name="scratch.strong" displayName="${lang.scratch.strong}"/>
+<include name="scratch.no" displayName="${lang.scratch.no}"/>
+<include name="scratch.light" displayName="${lang.scratch.light}"/>
 </subset>
 
 <subset name="glass" displayName="${lang.glass}">
@@ -86,12 +86,17 @@ Foked by Lorenzolamas of the original theme => see infos below.
 </subset>
 
 <subset name="themeBackground" displayName="${lang.themeBackground}" appliesTo="basic,detailed,video,grid,gamecarousel">
+<include name="underground" displayName="${lang.underground}"/>
 <include name="mixed" displayName="${lang.mixed}"/>
 <include name="originalWallpaper" displayName="${lang.originalWallpaper}"/>
-<include name="underground" displayName="${lang.underground}"/>
 </subset>	
 
 <subset name="colorset" displayName="${lang.colorset}" appliesTo="basic,detailed,video,grid,gamecarousel">
+<include name="yellowBlue" displayName="${lang.colorset.yellowBlue}"/>
+<include name="yellowGreen" displayName="${lang.colorset.yellowGreen}"/>
+<include name="greenDefault" displayName="${lang.colorset.greenDefault}"/>
+<include name="greenBlue" displayName="${lang.colorset.greenBlue}"/>
+<include name="greenYellow" displayName="${lang.colorset.greenYellow}"/>
 <include name="default" displayName="${lang.colorset.default}"/>
 <include name="blue" displayName="${lang.colorset.blue}"/>
 <include name="yellow" displayName="${lang.colorset.yellow}"/>
@@ -103,16 +108,11 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="blueYellow" displayName="${lang.colorset.blueYellow}"/>
 <include name="blueGreen" displayName="${lang.colorset.blueGreen}"/>
 <include name="yellowDefault" displayName="${lang.colorset.yellowDefault}"/>
-<include name="yellowBlue" displayName="${lang.colorset.yellowBlue}"/>
-<include name="yellowGreen" displayName="${lang.colorset.yellowGreen}"/>
-<include name="greenDefault" displayName="${lang.colorset.greenDefault}"/>
-<include name="greenBlue" displayName="${lang.colorset.greenBlue}"/>
-<include name="greenYellow" displayName="${lang.colorset.greenYellow}"/>
 </subset>
 
 <subset name="logos" displayName="${lang.logos}">
-<include name="default" displayName="${lang.default}"/>
 <include name="classic" displayName="${lang.classic}"/>
+<include name="default" displayName="${lang.default}"/>
 </subset>	
 
 <subset name="control" displayName="${lang.control}">
@@ -131,13 +131,13 @@ Foked by Lorenzolamas of the original theme => see infos below.
 </subset>
 
 <subset name="helpIcons" displayName="${lang.helpIcons}" ifSubset="help:yes">
+<include name="xboxIcons" displayName="${lang.xboxIcons}"/>
+<include name="xboxOneIcons" displayName="${lang.xboxOneIcons}"/>
 <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
 <include name="arcadeIcons" displayName="${lang.arcadeIcons}"/>
 <include name="psxIcons" displayName="${lang.psxIcons}"/>
 <include name="snesIcons" displayName="${lang.snesIcons}"/>
 <include name="snesAltIcons" displayName="${lang.snesAltIcons}"/>
-<include name="xboxIcons" displayName="${lang.xboxIcons}"/>
-<include name="xboxOneIcons" displayName="${lang.xboxOneIcons}"/>
 </subset>
 
 <subset name="systemText" displayName="${lang.systemText}">
@@ -153,9 +153,9 @@ Foked by Lorenzolamas of the original theme => see infos below.
 </subset>
 
 <subset name="RandomVideos" displayName="${lang.randomVideos}" appliesTo="basic,detailed,video,grid,gamecarousel">
+<include name="customVideos" displayName="${lang.customVideos}"/>
 <include name="BatoceraClub" displayName="${lang.BatoceraClubVideos}"/>
 <include name="SnapsVideos" displayName="${lang.snapsVideos}"/>
-<include name="customVideos" displayName="${lang.customVideos}"/>
 </subset>
 
 
@@ -166,8 +166,8 @@ Foked by Lorenzolamas of the original theme => see infos below.
 </subset>
 
 <subset name="defaultCustom" displayName="${lang.defaultCustom}" ifSubset="RandomVideos:customVideos" appliesTo="basic,detailed,video,grid,gamecarousel">
-<include name="random" displayName="${lang.random}"/>
 <include name="club" displayName="${lang.club}"/>
+<include name="random" displayName="${lang.random}"/>
 </subset>
 
 <subset name="defaultBatoceraClub" displayName="${lang.defaultBatoceraClub}" ifSubset="RandomVideos:BatoceraClub" appliesTo="basic,detailed,video,grid,gamecarousel">
