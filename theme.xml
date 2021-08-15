@@ -121,8 +121,8 @@ Foked by Lorenzolamas of the original theme => see infos below.
 </subset>	
 
 <subset name="wallpaperVideo" displayName="${lang.wallpaperVideo}">
-<include name="no" displayName="${lang.no}"/>
 <include name="yes" displayName="${lang.yes}"/>
+<include name="no" displayName="${lang.no}"/>
 </subset>	
 
 <subset name="help" displayName="${lang.help}">
