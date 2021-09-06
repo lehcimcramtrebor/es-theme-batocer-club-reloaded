@@ -31,6 +31,11 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="batocera" displayName="${lang.batocera}"/>
 <include name="retrobat" displayName="${lang.retrobat}"/>
 </subset>
+	
+<subset name="credits" displayName="${lang.credits}">
+<include name="es" displayName="${lang.es}"/>
+<include name="snakervill" displayName="${lang.snakervill}"/>
+</subset>
 
 <subset name="screenRatio" displayName="${lang.screenratio}">
 <include name="169" displayName="${lang.169}"/>
@@ -1893,6 +1898,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 
 <image name="snakervill" extra="true">
 <path>./_inc/images${resolution}/snakervill.png</path>
+<path ifSubset="credits:es">./_inc/images${resolution}/es.png</path>
 <zIndex>150</zIndex>
 <storyboard>
 <animation property="offsetX" from="1" to="1" duration="250" mode="easeOut"/>
