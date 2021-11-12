@@ -15,9 +15,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <formatVersion>7</formatVersion>
 
 <include>./CUSTOM_VIDEOS_PATH.xml</include>
-<include>./../../custom/batocera-club/CUSTOM_VIDEOS_PATH.xml</include>
 <include>./CUSTOMIZE_YOUR_LABEL.xml</include>
-<include>./../../custom/batocera-club/CUSTOMIZE_YOUR_LABEL.xml</include>
 <include>./_inc/localisation/lang.xml</include>
 <include>./_inc/localisation/lang-${lang}.xml</include>
 
@@ -661,7 +659,6 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <maxSize>1 99</maxSize>
 <path>./_inc/images${resolution}/background.png</path>
 <path ifSubset="distribution:retrobat">./_inc/images${resolution}/backgroundretrobat.png</path>
-<path>./../../custom/batocera-club/background.png</path>
 <zIndex>2</zIndex>          
 </image> 
 
@@ -829,7 +826,6 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <maxSize>1 99</maxSize>       
 <path>./_inc/images${resolution}/background.png</path>
 <path ifSubset="distribution:retrobat">./_inc/images${resolution}/backgroundretrobat.png</path>
-<path>./../../custom/batocera-club/background.png</path>
 <zIndex>2</zIndex>          
 </image>      
 
@@ -1903,7 +1899,6 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <image name="snakervill" extra="true">
 <path>./_inc/images${resolution}/snakervill.png</path>
 <path ifSubset="credits:es">./_inc/images${resolution}/es.png</path>
-<path>./../../custom/batocera-club/logo.png</path>
 <zIndex>150</zIndex>
 <storyboard>
 <animation property="offsetX" from="1" to="1" duration="250" mode="easeOut"/>
@@ -1915,7 +1910,6 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <image name="batocera" extra="true">
 <path>./_inc/images${resolution}/batocera.png</path>
 <path ifSubset="distribution:retrobat">./_inc/images${resolution}/retrobat.png</path>
-<path>./../../custom/batocera-club/distribution.png</path>
 <zIndex>140</zIndex>
 <color>ffffff</color>
 <colorEnd>ffffff</colorEnd>
@@ -1925,7 +1919,6 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <image name="lightbatocera" extra="true">
 <path>./_inc/images${resolution}/lightbatocera.png</path>
 <path ifSubset="distribution:retrobat">./_inc/images${resolution}/lightretrobat.png</path>
-<path>./../../custom/batocera-club/lightdistribution.png</path>
 <zIndex>120</zIndex>
 <color>ffff00</color>
 <colorEnd>ffff00</colorEnd>
