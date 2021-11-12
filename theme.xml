@@ -15,7 +15,9 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <formatVersion>7</formatVersion>
 
 <include>./CUSTOM_VIDEOS_PATH.xml</include>
+<include>./../../custom/batocera-club/CUSTOM_VIDEOS_PATH.xml</include>
 <include>./CUSTOMIZE_YOUR_LABEL.xml</include>
+<include>./../../custom/batocera-club/CUSTOMIZE_YOUR_LABEL.xml</include>
 <include>./_inc/localisation/lang.xml</include>
 <include>./_inc/localisation/lang-${lang}.xml</include>
 
@@ -1910,6 +1912,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <image name="batocera" extra="true">
 <path>./_inc/images${resolution}/batocera.png</path>
 <path ifSubset="distribution:retrobat">./_inc/images${resolution}/retrobat.png</path>
+<path>./../../custom/batocera-club/distribution.png</path>
 <zIndex>140</zIndex>
 <color>ffffff</color>
 <colorEnd>ffffff</colorEnd>
@@ -1919,6 +1922,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <image name="lightbatocera" extra="true">
 <path>./_inc/images${resolution}/lightbatocera.png</path>
 <path ifSubset="distribution:retrobat">./_inc/images${resolution}/lightretrobat.png</path>
+<path>./../../custom/batocera-club/lightdistribution.png</path>
 <zIndex>120</zIndex>
 <color>ffff00</color>
 <colorEnd>ffff00</colorEnd>
