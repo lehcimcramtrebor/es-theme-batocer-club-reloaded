@@ -661,6 +661,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <maxSize>1 99</maxSize>
 <path>./_inc/images${resolution}/background.png</path>
 <path ifSubset="distribution:retrobat">./_inc/images${resolution}/backgroundretrobat.png</path>
+<path>./../../custom/batocera-club/background.png</path>
 <zIndex>2</zIndex>          
 </image> 
 
@@ -828,6 +829,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <maxSize>1 99</maxSize>       
 <path>./_inc/images${resolution}/background.png</path>
 <path ifSubset="distribution:retrobat">./_inc/images${resolution}/backgroundretrobat.png</path>
+<path>./../../custom/batocera-club/background.png</path>
 <zIndex>2</zIndex>          
 </image>      
 
@@ -1901,6 +1903,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <image name="snakervill" extra="true">
 <path>./_inc/images${resolution}/snakervill.png</path>
 <path ifSubset="credits:es">./_inc/images${resolution}/es.png</path>
+<path>./../../custom/batocera-club/logo.png</path>
 <zIndex>150</zIndex>
 <storyboard>
 <animation property="offsetX" from="1" to="1" duration="250" mode="easeOut"/>
