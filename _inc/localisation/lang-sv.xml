@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<variables>
+
+<lang.transition>glid system</lang.transition>
+<lang.control>animationer i spellistan</lang.control>
+<lang.no>nej</lang.no>
+<lang.yes>ja</lang.yes>
+<lang.screenratio>skärmförhållande</lang.screenratio>
+<lang.169>16/9</lang.169>
+<lang.54>5/4</lang.54>
+<lang.43>4/3</lang.43>
+<lang.161>16/10</lang.161>
+<lang.32>3/2</lang.32>
+<lang.randomVideos>videoursprung</lang.randomVideos>
+<lang.BatoceraClubVideos>batocera club</lang.BatoceraClubVideos>
+<lang.snapsVideos>slumpmässiga videoklipp</lang.snapsVideos>
+<lang.customVideos>anpassade videor</lang.customVideos>
+<lang.defaultCustom>standardvideor (om inga anpassade)</lang.defaultCustom>
+<lang.defaultBatoceraClub>standardvideor (om inga i temat)</lang.defaultBatoceraClub>
+<lang.random>skärmdumpar</lang.random>
+<lang.club>club videor</lang.club>
+<lang.comingSoon>kommer snart</lang.comingSoon>
+
+<lang.staticEffect>effekt • välj</lang.staticEffect>
+<lang.scanlines>scanlines</lang.scanlines>
+<lang.scanlinesFine>scanlines fina</lang.scanlinesFine>
+<lang.scanlinesVertical>vertikala scanlines</lang.scanlinesVertical>
+<lang.scanlinesVerticalFine>vertikala scanlines fina</lang.scanlinesVerticalFine>
+<lang.crt>crt-skärm</lang.crt>
+<lang.phosphore>phosphore</lang.phosphore>
+<lang.phosphorePlus>phosphore stark</lang.phosphorePlus>
+
+<lang.help>hjälp</lang.help>
+<lang.defaultIcons>standardknappar</lang.defaultIcons>
+<lang.arcadeIcons>arkadpanel</lang.arcadeIcons>
+<lang.psxIcons>playstation-kontroller</lang.psxIcons>
+<lang.snesIcons>snes-kontroller</lang.snesIcons>
+<lang.snesAltIcons>alternativ snes-kontroller</lang.snesAltIcons>
+<lang.helpIcons>knappar • ikonstil</lang.helpIcons>
+<lang.xboxIcons>xbox-kontroller</lang.xboxIcons>
+<lang.xboxOneIcons>xbox one-kontroller</lang.xboxOneIcons>
+
+<lang.systemTextBind>spelinformation</lang.systemTextBind>
+<lang.games>antal spel</lang.games>
+<lang.favorites>favoriter</lang.favorites>
+<lang.gamesPlayed>spelade spel</lang.gamesPlayed>
+<lang.mostPlayed>mest spelat</lang.mostPlayed>
+<lang.lastPlayed>senast spelat</lang.lastPlayed>
+<lang.systemText>information</lang.systemText>
+<lang.systemTextFull>anpassad etikett, tillverkare och år</lang.systemTextFull>
+<lang.systemTextStandard>tillverkare och år</lang.systemTextStandard>
+<lang.systemTextFullCheevos>retroprestationer, tillverkare och år</lang.systemTextFullCheevos>
+<lang.systemTextLabel>endast anpassad etikett</lang.systemTextLabel>
+<lang.systemTextCheevos>endast retroprestationer-pseudonym (alltid)</lang.systemTextCheevos>
+<lang.cheevosFalse>stöds inte</lang.cheevosFalse>
+<lang.manufacturer>tillverkare</lang.manufacturer>
+<lang.releasedYear>utgiven år</lang.releasedYear>
+<lang.justManufacturer>endast tillverkare</lang.justManufacturer>
+<lang.justYear>endast år (om användbart)</lang.justYear>
+<lang.notDisplay>visa inte</lang.notDisplay>
+<lang.retroachievements>retroprestationer</lang.retroachievements>
+
+<lang.staticEffectApply>tillämpa effekter</lang.staticEffectApply>
+<lang.artworksApply>till ram</lang.artworksApply>
+<lang.screenApply>till skärm</lang.screenApply>
+
+<lang.themeBackground>bakgrunder</lang.themeBackground>
+<lang.mixed>mixad</lang.mixed>
+<lang.originalWallpaper>original</lang.originalWallpaper>
+<lang.underground>underjordisk</lang.underground>
+
+<lang.glass>skärmglas</lang.glass>
+
+<lang.logos>logga</lang.logos>
+<lang.default>klubb</lang.default>
+<lang.classic>klassisk</lang.classic>
+
+<lang.quality>kvalitet/prestanda</lang.quality>
+<lang.1080p>1080p/PC eller Pi 4 och mer kraftfulla</lang.1080p>
+<lang.720p>720p/Pi 4 och mindre kraftfulla</lang.720p>
+
+<lang.jukebox>club's jukebox (omstart krävs)</lang.jukebox>
+
+<lang.colorset>färguppsättning</lang.colorset>
+<lang.colorset.default>standard</lang.colorset.default>
+<lang.colorset.blue>blå</lang.colorset.blue>
+<lang.colorset.yellow>gul</lang.colorset.yellow>
+<lang.colorset.green>grön</lang.colorset.green>
+<lang.colorset.defaultBlue>rosa/blå</lang.colorset.defaultBlue>
+<lang.colorset.defaultYellow>rosa/gul</lang.colorset.defaultYellow>
+<lang.colorset.defaultGreen>rosa/grön</lang.colorset.defaultGreen>
+<lang.colorset.blueDefault>blå/rosa</lang.colorset.blueDefault>
+<lang.colorset.blueYellow>blå/gul</lang.colorset.blueYellow>
+<lang.colorset.blueGreen>blå/grön</lang.colorset.blueGreen>
+<lang.colorset.yellowDefault>gul/rosa</lang.colorset.yellowDefault>
+<lang.colorset.yellowBlue>gul/blå</lang.colorset.yellowBlue>
+<lang.colorset.yellowGreen>gul/grön</lang.colorset.yellowGreen>
+<lang.colorset.greenDefault>grön/rosa</lang.colorset.greenDefault>
+<lang.colorset.greenBlue>grön/blå</lang.colorset.greenBlue>
+<lang.colorset.greenYellow>grön/gul</lang.colorset.greenYellow>
+
+<lang.scratch>repig skärm</lang.scratch>
+<lang.scratch.no>nej</lang.scratch.no>
+<lang.scratch.light>lätt</lang.scratch.light>
+<lang.scratch.medium>medium</lang.scratch.medium>
+<lang.scratch.strong>stark</lang.scratch.strong>
+
+<lang.cathodeFX>cathodic fx</lang.cathodeFX>
+
+<lang.mdRatio>skärmdumpsförhållande (förutom rutnät)</lang.mdRatio>
+<lang.stretch>sträck ut</lang.stretch>
+<lang.original>original</lang.original>
+
+<lang.distribution>distribution</lang.distribution>
+
+<lang.wallpaperVideo>filmisk bakgrund</lang.wallpaperVideo>
+
+<lang.gamelistFont>typsnitt i spellistan</lang.gamelistFont>
+
+<lang.credits>tack till</lang.credits>
+<lang.es>emulationstation</lang.es>
+
+</variables>
+</theme>
