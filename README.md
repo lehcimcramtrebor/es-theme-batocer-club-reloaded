@@ -6,6 +6,8 @@ Theme Mod By SNAKERVILL & The Mini Cake TV : https://www.youtube.com/channel/UCJ
 
 Reloaded by Hel Mic (Lehcim Cram Trebor) and Fred GOLFIETTI. Compatible with 16/9, 16/10, 5/4 and 4/3 screens with menu option.
 
+Swedish translation by Jonas Bohdén.
+
 Compatibility:
 
 Batocera v31+ / Retrobat 4.0+ (You can use classic logos (regions include) and video snaps to have entirely functionnal theme under Retrobat)
