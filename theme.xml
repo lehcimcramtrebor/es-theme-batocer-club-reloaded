@@ -1952,6 +1952,137 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 
 </view>
 
+
+	
+<!-- Transition -->
+
+<view name="basic, detailed, video,grid,gamecarousel" tinyScreen="false" ifSubset="control:yes">
+
+<image name="openLogo,openLogoBackground">
+<linearSmooth>true</linearSmooth>
+<path>./_inc/logos/${system.theme}.png</path>
+<path>./_inc/logos/${system.theme}.svg</path>
+<path>./_inc/logos/${system.theme}-clear.png</path>
+<path>./_inc/logos/${system.theme}-clear.svg</path>
+<path>./_inc/logos/${system.theme}-${lang}.png</path>
+<path>./_inc/logos/${system.theme}-${lang}.svg</path>
+</image>
+
+<image name="openLogoBackground" region="eu"></image>
+
+<image name="openLogoBackground" region="us">
+<path>./${system.theme}_inc/us_system.png</path>
+<path>./_inc/logos/us/${system.theme}.png</path>
+<path>./_inc/logos/us/${system.theme}.svg</path>
+<path>./_inc/logos/us/${system.theme}-clear.png</path>
+<path>./_inc/logos/us/${system.theme}-clear.svg</path>
+</image>
+
+<image name="openLogoBackground" region="jp">
+<path>./_inc/logos/jp/${system.theme}.png</path>
+<path>./_inc/logos/jp/${system.theme}.svg</path>
+<path>./_inc/logos/jp/${system.theme}-clear.png</path>
+<path>./_inc/logos/jp/${system.theme}-clear.svg</path>
+</image>
+
+<image name="openLogo" extra="true">
+<linearSmooth>true</linearSmooth>
+<maxSize>0.38 0.28</maxSize>
+<pos>0.5 0.5</pos>
+<opacity>0</opacity>
+<storyboard>
+<animation property="origin" from="0.4 0.5" to="0.55 0.5" duration="1500" mode="easeOut"/>
+<animation property="offsetX" from="0" to="-2.5" duration="750" mode="easeInQuint" begin="500"/>
+<animation property="opacity" from="0" to="0" duration="50" mode="linear"/>
+<animation property="opacity" from="0" to="1" duration="250" mode="linear" begin="50"/>
+<animation property="opacity" from="1" to="0" duration="200" mode="linear" begin="900"/>
+</storyboard>
+</image>
+
+<image name="openLogoBackground" extra="true">
+<linearSmooth>true</linearSmooth>
+<origin>0.5 0.5</origin>
+<zIndex>9996</zIndex>
+<origin>0.5 0.5</origin>	
+<pos>0.5 0.5</pos>
+<maxSize>1 0.5</maxSize>
+<opacity>0</opacity>
+<color>ffffff</color>
+<colorEnd>ffffff90</colorEnd>
+<gradientType>vertical</gradientType>
+<reflexion>0.5 0</reflexion>
+<storyboard>
+<animation property="offsetY" from="1" to="0" duration="150" mode="linear"/>
+<animation property="opacity" from="0.1" to="0.1" duration="350" mode="linear"/>
+<animation property="opacity" from="0.1" to="0.1" duration="450" mode="linear" begin="350"/>
+<animation property="opacity" from="0.1" to="0" duration="250" mode="easeOut" begin="800"/>
+</storyboard>
+</image>
+
+<image name="openLogo" extra="true">
+<origin>0.5 0.5</origin>
+<zIndex>9999</zIndex>
+</image>
+
+<image name="openLogoFade" extra="true">
+<path>./_inc/white.png</path>
+<origin>0.5 0.5</origin>	
+<pos>0.5 0.5</pos>
+<size>1 1</size>
+<color>000000</color>
+<opacity>0</opacity>
+<zIndex>9995</zIndex>
+<storyboard>
+<animation property="opacity" from="1" to="1" duration="1000" mode="linear"/>
+<animation property="opacity" from="1" to="0" duration="250" mode="easeInQuint" begin="800"/>
+</storyboard>
+</image>
+
+<image name="openLogoSnakervill" extra="true">
+<linearSmooth>true</linearSmooth>
+<path>./_inc/images${resolution}/star_filled.png</path>
+<origin>0.5 0.5</origin>	
+<pos>0.5 0.18</pos>
+<maxSize>0.25 0.25</maxSize>
+<zIndex>9997</zIndex>
+<opacity>0</opacity>
+<storyboard>
+<animation property="scale" from="2" to="1" duration="400" mode="linear"/>
+<animation property="opacity" from="0" to="0" duration="300" mode="linear"/>
+<animation property="opacity" from="0" to="1" duration="150" mode="linear" begin="300"/>
+<animation property="opacity" from="1" to="1" duration="550" mode="linear" begin="450"/>
+<animation property="opacity" from="1" to="0" duration="250" mode="linear" begin="800"/>
+<animation property="offsetY" to="0.01" duration="250" autoreverse="true" repeat="4" mode="easeIn"/>
+</storyboard>
+</image>
+
+<text name="openText" extra="true">
+<text ifSubset="distribution:batocera">Ready to Retro</text>
+<text ifSubset="distribution:retrobat">Emulationstation powered</text>
+<origin>0.5 0.5</origin>
+<color>ffffff</color>
+<glowColor>12121250</glowColor>
+<fontPath ifSubset="gamelistFont:digital">./_inc/fonts/DJB Get Digital.ttf</fontPath>
+<fontPath ifSubset="gamelistFont:simple">./_inc/fonts/BebasKai-Regular.otf</fontPath>
+<fontPath ifSubset="gamelistFont:matrice">./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+	<fontSize>0.025</fontSize>
+<alignment>center</alignment>
+<zIndex>9997</zIndex>
+<pos>0.5 0.825</pos>
+<opacity>0</opacity>
+<storyboard>
+<animation property="opacity" from="0" to="0" duration="300" mode="linear"/>
+<animation property="opacity" from="0" to="1" duration="150" mode="linear" begin="300"/>
+<animation property="opacity" from="1" to="1" duration="550" mode="linear" begin="450"/>
+<animation property="opacity" from="1" to="0" duration="250" mode="linear" begin="800"/>
+</storyboard>
+</text>
+
+	
+</view>
+
+<!-- End Transition -->	
+	
 <include>./_inc/specifics/${system.theme}.xml</include>
 
 </theme>
