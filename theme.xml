@@ -201,7 +201,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 
 <menuText name="menutext">
 <fontPath>./_inc/fonts/ubuntu_medium.ttf</fontPath>
-<fontSize>0.03</fontSize>
+<fontSize>0.024</fontSize>
 <fontSize tinyScreen="true">0.043</fontSize>
 <color>fd18f0</color>
 <separatorColor>fd18f0</separatorColor>
