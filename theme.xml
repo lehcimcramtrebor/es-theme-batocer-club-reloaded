@@ -363,12 +363,12 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <path ifArch="windows" ifSubset="logos:classic">./../es-theme-carbon/art/logos/${system.theme}-${lang}.png</path>
 <path ifArch="windows" ifSubset="logos:classic">./../es-theme-carbon/art/logos/${system.theme}-${lang}.svg</path>
 
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}.png</path>
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}.svg</path>
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}-w.png</path>
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}-w.svg</path>
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}-${lang}.png</path>
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}-${lang}.svg</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}.png</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}.svg</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}-w.png</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}-w.svg</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}-${lang}.png</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}-${lang}.svg</path>
 
 <path ifSubset="logos:classic">./_inc/logos/${system.theme}.png</path>
 <path ifSubset="logos:classic">./_inc/logos/${system.theme}.svg</path>
@@ -388,10 +388,10 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <path ifArch="windows" ifSubset="logos:classic">./../es-theme-carbon/art/logos/us/${system.theme}-w.png</path>
 <path ifArch="windows" ifSubset="logos:classic">./../es-theme-carbon/art/logos/us/${system.theme}-w.svg</path>
 
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/us/${system.theme}.png</path>
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/us/${system.theme}.svg</path>
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/us/${system.theme}-w.png</path>
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/us/${system.theme}-w.svg</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/us/${system.theme}.png</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/us/${system.theme}.svg</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/us/${system.theme}-w.png</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/us/${system.theme}-w.svg</path>
 
 <path ifSubset="logos:classic">./_inc/logos/us/${system.theme}.png</path>
 <path ifSubset="logos:classic">./_inc/logos/us/${system.theme}.svg</path>
@@ -407,10 +407,10 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <path ifArch="windows" ifSubset="logos:classic">./../es-theme-carbon/art/logos/jp/${system.theme}-w.png</path>
 <path ifArch="windows" ifSubset="logos:classic">./../es-theme-carbon/art/logos/jp/${system.theme}-w.svg</path>
 
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/jp/${system.theme}.png</path>
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/jp/${system.theme}.svg</path>
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/jp/${system.theme}-w.png</path>
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/jp/${system.theme}-w.svg</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/jp/${system.theme}.png</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/jp/${system.theme}.svg</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/jp/${system.theme}-w.png</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/jp/${system.theme}-w.svg</path>
 
 <path ifSubset="logos:classic">./_inc/logos/jp/${system.theme}.png</path>
 <path ifSubset="logos:classic">./_inc/logos/jp/${system.theme}.svg</path>
@@ -1307,10 +1307,10 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <path ifArch="windows" ifSubset="logos:classic">./../es-theme-carbon/art/logos/${system.theme}-${lang}.png</path>
 <path ifArch="windows" ifSubset="logos:classic">./../es-theme-carbon/art/logos/${system.theme}-${lang}.svg</path>
 
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}.png</path>
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}.svg</path>
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}-${lang}.png</path>
-<path ifNotArch="windows" ifSubset="logos:classic">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}-${lang}.svg</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}.png</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}.svg</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}-${lang}.png</path>
+<path ifNotArch="windows" ifSubset="logos:classic">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/${system.theme}-${lang}.svg</path>
 
 <path ifSubset="logos:classic">./_inc/logos/${system.theme}.png</path>
 <path ifSubset="logos:classic">./_inc/logos/${system.theme}.svg</path>
@@ -1332,8 +1332,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <path ifArch="windows">./../es-theme-carbon/art/logos/us/${system.theme}.png</path>
 <path ifArch="windows">./../es-theme-carbon/art/logos/us/${system.theme}.svg</path>
 
-<path ifNotArch="windows">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/us/${system.theme}.png</path>
-<path ifNotArch="windows">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/us/${system.theme}.svg</path>
+<path ifNotArch="windows">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/us/${system.theme}.png</path>
+<path ifNotArch="windows">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/us/${system.theme}.svg</path>
 
 <path>./_inc/logos/us/${system.theme}.png</path>
 <path>./_inc/logos/us/${system.theme}.svg</path>
@@ -1343,8 +1343,8 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <path ifArch="windows">./../es-theme-carbon/art/logos/jp/${system.theme}.png</path>
 <path ifArch="windows">./../es-theme-carbon/art/logos/jp/${system.theme}.svg</path>
 
-<path ifNotArch="windows">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/jp/${system.theme}.png</path>
-<path ifNotArch="windows">./../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/jp/${system.theme}.svg</path>
+<path ifNotArch="windows">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/jp/${system.theme}.png</path>
+<path ifNotArch="windows">./../../../usr/share/emulationstation/themes/es-theme-carbon/art/logos/jp/${system.theme}.svg</path>
 
 <path>./_inc/logos/jp/${system.theme}.png</path>
 <path>./_inc/logos/jp/${system.theme}.svg</path>
