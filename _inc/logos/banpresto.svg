@@ -2,19 +2,19 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="500"
    height="209.21196"
    id="svg3383"
    version="1.1"
-   inkscape:version="0.48.0 r9654"
-   sodipodi:docname="New document 4">
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="banpresto-clear.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs3385" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="426.92547"
-     inkscape:cy="-168.3205"
+     inkscape:zoom="1.979899"
+     inkscape:cx="208.34396"
+     inkscape:cy="107.32871"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -34,11 +34,12 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1366"
-     inkscape:window-height="716"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
      inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata3388">
     <rdf:RDF>
@@ -47,7 +48,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -139,11 +139,12 @@
     </g>
     <g
        id="g3139"
-       transform="matrix(9.280573,0,0,-9.280573,537.92253,603.86658)">
+       transform="matrix(9.280573,0,0,-9.280573,537.92253,603.86658)"
+       style="fill:#f9f9f9">
       <path
          inkscape:connector-curvature="0"
          d="m 0,0 -8.334,0 c 0,-2.878 2.435,-3.958 3.936,-3.958 1.508,0 3.781,1.08 4.398,3.958 z m -21.95,-3.958 c 1.507,0 3.934,1.08 3.934,3.958 l -8.335,0 c 0.62,-2.878 2.898,-3.958 4.401,-3.958 z m 6.905,-2.547 -3.603,-3.853 -16.282,7.577 0,5.38 43.513,0 0,-5.38 -16.279,-7.577 -3.605,3.853 c -0.557,0.637 -1.062,0.965 -1.868,0.965 -0.815,0 -1.316,-0.328 -1.876,-0.965"
-         style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="path3141" />
     </g>
   </g>

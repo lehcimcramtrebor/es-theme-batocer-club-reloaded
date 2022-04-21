@@ -13,8 +13,8 @@
    viewBox="0 0 4645.4422 640.82977"
    preserveAspectRatio="xMidYMid meet"
    id="svg26"
-   sodipodi:docname="tic80.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   sodipodi:docname="tic80-clear.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
      id="metadata32">
     <rdf:RDF>
@@ -23,6 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37,15 +38,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2560"
-     inkscape:window-height="1387"
+     inkscape:window-width="2488"
+     inkscape:window-height="1376"
      id="namedview28"
      showgrid="false"
-     inkscape:zoom="1.3921165"
-     inkscape:cx="128.91757"
-     inkscape:cy="61.292076"
-     inkscape:window-x="-8"
-     inkscape:window-y="22"
+     inkscape:zoom="2.784233"
+     inkscape:cx="187.81"
+     inkscape:cy="-53.801923"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg26" />
   <g
@@ -109,7 +110,7 @@
          d="M -18.899346,99.722397 V 47.099883 H -30.415992 V 33.938714 H 15.63605 V 47.099883 H 4.1194047 v 52.622514 z m 57.554145,0 V 86.56262 H 50.171445 V 47.099883 H 38.654799 V 33.938714 H 84.706842 V 47.099883 H 73.190195 V 86.56262 h 11.516647 v 13.159777 z m 69.070801,0 V 86.56262 H 96.224696 V 47.099883 H 107.7256 V 33.938714 H 142.261 V 47.099883 H 119.24224 V 86.56262 H 142.261 V 99.722397 Z M 142.261,60.259667 V 47.099883 h 11.51664 v 13.159784 z m 0,26.302953 V 73.401451 h 11.51664 V 86.56262 Z M 176.7964,73.401451 V 60.259667 h 34.53539 v 13.141784 z m 69.07079,26.320946 V 86.56262 h -11.5009 V 73.401451 h 11.5009 V 60.259667 h -11.5009 V 47.099883 h 11.5009 V 33.938714 h 34.53539 v 13.161169 h -23.01876 v 13.159784 h 23.01876 V 73.401451 H 257.38382 V 86.56262 h 23.01876 v 13.159777 z m 34.53539,-39.46273 V 47.099883 h 11.51665 v 13.159784 z m 0,26.302953 V 73.401451 h 11.51665 V 86.56262 Z m 34.5354,13.159777 V 86.56262 H 303.43709 V 47.099883 h 11.50089 V 33.938714 h 34.5354 V 47.099883 H 326.45462 V 86.56262 h 23.01876 V 99.722397 Z M 349.47338,86.56262 V 47.099883 h 11.51664 V 86.56262 Z"
          id="path4-7"
          inkscape:connector-curvature="0"
-         style="fill:#657060;fill-opacity:1;stroke-width:1.29533"
+         style="fill:#c8c4b7;fill-opacity:1;stroke-width:1.29533"
          sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
     </g>
   </g>
