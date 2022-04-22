@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   id="svg8"
+   width="632.18pt"
+   height="750pt"
+   version="1.1"
+   viewBox="0 0 632.18 750"
+   sodipodi:docname="DECUS-logo.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="pt"
+     showgrid="false"
+     inkscape:zoom="0.831"
+     inkscape:cx="421.78099"
+     inkscape:cy="499.39832"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-44.385 449.69)"
+     style="fill:#ececec">
+    <path
+       id="path368"
+       transform="matrix(.75 0 0 .75 44.385 -449.69)"
+       d="m0 0v842.9h842.9v-842.9h-842.9zm189.45 106.69h475.51l138.55 274.16h-30.633l-124.73-246.8h-441.87l-124.73 246.8h-30.633l138.55-274.16zm231.98 96.875c120.32 0 217.87 97.543 217.87 217.87 0 120.32-97.543 217.91-217.87 217.91-120.32 0-217.91-97.588-217.91-217.91 0-120.32 97.59-217.87 217.91-217.87zm-370.53 243.36h30.566l124.8 246.87h441.87l124.8-246.87h30.566l-138.55 274.16h-475.51l-138.55-274.16z"
+       style="fill:#ececec" />
+    <path
+       id="path2295"
+       d="m44.385 299.95v-103.78h71.62q23.797 0 33.453 1.9784 11.633 2.3577 17.715 12.393 3.1173 5.094 4.4097 13.685 1.2926 8.5155 1.2926 23.797 0 19.084-3.4213 30.26-5.3221 17.183-22.657 20.148-8.9715 1.5206-29.728 1.5206zm13.837-12.165h58.239q14.978 0 18.551-0.13668 3.6494-0.23919 7.9831-1.2916 8.4393-1.9784 12.089-11.024 3.6494-9.0475 3.6494-27.903 0-24.481-6.3105-32.237-2.357-2.966-6.2344-4.4096-3.8775-1.5206-10.568-2.1288-3.9535-0.30753-19.844-0.30753h-57.554z"
+       dominant-baseline="auto"
+       style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;paint-order:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal;fill:#ececec" />
+    <path
+       id="path2297"
+       d="m186.33 299.95v-103.78h101.73v12.165h-87.89v31.704h84.165v12.165h-84.165v35.582h87.966v12.165z"
+       dominant-baseline="auto"
+       style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;paint-order:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal;fill:#ececec" />
+    <path
+       id="path2299"
+       d="m403.7 264.44h13.457q-0.53237 14.142-1.6726 19.464-2.5091 11.557-15.434 14.217-10.492 2.1288-37.331 2.1288-34.822 0-47.062-2.4329-11.633-2.3577-15.662-12.164-4.0296-9.884-4.0296-35.962 0-24.862 3.0411-36.114 3.6494-13.305 18.779-15.51 14.598-2.204 42.805-2.204 26.914 0 38.547 2.6618 5.7783 1.2916 9.9599 5.094 4.2576 3.7252 5.3981 8.6672 1.1406 4.6379 1.2926 18.171h-12.849q-0.0752-2.6618-0.0752-3.5735 0-7.4511-1.4447-10.568-1.4447-3.1949-5.6262-4.8661-7.679-3.1163-35.886-3.1163-20.452 0-30.716 1.1413-10.264 1.0627-13.381 3.4976-2.9653 2.4329-4.4097 10.036-1.3685 7.6028-1.3685 21.136 0 6.3867 0.53237 16.499t1.0644 13.913q0.83648 6.0064 3.8015 8.7434 3.0411 2.6618 9.5037 3.2701 11.785 1.2164 33.681 1.2164 6.6906 0 17.487-0.37928 10.872-0.45788 13.837-0.83717 5.7782-0.75857 8.5913-2.2826 2.8132-1.5957 3.8775-4.7137 0.98853-2.737 1.2926-15.13z"
+       dominant-baseline="auto"
+       style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;paint-order:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal;fill:#ececec" />
+    <path
+       id="path2301"
+       d="m427.57 196.17h13.837v51.016q0 22.581 0.45617 27.218 0.60788 5.9302 3.4214 8.5914 2.8132 2.6618 9.3516 3.4973 10.796 1.2916 31.096 1.2916 27.827 0 38.319-1.6743 6.2345-0.98751 8.7434-3.8018 2.585-2.8908 2.9653-9.3516 0.38031-5.854 0.53237-25.774v-51.016h13.837v51.016q-0.15034 20.756-0.76028 28.663-1.3685 13.533-9.96 18.855-5.322 3.1949-12.925 4.0293-7.603 0.83716-37.483 1.5206-26.23-0.37929-31.4-0.60823-5.17-0.30753-11.328-1.5957-10.264-2.204-15.054-11.557-2.2808-4.5617-2.8891-10.872-0.53237-6.3867-0.76028-28.435z"
+       dominant-baseline="auto"
+       style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;paint-order:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal;fill:#ececec" />
+    <path
+       id="path2303"
+       d="m561.77 267.49h13.457q0 1.7495 0.0752 2.2826 0.15035 8.7434 1.2164 11.709 1.1406 2.966 4.8659 4.5617 5.7783 2.5081 37.787 2.5081 23.189 0 33.301-2.2826 9.9599-2.204 9.9599-15.434 0-6.6905-1.5968-10.036-1.5964-3.4214-5.4741-4.7899-3.8775-1.3702-10.872-1.5957-6.9947-0.23919-45.39-0.23919-12.925 0-20.68-2.3577-7.755-2.4329-11.937-7.679-4.9419-6.2343-4.9419-18.931 0-14.066 7.831-20.376 3.8015-3.1163 8.4393-4.7141 4.6378-1.5957 13.001-2.5832 13.761-1.6743 32.693-1.6743 17.563 0 27.143 1.8247 9.5797 1.7495 14.902 6.0826 4.4098 3.5732 6.0064 8.3631 1.6726 4.7899 1.8247 14.75h-13.837q0-1.2164 0-1.5957 0-7.6028-1.6726-10.188-2.4329-4.0297-10.644-5.7785-8.1352-1.7495-24.329-1.7495-20.148 0-30.26 1.5206-10.036 1.5206-13.609 5.0178-3.3452 3.3452-3.3452 11.1 0 6.9946 1.6726 9.9598 1.6726 2.966 6.5386 4.4858 7.0708 2.2826 27.219 2.4329 6.8427 0.0683 33.833 0.13668 11.176 0.0683 17.107 2.1288 6.0064 2.0536 9.8079 7.0708 4.7138 6.3864 4.7138 18.247 0 11.328-3.8775 17.867-4.6378 7.6032-17.259 10.188-12.545 2.5867-45.162 2.5867-17.259 0-25.47-0.98751-8.1352-1.0661-12.925-3.8014-5.7783-3.2701-7.9831-8.2872-2.205-5.094-2.205-15.13 0-0.45788 0.0752-4.6379z"
+       dominant-baseline="auto"
+       style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;paint-order:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal;fill:#ececec" />
+  </g>
+</svg>
