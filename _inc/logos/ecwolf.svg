@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 156 45"
+   id="svg28"
+   sodipodi:docname="ecwolf.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs32" />
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.4262821"
+     inkscape:cx="59.101964"
+     inkscape:cy="44.654818"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg28" />
+  <title
+     id="title2">Wolfenstein logo</title>
+  <path
+     d="M22 9v25l-2 1V9h-6v25l-2 1V9H0l6 4v32l8-5v5l14-9V9h-6"
+     id="path4"
+     style="fill:#f2f2f2" />
+  <path
+     d="M52 5l-6 4v36l6-4V5"
+     id="path6"
+     style="fill:#f2f2f2" />
+  <path
+     d="M60 4l6-4h-6l-6 4v36l6-4V13l6-4h-6V4"
+     id="path8"
+     style="fill:#f2f2f2" />
+  <path
+     d="M70 28l6-4V9h-6l-8 5v22h14v-6h-8V17l2-1.25V28"
+     id="path10"
+     style="fill:#f2f2f2" />
+  <path
+     d="M78 9v27h6V15h2v21h6V9H78"
+     id="path12"
+     style="fill:#f2f2f2" />
+  <path
+     d="M94 30v6h14V24l-8-5v-4h2v4l6-4V9H94v12l8 5v4h-2v-4l-6 4"
+     id="path14"
+     style="fill:#f2f2f2" />
+  <path
+     d="M110 9v31l6-4V13l6-4h-6V5l-6 4"
+     id="path16"
+     style="fill:#f2f2f2" />
+  <path
+     d="M126 28l6-4V9h-6l-8 5v22h14v-6h-8V17l2-1.25V28"
+     id="path18"
+     style="fill:#f2f2f2" />
+  <path
+     d="M140 11l-6 4v21h6V11"
+     id="path20"
+     style="fill:#f2f2f2" />
+  <path
+     d="M140 5l-6 4v4l6-4V5"
+     id="path22"
+     style="fill:#f2f2f2" />
+  <path
+     d="M142 9v27h6V15h2v21h6V9h-14"
+     id="path24"
+     style="fill:#f2f2f2" />
+  <path
+     d="M30 9v27h14V9zm8 21h-2V15h2z"
+     id="path26"
+     style="fill:#f2f2f2" />
+  <metadata
+     id="metadata849">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Wolfenstein logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
