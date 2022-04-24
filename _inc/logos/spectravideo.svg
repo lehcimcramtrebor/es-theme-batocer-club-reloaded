@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 282.731 50.071"
+   viewBox="0 0 282.73005 48.071351"
    version="1.1"
    id="svg18"
-   sodipodi:docname="spectravideo-w.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   sodipodi:docname="spectravideo.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   width="282.73004"
+   height="48.07135"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata24">
     <rdf:RDF>
@@ -34,36 +36,41 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      id="namedview20"
      showgrid="false"
      inkscape:zoom="2.5253687"
-     inkscape:cx="16.091534"
-     inkscape:cy="-10.209233"
-     inkscape:current-layer="svg18" />
+     inkscape:cx="57.219368"
+     inkscape:cy="6.3357085"
+     inkscape:current-layer="svg18"
+     inkscape:pagecheckerboard="0"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <text
-     transform="translate(251.129 34.972)"
      fill="#c23334"
      font-family="ArialMT"
-     font-size="1"
-     id="text2">I don’t like bugs!</text>
+     font-size="1px"
+     id="text2"
+     x="251.12883"
+     y="32.972351">I don’t like bugs!</text>
   <path
-     d="M251.383 46.161H32.002l3.232 3.877 212.61.033 3.539-3.91z"
+     d="M 251.38282,44.161351 H 32.001823 l 3.232,3.877 212.609997,0.033 z"
      fill="#e9e439"
      id="path4" />
   <path
-     d="M256.491 40.037l-114.837.022L26.9 40.037l3.749 4.497L141.6 44.51l111.144.024 3.749-4.497h-.002z"
+     d="m 256.49082,38.037351 -114.837,0.022 -114.753997,-0.022 3.749,4.497 110.950997,-0.024 111.144,0.024 3.749,-4.497 z"
      fill="#d17733"
      id="path6" />
   <path
-     d="M261.565 33.952H21.821l3.717 4.458 116.113-.018 116.196.018 3.718-4.458z"
+     d="M 261.56482,31.952351 H 21.820823 l 3.717,4.458 116.112997,-0.018 116.196,0.018 z"
      fill="#c23435"
      id="path8" />
   <g
      id="g14"
      style="fill:#f2f2f2"
-     transform="translate(0,2)">
+     transform="translate(-1.7715055e-4,3.5055387e-4)">
     <path
        d="m 35.656,22.216 c 0,0 -3.329,-5.555 -3.347,-5.538 -2.648,-3.89 -5.328,-5.6 -9.844,-5.6 H 11.884 L 8.186,6.118 H 25.412 L 22.445,0.534 c 0,0 -12.467,-0.2 -18.434,0 -3.483,0.016 -4.736,3.4 -3.608,5.539 -0.045,0.043 5.226,7.213 5.226,7.213 2.31,2.528 3.931,3.235 9.317,3.379 l 10.279,-0.005 3.604,5.583 H 12.066 l 5.611,6.73 c 0,0 14.461,0 14.513,-0.062 4.303,-0.012 4.42,-5.12 3.469,-6.695 z M 26.325,0.534 42.485,28.911 h 6.538 L 42.484,16.66 c 0,0 5.475,0.08 8.225,-0.101 4.763,0.1 6.506,-1.283 5.114,-5.447 L 53.593,6.11 C 51.503,1.939 50.599,0.835 44.315,0.533 h -17.99 z m 10.636,5.583 h 9.35 l 2.197,4.962 h -9.265 z m 47.192,22.795 -1.997,-6.615 c 0,0 -7.812,-0.123 -11.75,-0.053 -0.582,-1.358 -2.241,-5.583 -2.241,-5.583 H 79.924 L 78.39,11.134 H 66.187 L 63.932,6.116 H 76.559 L 75.044,0.483 61.255,0.533 c -3.421,0 -5.415,3.495 -4.772,5.62 l 7.047,16.174 c 2.205,4.204 4.294,5.94 8.317,6.438 4.505,0.549 12.306,0.147 12.306,0.147 z M 93.267,0.534 c 0,0 -5.446,-0.074 -8.995,0.072 -3.447,0.06 -5.776,2.629 -5.224,5.552 -0.013,-0.042 4.653,16.085 4.639,16.015 1.461,3.57 4.441,6.738 8.573,6.687 l 7.338,0.05 -1.243,-6.667 H 90.587 L 85.844,6.116 h 8.506 z m 2.499,5.582 h 5.356 l 4.567,22.795 h 5.475 L 107.457,6.116 h 4.181 L 110.929,0.565 94.682,0.534 Z m 36.862,10.544 c 2.542,0 5.521,-2.95 5.48,-5.307 -0.128,-1.73 -0.117,-3.581 -0.309,-5.25 -0.55,-3.583 -4.354,-5.506 -7.21,-5.57 -5.842,0.127 -17.593,0 -17.593,0 l 3.698,28.378 h 6.111 L 120.439,6.117 h 10.601 l 0.057,4.962 h -2.678 c -3.802,0 -4.138,2.819 -2.484,5.53 2.86,4.434 8.97,12.36 8.97,12.36 l 7.518,0.004 c 0.001,0 -5.578,-6.73 -9.795,-12.312 z"
        id="path10"
@@ -76,7 +83,7 @@
        style="fill:#f2f2f2" />
   </g>
   <path
-     d="M271.392 23.823v.747h1.434v3.793h.829V24.57h1.451v-.745l-3.714-.002zM276.643 23.823l-.387 4.54h.777l.387-2.959 1.105 2.958h.605l1.071-2.924.387 2.924h.795l-.387-4.54h-.967l-1.192 3.271-1.209-3.271-.985.001z"
+     d="m 271.39182,21.823351 v 0.747 h 1.434 v 3.793 h 0.829 v -3.793 h 1.451 v -0.745 z m 5.251,0 -0.387,4.54 h 0.777 l 0.387,-2.959 1.105,2.958 h 0.605 l 1.071,-2.924 0.387,2.924 h 0.795 l -0.387,-4.54 h -0.967 l -1.192,3.271 -1.209,-3.271 z"
      fill="#9f9fa0"
      id="path16"
      style="fill:#f2f2f2" />
