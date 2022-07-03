@@ -260,6 +260,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <size>0.065 0.018</size>
 <itemSpacing>0.003</itemSpacing>
 <imagePath>./_inc/gamepad.svg</imagePath>
+<gunPath>./_inc/gun.svg</gunPath>
 <color>fffffffc</color>
 <color tinyScreen="true">00000000</color>
 <activityColor>125012</activityColor>
