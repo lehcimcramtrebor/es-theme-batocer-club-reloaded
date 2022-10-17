@@ -58,6 +58,7 @@ Foked by Lorenzolamas of the original theme => see infos below.
 </subset>
 
 <subset name="staticEffect" displayName="${lang.staticEffect}">
+<include name="no" displayName="${lang.no}"/>
 <include name="scanlines" displayName="${lang.scanlines}"/>
 <include name="scanlinesFine" displayName="${lang.scanlinesFine}"/>
 <include name="scanlinesVertical" displayName="${lang.scanlinesVertical}"/>
@@ -65,7 +66,6 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <include name="crt" displayName="${lang.crt}"/>
 <include name="phosphore" displayName="${lang.phosphore}"/>
 <include name="phosphorePlus" displayName="${lang.phosphorePlus}"/>
-<include name="no" displayName="${lang.no}"/>
 </subset>
 
 <subset name="staticEffectApply" displayName="${lang.staticEffectApply}" ifSubset="staticEffect:scanlines|scanlinesFine|scanlinesVertical|scanlinesVerticalFine|crt|phosphore|phosphorePlus">
@@ -825,14 +825,14 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <fontPath>./_inc/fonts/DJB Get Digital.ttf</fontPath>
 <fontPath ifSubset="gamelistFont:simple">./_inc/fonts/BebasKai-Regular.otf</fontPath>
 <fontPath ifSubset="gamelistFont:matrice">./_inc/fonts/gomarice_no_continue.ttf</fontPath>
-<fontSize>0.04</fontSize>
+<fontSize>0.038</fontSize>
 <fontSize tinyScreen="true">0.055</fontSize>
 <forceUppercase>0</forceUppercase>
 <scrollSound>./_inc/gamelist.wav</scrollSound>
 <alignment>left</alignment>
-<lines>18</lines>
-<lines ifSubset="screenRatio:54">18</lines>
-<lines ifSubset="screenRatio:43">18</lines>
+<lines>19</lines>
+<lines ifSubset="screenRatio:54">19</lines>
+<lines ifSubset="screenRatio:43">19</lines>
 <lines tinyScreen="true">10</lines>
             <glowColor>00000080</glowColor>
 			<glowOffset>1</glowOffset>
