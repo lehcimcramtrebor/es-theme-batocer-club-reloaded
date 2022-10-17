@@ -300,6 +300,9 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <size ifSubset="screenRatio:32">0.085 0.058</size>
 <y tinyScreen="true">0.06</y>
 <verticalAlignment>right</verticalAlignment>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <image name="scanlines" extra="true">
@@ -431,6 +434,9 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <textColor ifSubset="help:no">00000000</textColor>
 <iconColor>ffffff</iconColor>
 <iconColor ifSubset="help:no">00000000</iconColor>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </helpsystem>
 
 <helpsystem name="help" ifSubset="helpIcons:arcadeIcons">
@@ -545,7 +551,9 @@ Foked by Lorenzolamas of the original theme => see infos below.
 <text name="systemText" extra="true">
 <origin>0 1</origin>
 <color>ffffff</color>
-<glowColor>12121250</glowColor>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
 <alignment>left</alignment>
 <zIndex>5</zIndex>
@@ -687,7 +695,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <fontSize>0.09</fontSize>
 <text>${system.fullName}</text>
 <color>dddddd</color>
-<glowColor>12121233</glowColor>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>		
 
 <image name="background3" extra="true">
@@ -801,9 +811,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <selectorColor>ffffff</selectorColor> 
 <selectedColor>FFFF00</selectedColor>     
 <pos>0.0 0.12</pos>
-<size>0.344 0.845</size>
-<size ifSubset="screenRatio:54">0.354 0.845</size>
-<size ifSubset="screenRatio:43">0.354 0.845</size>
+<size>0.315 0.845</size>
+<size ifSubset="screenRatio:54">0.315 0.845</size>
+<size ifSubset="screenRatio:43">0.315 0.845</size>
 <horizontalMargin>0.03</horizontalMargin>
 <horizontalMargin ifSubset="screenRatio:54">0.04</horizontalMargin>
 <horizontalMargin ifSubset="screenRatio:43">0.04</horizontalMargin>
@@ -824,6 +834,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <lines ifSubset="screenRatio:54">18</lines>
 <lines ifSubset="screenRatio:43">18</lines>
 <lines tinyScreen="true">10</lines>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </textlist>
 
 </view> 
@@ -986,7 +999,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <fontSize ifSubset="screenRatio:43">0.018</fontSize>
 <fontSize ifSubset="screenRatio:32">0.022</fontSize>
 <fontSize tinyScreen="true">0.04</fontSize>
-<glowColor>12121250</glowColor>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
   
 <image name="0manual,md_manual">
@@ -1064,6 +1079,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.2 0.035</size>
 <color>7FABFE</color>
 <zIndex>5</zIndex>                 
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <rating name="md_rating">
@@ -1089,6 +1107,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.1 0.035</size>
 <zIndex>5</zIndex>         
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_players">
@@ -1097,6 +1118,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>
 <color>ffffff</color>                  
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_lbl_releasedate">
@@ -1104,6 +1128,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.12 0.035</size>
 <zIndex>5</zIndex>         
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <datetime name="md_releasedate">
@@ -1112,13 +1139,18 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>
 <visible tinyScreen="true">false</visible>
 <color>ffffff</color>                  
-
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </datetime>
 <text name="md_lbl_genre">
 <pos>0.54 0.59</pos>
 <size>0.12 0.035</size>
 <zIndex>5</zIndex>                   
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_genre">
@@ -1127,6 +1159,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <color>ffffff</color>         
 <zIndex>5</zIndex>         
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>         
 
 <text name="md_lbl_playcount">
@@ -1134,6 +1169,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.2 0.035</size>
 <zIndex>5</zIndex>                   
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_playcount">
@@ -1142,6 +1180,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <color>ffffff</color>         
 <zIndex>5</zIndex>         
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_lbl_publisher">
@@ -1149,6 +1190,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.1 0.035</size>
 <color>ffffff</color>
 <zIndex>5</zIndex>                   
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_publisher">
@@ -1156,6 +1200,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.12 0.035</size>
 <color>F3E804</color>         
 <zIndex>5</zIndex>         
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_lbl_developer">
@@ -1163,6 +1210,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.1 0.035</size>
 <color>ffffff</color>
 <zIndex>5</zIndex>                   
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_developer">
@@ -1170,12 +1220,18 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.12 0.035</size>
 <color>F3E804</color>         
 <zIndex>5</zIndex>         
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_lbl_lastplayed">
 <pos>1.3 0.66</pos>
 <size>0.12 0.035</size>
 <zIndex>5</zIndex>         
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <datetime name="md_lastplayed">
@@ -1183,6 +1239,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.12 0.035</size>
 <zIndex>5</zIndex>
 <color>F3E804</color>                  
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </datetime>                            
 
 <image name="line" extra="true">
@@ -1194,6 +1253,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <pos>0.38 0.69</pos>
 <size>0.55 0.0035</size>
 <zIndex>5</zIndex>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </image>
 
 <text name="md_description">
@@ -1207,6 +1269,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <color>ffffff</color>
 <alignment>left</alignment>   
 <zIndex>5</zIndex>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 </view>
@@ -1399,7 +1464,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <fontSize ifSubset="screenRatio:54">0.018</fontSize>
 <fontSize ifSubset="screenRatio:43">0.018</fontSize>
 <fontSize tinyScreen="true">0.045</fontSize>
-<glowColor>12121250</glowColor>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
   
 <image name="0manual,md_manual">
@@ -1477,6 +1544,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.2 0.035</size>
 <color>7FABFE</color>
 <zIndex>5</zIndex>                 
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <rating name="md_rating">
@@ -1496,6 +1566,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.1 0.035</size>
 <zIndex>5</zIndex>         
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_players">
@@ -1506,6 +1579,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>
 <color>ffffff</color>                  
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_lbl_releasedate">
@@ -1513,6 +1589,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.12 0.035</size>
 <zIndex>5</zIndex>         
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <datetime name="md_releasedate">
@@ -1524,6 +1603,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <zIndex>5</zIndex>
 <color>ffffff</color>                  
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </datetime>
 
 <text name="md_lbl_genre">
@@ -1531,6 +1613,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.12 0.035</size>
 <zIndex>5</zIndex>                   
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_genre">
@@ -1540,6 +1625,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <color>ffffff</color>         
 <zIndex>5</zIndex>         
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>         
 
 <text name="md_lbl_playcount">
@@ -1547,6 +1635,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.2 0.035</size>
 <zIndex>5</zIndex>                   
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_playcount">
@@ -1557,6 +1648,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <color>ffffff</color>         
 <zIndex>5</zIndex>         
 <visible tinyScreen="true">false</visible>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_lbl_publisher">
@@ -1564,6 +1658,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.1 0.035</size>
 <color>ffffff</color>
 <zIndex>5</zIndex>                   
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_publisher">
@@ -1571,6 +1668,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.12 0.035</size>
 <color>F3E804</color>         
 <zIndex>5</zIndex>         
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_lbl_developer">
@@ -1578,6 +1678,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.1 0.035</size>
 <color>ffffff</color>
 <zIndex>5</zIndex>                   
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_developer">
@@ -1585,12 +1688,18 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.12 0.035</size>
 <color>F3E804</color>         
 <zIndex>5</zIndex>         
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <text name="md_lbl_lastplayed">
 <pos>1.3 0.66</pos>
 <size>0.12 0.035</size>
 <zIndex>5</zIndex>         
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <datetime name="md_lastplayed">
@@ -1598,6 +1707,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <size>0.12 0.035</size>
 <zIndex>5</zIndex>
 <color>F3E804</color>                  
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </datetime>                            
 
 <image name="line" extra="true">
@@ -1636,6 +1748,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <lineSpacing ifSubset="screenRatio:54">1.58</lineSpacing>
 <lineSpacing ifSubset="screenRatio:43">1.601</lineSpacing>
 <lineSpacing ifSubset="screenRatio:161|32">1.36</lineSpacing>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 
 <image name="md_marquee">
@@ -1657,6 +1772,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <alignment>center</alignment>
 <color>ffa200</color>
 <zIndex>50</zIndex>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 </text>
 	
 <image name="mask" extra="true">
@@ -2122,7 +2240,9 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <text ifSubset="distribution:retrobat">Emulationstation powered</text>
 <origin>0.5 0.5</origin>
 <color>ffffff</color>
-<glowColor>12121250</glowColor>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 <fontPath ifSubset="gamelistFont:digital">./_inc/fonts/DJB Get Digital.ttf</fontPath>
 <fontPath ifSubset="gamelistFont:simple">./_inc/fonts/BebasKai-Regular.otf</fontPath>
 <fontPath ifSubset="gamelistFont:matrice">./_inc/fonts/gomarice_no_continue.ttf</fontPath>
