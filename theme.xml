@@ -1293,7 +1293,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </image>
 
 <video name="md_video">
-<default>./_inc/comingsoon${video.resolution}.mp4</default>	
+<!--<default>./_inc/comingsoon${video.resolution}.mp4</default>-->	
 <showSnapshotNoVideo>true</showSnapshotNoVideo>
 <showSnapshotDelay>true</showSnapshotDelay>
 <showSnapshotDelay ifSubset="mdRatio:original">false</showSnapshotDelay>
@@ -1429,7 +1429,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 <view name="grid">
 
 <video name="md_video">
-<default>./_inc/comingsoon${video.resolution}.mp4</default>	
+<!--<default>./_inc/comingsoon${video.resolution}.mp4</default>-->	
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
 <delay>1</delay>
