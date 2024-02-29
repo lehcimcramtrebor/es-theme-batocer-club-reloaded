@@ -634,7 +634,7 @@ ${lang.releasedYear}: ${system.releaseYear}</text>
 </sound>
 
 <sound name="bgsound" ifSubset="RandomVideos:snapsVideos|customVideos">
-<path>./_inc/silence.ogg</path>
+<path>./_inc/clubMusic/Jesse Kreidel  Booty Club.ogg</path>
 </sound>
 
 <!--------------------Club's Jukebox actived--------------------------------->
