@@ -1,4 +1,5 @@
 # es-theme-batocer-club-reloaded
+# no longer maintained
 
 BATOCERA CLUB RELOADED (V2.0)
 
